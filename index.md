@@ -6,15 +6,11 @@ title: Home
 
 This site documents my progress in learning all things amateur radio — what I’m building, what I’m figuring out, and where I want to go next.
 
-So far, my primary project has been setting up a [DMR hotspot](./assembly/).
+So far, my primary project has been setting up a [DMR hotspot](./lab/pi_assembly/).
 
-I’m also actively working through [my goals and a learning plan for achieving them](./about/).
+I’m also actively working on developing [my goals and a learning plan](./learning_plan/).
 
-If you’re running an [Anytone-878](./radio/), I’ve put together some practical notes and tips from my own experience.
+If you’re running an [Anytone-878](./operating/at-878/), I’ve put together some practical notes and tips from my own experience.
 
-I also keep [astronomy notes](./astronomy/) and [radio notes](./notes/) as a place to track what I’m studying and experimenting with.
+More coming soon. Thanks for stopping by. 73  
 
-More coming soon. Thanks for stopping by.
-
-73  
-KC1YQN
