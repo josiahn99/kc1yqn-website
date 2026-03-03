@@ -1,37 +1,9 @@
-# About
+After being a math and science kid growing up, I burned out when things got too hard (spoiler: it’s supposed to be hard). Now I’m back, driven by curiosity and the joy of figuring things out. I came to amateur radio after reading *Remembrance of Earth’s Past* by Liu Cixin and listening to the podcast *Daniel and Kelly’s Extraordinary Universe*—both reignited my curiosity about how the universe works. Amateur radio lets me explore that curiosity hands-on through the electromagnetic spectrum. I don’t get to operate or tinker as much as I’d like—most of my free time is on the train or late at night—but even small experiments keep me engaged.
 
-I came to amateur radio in late 2024 after reading *Remembrance of Earth’s Past* by Liu Cixin and listening to the podcast *Daniel and Kelly’s Extraordinary Universe*. Both renewed my curiosity about how the universe works. Amateur radio lets me explore that curiosity hands-on through the electromagnetic spectrum.
+Amateur radio is full of rabbit holes, and I plan to spend the next few years exploring them at my own pace—messy, nonlinear, and sometimes frustrating. I’m starting as a new ham with a Technician license, a few months of experience, AP Calculus and Physics, and a frustrating 5th-grade science fair memory of trying and failing to make a capacitor dim an LED properly. I'll be pursuing my General and Amateur Extra licenses, but I want learning the material behind the test to be the primary focus, rather than studying answers. 
 
-I studied math from elementary through high school, eventually taking 2–3 years of calculus. When it became challenging, I burned out. Now I’m returning deliberately to reconnect with that foundation and approach learning more deliberately.
+I’ll try to get on the air, make time for nets when I can, and log QSOs (first on BrandMeister, eventually on HF). Antennas will be trial and error: modeling, building, and tweaking things like a 2 m Yagi or a 40 m dipole. I’ll piece together a DX-capable ham shack. Progress will be uneven—a lot of my time will just be thinking, planning, or observing, since most of my free time is either on the train or when I should be sleeping.
 
-Some of these are more practical than others. The ham shack is certainly the primary goal. Maxwell's equations — I'm a bit nervous I'm biting off way too much. But it's important to me to try.
+Along the way, I’ll study theory too. I’m starting with Bertrand’s *Advanced Radio Theory Handbook* to get a sense of electronics basics, especially RF. Eventually I want to brush up on calculus and work toward deriving RF equations myself. Maxwell’s equations are a few years away and will entail learning some multivariable and vector calculus. But having that level of math alignment with what I hear while operating and building antennas would be immensely satisfying.
 
-## Short and Long-Term Goals (2026–2027)
-
-Amateur radio offers countless rabbit holes, and I’m exploring many of them. To stay focused and track my learning, I’ve grouped my goals into categories:
-
-### Operator Goals
-
-- Make 200–300 QSOs across various bands and modes
-- Find a weekly net or ham club to participate in, volunteering for net control or presentations over time
-- Build a homemade 2m Yagi and use it to work the ISS and distant repeaters
-  - Model the Yagi in software
-  - Compare predicted vs. real gain
-  - Measure SWR bandwidth
-- Set up a full DX-capable ham shack and base station operating on 20m and 40m, building and modeling the antenna
-
-### Theoretical & Technical Goals
-
-- Pass the General and Amateur Extra exams
-- Work toward understanding Maxwell’s equations through David J. Griffiths’ *Introduction to Electrodynamics*
-  - Refresh single-variable calculus
-  - Complete a multivariable calculus online course
-  - Complete a vector calculus online course
-- Read and thoroughly understand Ron Bertrand’s *Radio Theory Handbook*
-
-### Projects & Experimentation
-
-- Continue developing this website, Raspberry Pi experimentation, and Python scripting
-- Conduct basic experiments in HF and electrical theory to connect theory to practice
-
-Some goals are more challenging than others, but each contributes to deeper understanding and hands-on skill. Tackling Maxwell’s equations is ambitious, but it will strengthen my grasp of radio physics and connect theory to practice.
+Finally, I’ll use amateur radio as fuel to drive other things I’m interested in—static site building and hosting, Raspberry Pi tinkering, data analysis, and Python scripting.
