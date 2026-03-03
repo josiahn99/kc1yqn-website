@@ -2,7 +2,7 @@
 layout: default
 title: astronomy
 ---
-# Astronomy
+# Backyard Astronomy
 
 I haven’t been able to spend as much time under the stars as I’d like, but even a few sessions have been eye-opening. Massachusetts skies aren’t great (Bortle 7), winter nights are cold, and it often takes an hour or more just to get the telescope ready and let it settle. Still, peering through the eyepiece is worth it.
 Even with few sessions, I’ve learned a lot just by watching and adjusting: how the sky moves, how conditions affect what you see, and how patient you need to be. Astronomy feels like a hobby that rewards curiosity and observation more than anything else. It’s not about what you tick off a list — it’s about actually seeing the sky and noticing details you’d never think about otherwise.
@@ -13,7 +13,11 @@ Looking “down” toward the planetary plane near the horizon makes you notice 
 
 Collimation, finder alignment, and letting the scope reach outdoor temperature make observing smoother.  
 
-# Objects Observed
+The telescope at the Nantucket ___
+
+### Apps 
+
+### Objects Observed
 
 - **Moon** – Craters and surface detail stand out nicely; a great first target to get the scope dialed in.  
 - **Jupiter** – Faint banding visible along with all four Galilean moons; always a reminder of how dynamic the planets look up close.  
