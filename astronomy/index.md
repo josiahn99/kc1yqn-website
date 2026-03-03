@@ -27,3 +27,6 @@ The telescope at the Nantucket ___
 - **M53 (Globular Cluster)** – Another globular, faint but distinguishable; gives perspective on what a small scope can still show.  
 - **M13 (Hercules Cluster)** – Through larger scopes, stars shimmer individually instead of blending; makes you appreciate aperture.  
 - **M57 (Ring Nebula)** – Planetary nebula, distinct ring shape near Vega; neat to see something that’s a real “shape” and not just a point of light.  
+
+- **M13 (Hercules Cluster)** – Through larger scopes, stars shimmer individually instead of blending; makes you appreciate aperture.  
+- **M57 (Ring Nebula)** – Planetary nebula, distinct ring shape near Vega; neat to see something that’s a real “shape” and not just a point of light.  
