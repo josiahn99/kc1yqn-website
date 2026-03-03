@@ -1,8 +1,8 @@
 ---
 layout: default
-title: lab
+title: Lab
 ---
-#lab
+# Lab
 
 ## Overall strategy
 
