@@ -1,3 +1,9 @@
+---
+layout: default
+title: About
+---
+<h1>About</h1>
+
 After being a math and science kid growing up, I burned out when things got too hard (spoiler: it’s supposed to be hard). Now I’m back, driven by curiosity and the joy of figuring things out. I came to amateur radio after reading *Remembrance of Earth’s Past* by Liu Cixin and listening to the podcast *Daniel and Kelly’s Extraordinary Universe*—both reignited my curiosity about how the universe works. Amateur radio lets me explore that curiosity hands-on through the electromagnetic spectrum. I don’t get to operate or tinker as much as I’d like—most of my free time is on the train or late at night—but even small experiments keep me engaged.
 
 Amateur radio is full of rabbit holes, and I plan to spend the next few years exploring them at my own pace—messy, nonlinear, and sometimes frustrating. I’m starting as a new ham with a Technician license, a few months of experience, AP Calculus and Physics, and a frustrating 5th-grade science fair memory of trying and failing to make a capacitor dim an LED properly. I'll be pursuing my General and Amateur Extra licenses, but I want learning the material behind the test to be the primary focus, rather than studying answers. 
