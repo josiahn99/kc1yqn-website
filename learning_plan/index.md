@@ -1,8 +1,8 @@
 ---
 layout: default
-title: About
+title: Learning Plan
 ---
-<h1>About</h1>
+<h1>Learning Plan</h1>
 
 After being a math and science kid growing up, I burned out when things got too hard (spoiler: it’s supposed to be hard). Now I’m back, driven by curiosity and the joy of figuring things out. I came to amateur radio after reading *Remembrance of Earth’s Past* by Liu Cixin and listening to the podcast *Daniel and Kelly’s Extraordinary Universe*—both reignited my curiosity about how the universe works. Amateur radio lets me explore that curiosity hands-on through the electromagnetic spectrum. I don’t get to operate or tinker as much as I’d like—most of my free time is on the train or late at night—but even small experiments keep me engaged.
 
