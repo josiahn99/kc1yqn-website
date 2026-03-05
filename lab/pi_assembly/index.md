@@ -2,13 +2,13 @@
 layout: default
 title: Pi Hotspot
 ---
-### Pi Hotspot
+# Pi Hotspot
 
-# Purpose 
+### Purpose 
 
 One of my initial concerns with getting my tech license and a VHF/UHF handheld trnaceiver was that I wouldnt' ahve any repeaters in range and everything would be silent. I considered a DMR hotspot to be a key fall back that would allow me to make QSOs off the bat, no matter what. In my experience it doesn't carry the no-infrastructure magic of non internet related stations, but it makes sure that you can always talk to someone and get practice being on the air, day or night, without having to wait for nightly nets once a week or just calling "listening" into a local repeater. As it turns out, the hotspot has also given me an opening into learning basic Linux and web hosting, but that's for another article.
 
-## Equipment
+### Equipment
 
 There are many pre-built hotspots available, but in the DIY spirit I decided to go the route of assembling mine. The ingredients were:
 
@@ -23,15 +23,15 @@ Assembling the pi, hotspot, and case was a fun little project. Everything went t
  
 <img src="./hotspot.jpg" width="400" style="vertical-align:middle;"/>
 
-## Pi-Star Set Up
+### Pi-Star Set Up
 Pi-Star is a software image built specifically for Raspberry Pi DMR hotspots, rather than the standard Pi OS. There are loads of youtube videos that go through the process of flashing Pi-Star to your Pi and setting it up, so I won't get into that here. The ones I found helpful were ___ 
 
 The only thing that wasn't straightforward was the need to add a 01 to your DMR ID (which you will need to register for here). This seemed to be overlooked in most online materials.
 
-## Operation
+### Operation
 So far I've really just explored 3100 USA TG, 93 North America, and 91 Worldwide. Worldwide is a constant stream of QSOs, the trick there is listening to a QSO and being ready to pounce on the PTT once it is over for your turn. A much easier way to make international QSOs is 93 North America, which has a lot of non-North Americans on it, and is far less busy so you don't have to be quite so quick. 3100 USA seems to be a bit more quiet but still usually someone will respond if you put a call out there.
 
-## Conclusions
+### Conclusions
 The hotspot has really accomplished just what I wanted it to. There's always someone to hear and communicate with on your radio. It's a huge plus when you're getting into the hobby that you can do it without having to spend money on a more expensive mobile or HF rig, or set up a large antenna. Does it have the same magic? No. Does the sound quality and ease make it feel a bit like just using the internet? Yes. But it's a great compromise. 
 
 The other thing that's great is that having a reason to finally buy a Raspberry Pi, I have been able to use it as a way to play around with my other interests, like Python and data analysis. While Pi-Star doesn't automatically store too much data about calls or talk groups, it is certainly enough of a datasource to do some fun things with and makes me all the more likely to buy another Pi soon. 
