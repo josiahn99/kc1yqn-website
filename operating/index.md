@@ -14,6 +14,15 @@ Document finished experiments with notes and results.
   **Result:** Successful 14-mile contact  
   **Notes:** Terrain significantly influenced signal reach
 
+
+  <div class="project-summary">
+
+Experiment: Two Transistor LED Flasher  
+Goal: Understand transistor switching  
+Key Concept: RC timing
+
+</div>
+
 ## In Progress
 
 - **APRS Propagation Study**  
