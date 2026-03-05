@@ -21,7 +21,7 @@ There are many pre-built hotspots available, but in the DIY spirit I decided to 
 
 Assembling the pi, hotspot, and case was a fun little project. Everything went together easily and it took about an hour. With no soldering, it was an assembly not a build, but the directions in the C4 labs case were straightforward in a lego or Ikea way. I was very happy with the end result:
  
-<img src="./hotspot.jpg" width="400"/>
+<img src="./hotspot.jpg" width="400" style="vertical-align:middle;"/>
 
 ## Pi-Star Set Up
 Pi-Star is a software image built specifically for Raspberry Pi DMR hotspots, rather than the standard Pi OS. There are loads of youtube videos that go through the process of flashing Pi-Star to your Pi and setting it up, so I won't get into that here. The ones I found helpful were ___ 
