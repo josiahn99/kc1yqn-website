@@ -2,6 +2,8 @@
 layout: default
 title: Learning Plan
 ---
+# Learning Plan 
+
 ### Returning to Science
 
 After burning out on math and science as a kid—because, spoiler, things are supposed to be hard—I’m back, driven by curiosity and the joy of figuring things out. Amateur radio grabbed my attention after reading *Remembrance of Earth’s Past* by Liu Cixin and listening to *Daniel and Kelly’s Extraordinary Universe*. Both reignited my fascination with how the universe works, and ham radio lets me explore that curiosity hands-on through the electromagnetic spectrum.
