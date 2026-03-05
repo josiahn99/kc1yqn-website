@@ -78,9 +78,9 @@ Assembling the Pi, hotspot, and case was a fun little project. Everything went t
 
 With no soldering it was really more of an assembly than a build, but the directions from C4 Labs were straightforward—very much in a LEGO or IKEA style.
 
-<img src="./hotspot1.jpg" height="300" style="vertical-align:middle;"/>
-<img src="./hotspot3.jpg" height="300" style="vertical-align:middle;"/>
-<img src="./hotspot4.jpg" height="300" style="vertical-align:middle;"/>
+<img src="./hotspot1.jpg" height="200" style="vertical-align:middle;"/>
+<img src="./hotspot3.jpg" height="200" style="vertical-align:middle;"/>
+<img src="./hotspot4.jpg" height="200" style="vertical-align:middle;"/>
 
 I was very happy with the end result.
 
