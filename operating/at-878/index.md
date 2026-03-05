@@ -4,8 +4,8 @@ title: Anytone AT-D878UVII Plus
 ---
 # Anytone 878
 
-## Summary
 <div class="project-summary">
+  <h3>Summary</h3>
   <ul>
     <li><strong>Project / Radio:</strong> Anytone AT-D878UVII Plus</li>
     <li><strong>Cost:</strong> ~$300 (radio only)</li>
