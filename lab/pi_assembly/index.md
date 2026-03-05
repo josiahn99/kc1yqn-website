@@ -5,12 +5,12 @@ title: Pi Hotspot
 # Pi Hotspot
 
 <div class="project-summary">
-<ul>
-  <li>**Project:** Raspberry Pi DMR Hotspot </li>
-  <li>**Time:** ~1 hour</li>
-  <li>**Skill Level:** Beginner</li>
-  <li>**Cost:** ~$110–150</li>
-</ul>
+  <ul>
+    <li><strong>Project:</strong> Raspberry Pi DMR Hotspot</li>
+    <li><strong>Time:</strong> ~1 hour</li>
+    <li><strong>Skill Level:</strong> Beginner</li>
+    <li><strong>Cost:</strong> ~$110–150</li>
+  </ul>
 </div>
 
 # Purpose
