@@ -13,7 +13,7 @@ title: Pi Hotspot
   </ul>
 </div>
 
-# Purpose
+## Purpose
 
 One of my initial concerns when getting my Tech license and a VHF/UHF handheld transceiver was that I might not have any repeaters in range and everything would be silent. I considered a DMR hotspot to be a key fallback that would allow me to make QSOs right away, no matter what.
 
