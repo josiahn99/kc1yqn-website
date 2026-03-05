@@ -15,6 +15,8 @@ Collimation, finder alignment, and letting the scope reach outdoor temperature m
 
 The telescope at the Nantucket ___
 
+!("telescope1.jpg")
+
 ### Apps 
 
 ### Objects Observed
