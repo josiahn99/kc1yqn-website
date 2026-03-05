@@ -2,9 +2,10 @@
 layout: default
 title: Hotspot Status
 ---
-<h1>Hotspot Status</h1>
 
-<table>
+# Hotspot Status
+
+<table class="hotspot-table">
   <thead>
     <tr>
       <th>Time (UTC)</th>
@@ -13,12 +14,12 @@ title: Hotspot Status
     </tr>
   </thead>
   <tbody>
-{% for entry in site.data.pi-star %}
-  <tr>
-    <td>{{ entry.time }}</td>
-    <td>{{ entry.callsign }}</td>
-    <td>{{ entry.tg_slot }}</td>
-  </tr>
-{% endfor %}
+    {% for entry in site.data.pi-star %}
+    <tr>
+      <td>{{ entry.time }}</td>
+      <td>{{ entry.callsign }}</td>
+      <td>{{ entry.tg_slot }}</td>
+    </tr>
+    {% endfor %}
   </tbody>
 </table>
