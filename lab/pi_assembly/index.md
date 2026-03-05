@@ -3,6 +3,23 @@ layout: default
 title: Pi Hotspot Assembly
 ---
 
+<div class="project-summary">
+
+**Project:** Raspberry Pi DMR Hotspot  
+**Time to Assemble:** ~1 hour  
+**Skill Level:** Beginner  
+**Total Cost:** ~$110–150  
+
+**Key Components**
+
+- Raspberry Pi 3  
+- MMDVM hotspot board  
+- microSD card  
+- 5V power supply  
+- Case  
+
+</div>
+
 # Purpose 
 
 One of my initial concerns with getting my tech license and a VHF/UHF handheld trnaceiver was that I wouldnt' ahve any repeaters in range and everything would be silent. I considered a DMR hotspot to be a key fall back that would allow me to make QSOs off the bat, no matter what. In my experience it doesn't carry the no-infrastructure magic of non internet related stations, but it makes sure that you can always talk to someone and get practice being on the air, day or night, without having to wait for nightly nets once a week or just calling "listening" into a local repeater. As it turns out, the hotspot has also given me an opening into learning basic Linux and web hosting, but that's for another article.
