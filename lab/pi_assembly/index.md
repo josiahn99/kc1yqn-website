@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Pi Hotspot Assembly
+title: Pi Hotspot
 ---
+<h1>Pi Hotspot</h1>
 
 # Purpose 
 
