@@ -2,26 +2,17 @@
 layout: default
 title: Anytone AT-D878UVII Plus
 ---
-# Anytone 878 
+# Anytone 878
+
+## Summary
 <div class="project-summary">
   <ul>
     <li><strong>Project / Radio:</strong> Anytone AT-D878UVII Plus</li>
-    <li><strong>Time to Get Started:</strong> ~1 hour</li>
-    <li><strong>Skill Level:</strong> Beginner / Experimental</li>
     <li><strong>Cost:</strong> ~$300 (radio only)</li>
     <li><strong>First Experiments:</strong> Listening in analog mode, scanning repeaters, manual keypad programming</li>
     <li><strong>Exploration Focus:</strong> Try different antennas, monitor DMR talkgroups, tweak zones and codeplug</li>
+    <li><strong>Key Takeaway: Experiment! Try different positions, floors, and orientations — even small changes affect what you hear and can transmit.</li>
   </ul>
-</div>
-
-<div class="antenna-summary">
-  <strong>Antennas & Ranges:</strong>
-  <ul>
-    <li><strong>Rubber Duck:</strong> 5–10 miles — quick, easy, local contacts</li>
-    <li><strong>Signal Stick:</strong> 15–25 miles — portable, vertical near a window, good for satellite RX</li>
-    <li><strong>Slim Jim (window-mounted):</strong> ~40 miles — indoor terrestrial, reliable RX/TX, smooth FM experience</li>
-  </ul>
-  <p><em>Experiment! Try different positions, floors, and orientations — even small changes affect what you hear and can transmit.</em></p>
 </div>
 
 ---
