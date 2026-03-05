@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Pi Hotspot Status
+title: Hotspot Status
 ---
-<h1>pi hotspot</h1>
+<h1>Hotspot Status</h1>
 
 <table>
   <thead>
