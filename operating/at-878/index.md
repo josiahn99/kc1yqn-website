@@ -11,7 +11,7 @@ title: Anytone AT-D878UVII Plus
     <li><strong>Cost:</strong> ~$300 (radio only)</li>
     <li><strong>First Experiments:</strong> Listening in analog mode, scanning repeaters, manual keypad programming</li>
     <li><strong>Exploration Focus:</strong> Try different antennas, monitor DMR talkgroups, tweak zones and codeplug</li>
-    <li><strong>Key Takeaway: Experiment! Try different positions, floors, and orientations — even small changes affect what you hear and can transmit.</li>
+    <li><strong>Key Takeaway:</strong> Experiment! Try different positions, floors, and orientations — even small changes affect what you hear and can transmit.</li>
   </ul>
 </div>
 
