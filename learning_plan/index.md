@@ -2,14 +2,20 @@
 layout: default
 title: Learning Plan
 ---
-<h1>Learning Plan</h1>
+### Returning to Science
 
-After being a math and science kid growing up, I burned out when things got too hard (spoiler: it’s supposed to be hard). Now I’m back, driven by curiosity and the joy of figuring things out. I came to amateur radio after reading *Remembrance of Earth’s Past* by Liu Cixin and listening to the podcast *Daniel and Kelly’s Extraordinary Universe*—both reignited my curiosity about how the universe works. Amateur radio lets me explore that curiosity hands-on through the electromagnetic spectrum. I don’t get to operate or tinker as much as I’d like—most of my free time is on the train or late at night—but even small experiments keep me engaged.
+After burning out on math and science as a kid—because, spoiler, things are supposed to be hard—I’m back, driven by curiosity and the joy of figuring things out. Amateur radio grabbed my attention after reading *Remembrance of Earth’s Past* by Liu Cixin and listening to *Daniel and Kelly’s Extraordinary Universe*. Both reignited my fascination with how the universe works, and ham radio lets me explore that curiosity hands-on through the electromagnetic spectrum.
 
-Amateur radio is full of rabbit holes, and I plan to spend the next few years exploring them at my own pace—messy, nonlinear, and sometimes frustrating. I’m starting as a new ham with a Technician license, a few months of experience, AP Calculus and Physics, and a frustrating 5th-grade science fair memory of trying and failing to make a capacitor dim an LED properly. I'll be pursuing my General and Amateur Extra licenses, but I want learning the material behind the test to be the primary focus, rather than studying answers. 
+### Operating and Experimenting
 
-I’ll try to get on the air, make time for nets when I can, and log QSOs (first on BrandMeister, eventually on HF). Antennas will be trial and error: modeling, building, and tweaking things like a 2 m Yagi or a 40 m dipole. I’ll piece together a DX-capable ham shack. Progress will be uneven—a lot of my time will just be thinking, planning, or observing, since most of my free time is either on the train or when I should be sleeping.
+Progress is uneven. Most of my free time is on the train or late at night, so I won’t always be building or operating. Even small experiments, though, keep me engaged.  
 
-Along the way, I’ll study theory too. I’m starting with Bertrand’s *Advanced Radio Theory Handbook* to get a sense of electronics basics, especially RF. Eventually I want to brush up on calculus and work toward deriving RF equations myself. Maxwell’s equations are a few years away and will entail learning some multivariable and vector calculus. But having that level of math alignment with what I hear while operating and building antennas would be immensely satisfying.
+I’m starting as a Technician with a few months of experience and working toward General and Amateur Extra. My goal isn’t just passing exams; I want to understand the material behind them. I'll be exploring antennas, circuits, operating, and building a small station. That includes trial-and-error projects like a 2 m Yagi or a 40 m dipole, logging QSOs on BrandMeister and eventually on HF.
 
-Finally, I’ll use amateur radio as fuel to drive other things I’m interested in—static site building and hosting, Raspberry Pi tinkering, data analysis, and Python scripting.
+### Theory and Math
+
+I’ve started with Bertrand’s *Advanced Radio Theory Handbook* to build a foundation in electronics and RF. Eventually, I want to reconnect with the math, from calculus to Maxwell’s equations, so the theory aligns with what I hear and build on the air. Understanding the equations behind what I’m doing will make operating and building immensely satisfying. The goal is to connect theory and practice.
+
+### Connected Interests
+
+Amateur radio also fuels other interests: building and hosting this site, tinkering with Raspberry Pi projects, and experimenting with Python for small data analyses. This site serves as my lab notebook, documenting experiments, ideas, and rabbit holes as they unfold.
