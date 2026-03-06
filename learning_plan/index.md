@@ -21,3 +21,105 @@ I’ve started with Bertrand’s *Advanced Radio Theory Handbook* to build a fou
 ### Connected Interests
 
 Amateur radio also fuels other interests: building and hosting this site, tinkering with Raspberry Pi projects, and experimenting with Python for small data analyses. This site serves as my lab notebook, documenting experiments, ideas, and rabbit holes as they unfold.
+
+
+
+# Experimental RF Learning Workflow
+
+This workflow shows how theory, math, Python, and hardware interact in a modular experimental base station setup. The focus is on exploration, measurement, and iteration rather than casual chatting.
+
+---
+
+## **1. Theory Layer (Maxwell & Circuit Concepts)**
+
+- Study fundamental electromagnetic principles:
+  - Gauss’s Law → capacitor/voltage experiments
+  - Faraday’s Law → coil/induction tests
+  - Ampère’s Law → current/magnetic field exploration
+  - Wave Equations → RF propagation & antenna behavior
+- Design experiments and predict expected outcomes before building.
+
+---
+
+## **2. Math Layer**
+
+- Use formulas and calculations to design circuits:
+  - Resonant frequency: \( f = \frac{1}{2\pi\sqrt{LC}} \)
+  - Impedance, voltage dividers, filter responses
+  - Gain and SNR calculations
+  - Fourier analysis for signal decomposition
+- Compare predicted values with experimental measurements.
+
+---
+
+## **3. Python Layer**
+
+- Data acquisition and analysis:
+  - Read Arduino sensor outputs via `pyserial`
+  - Capture SDR signals for spectrum analysis
+  - Plot waveforms, FFTs, and filter responses (`matplotlib`, `numpy`, `scipy`)
+- Simulation and experiment planning:
+  - Model filters, antenna responses, and signal propagation
+  - Generate test waveforms to feed into Arduino/DDS modules
+- Automate experiments and log results for iteration.
+
+---
+
+## **4. Hardware Layer**
+
+### **A. Control**
+- **Arduino Uno/Nano**
+  - Drives DDS modules (Si5351, AD9833)
+  - Controls switches, sensors, and circuits
+  - Handles timing-critical operations
+- **Raspberry Pi**
+  - Interfaces with SDRs
+  - Runs analysis, visualization, and logging scripts
+  - Optional GUI for experiment control
+
+### **B. Signal Generation**
+- **Si5351 Module** → HF/VHF square waves
+- **AD9833 Module** → precise sine/triangle signals
+- Optional analog signal generator for lab measurements
+
+### **C. RF Front-End**
+- Experimental transceivers (QRP rigs, modules like NRF24L01 or HC‑12)
+- Filters, amplifiers, matching networks
+- Antennas (dipoles, loops, verticals)
+- Dummy loads for safe testing
+
+### **D. Measurement**
+- SDR (RTL-SDR, HackRF/LimeSDR)
+- Oscilloscope / multimeter
+- Frequency counter (optional)
+
+### **E. Optional Benchmark / Real-World Reference**
+- IC‑7300 HF Transceiver
+  - Compare DIY signals with real-world HF
+  - Safe low-power testing and propagation observation
+  - Control via CAT/USB for logging and experiment integration
+
+---
+
+## **5. Workflow: Experiment Cycle**
+
+1. **Theory → Prediction**  
+   - Use Maxwell’s equations and math to calculate expected behavior.
+2. **Design → Build**  
+   - Assemble circuits on breadboard; program DDS/Arduino to generate signals.
+3. **Measure → Observe**  
+   - Capture signals with SDR, Arduino ADC, or oscilloscope.
+4. **Analyze → Compare**  
+   - Process measurements in Python; compare against theoretical predictions.
+5. **Iterate → Refine**  
+   - Adjust components, waveforms, or antennas and repeat cycle.
+6. **Optional Benchmark**  
+   - Use IC‑7300 or other HF rig to verify real-world propagation or signal quality.
+
+---
+
+### 💡 Notes
+
+- Every layer is **interconnected**: Theory informs design, math predicts results, Python analyzes data, and hardware implements experiments.
+- This workflow supports **exploration across all frequencies, modulation schemes, and circuit types**.
+- Modular approach allows **incremental growth**: start small (Arduino + DDS), then expand (SDR + Pi), then integrate real HF rig for real-world verification.
