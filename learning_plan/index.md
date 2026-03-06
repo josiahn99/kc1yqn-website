@@ -6,137 +6,92 @@ title: Learning Plan
 
 # Returning to Science
 
-After burning out on math and science as a kid—because, spoiler, things are supposed to be hard—I’m back, driven by curiosity and the joy of figuring things out. Amateur radio grabbed my attention after reading *Remembrance of Earth’s Past* by Liu Cixin and listening to [Daniel and Kelly’s Extraordinary Universe podcast](https://podcasts.apple.com/us/podcast/daniel-and-kellys-extraordinary-universe/id1436616330). Both reignited my fascination with how the universe works, and ham radio lets me explore that curiosity hands-on through the electromagnetic spectrum.
+I stepped away from math and science as a kid—because, spoiler, it was hard. Now I’m back, driven by curiosity and the satisfaction of figuring things out. Amateur radio caught my attention after reading *Remembrance of Earth’s Past* by Liu Cixin and listening to [Daniel and Kelly’s Extraordinary Universe podcast](https://podcasts.apple.com/us/podcast/daniel-and-kellys-extraordinary-universe/id1436616330). Both reignited my fascination with how the universe works, and ham radio provides a way to explore that curiosity hands-on through the electromagnetic spectrum.
 
 ---
 
 # Operating and Experimenting
 
-Progress is uneven. Most of my free time is on the train or late at night, so I won’t always be building or operating. Even small experiments, though, keep me engaged.
+My time is often limited—commutes or late nights—but even small experiments are valuable. I’m starting as a Technician and working toward General and Amateur Extra. My approach emphasizes **understanding, not just passing exams**.
 
-I’m starting as a Technician with a few months of experience and working toward General and Amateur Extra. My goal isn’t just passing exams; I want to understand the material behind them. I’ll be exploring:
+Key areas of focus:
 
-- **Antennas**: trial-and-error projects like a 2 m Yagi or a 40 m dipole  
-- **Circuits**: Arduino/DDS setups, filters, and RF front ends  
-- **Operating and logging**: QSOs on BrandMeister and eventually on HF  
-- **Building a small station**: modular and experimental rather than just talking  
+- **Antennas:** experimenting with designs like 2 m Yagi and 40 m dipole  
+- **Circuits:** building and testing Arduino/DDS setups, filters, and small RF front ends  
+- **Logging and operating:** recording QSOs on BrandMeister and eventually HF  
+- **Station building:** creating a modular, experimental setup rather than a conventional “shack”  
+
+Even in hands-on activities, I aim to connect with the underlying **math and physics**: resonance in LC circuits, impedance, signal propagation, and wave behavior.
 
 ---
 
 # Theory and Math
 
-I’ve started with Bertrand’s *Advanced Radio Theory Handbook* to build a foundation in electronics and RF. Eventually, I want to reconnect with the math, from calculus to Maxwell’s equations, so the theory aligns with what I hear and build on the air. Understanding the equations behind my experiments will make operating and building immensely satisfying. The ultimate goal is to **connect theory and practice**.
+To build a solid foundation, I’m working through Bertrand’s *Advanced Radio Theory Handbook*. The goal is to reconnect with the relevant mathematics—calculus, complex numbers, and Maxwell’s equations—so that the experiments and observations make sense.
+
+Key theoretical topics:
+
+- Resonance and impedance in circuits and antennas  
+- Wave propagation and polarization  
+- Fourier analysis and signal decomposition  
+- Maxwell’s equations as a framework for understanding electromagnetic behavior  
+
+Even simple experiments become more meaningful when the results can be linked back to these principles.
 
 ---
 
 # Connected Interests
 
-Amateur radio also fuels other interests:
+Amateur radio naturally connects to other technical hobbies:
 
-- Building and hosting this website as a lab notebook  
-- Tinkering with Raspberry Pi projects for experiments  
-- Using Python for small data analyses and automation  
+- **Website as lab notebook:** documenting experiments, designs, and observations  
+- **Raspberry Pi projects:** using Pi as a controller, SDR interface, or data logging platform  
+- **Python experimentation:** analyzing data, generating plots, or controlling experiments  
 
-This site documents my experiments, ideas, and rabbit holes as they unfold, creating a record of learning and discovery.
+This site serves both as a record and as a way to link practical experiments with the theory behind them.
 
 ---
 
 # Experimental RF Workflow
 
-This workflow shows how **theory, math, Python, and hardware** interact in my experimental base station. Focus is on exploration, measurement, and iteration rather than casual chatting.
+The setup combines hardware, observation, and theory to create a learning loop that emphasizes experimentation.
 
-## **1. Theory Layer (Maxwell & Circuit Concepts)**
+## **1. Signal Generation (Arduino + DDS)**
 
-- Fundamental electromagnetic principles:
-  - Gauss’s Law → capacitor/voltage experiments
-  - Faraday’s Law → coil/induction tests
-  - Ampère’s Law → current/magnetic field exploration
-  - Wave Equations → RF propagation & antenna behavior
-- Predict outcomes before building circuits.
+- Generate signals with Si5351 or AD9833 modules  
+- Explore circuit behavior: filters, LC tanks, and simple modulations  
+- Apply theory: resonance, impedance, and waveform shaping
 
-## **2. Math Layer**
+## **2. Observation and Measurement (SDR + Scope)**
 
-- Calculate expected circuit behavior:
-  - Resonant frequency: \( f = \frac{1}{2\pi\sqrt{LC}} \)
-  - Impedance, voltage dividers, filter responses
-  - Gain and SNR calculations
-  - Fourier analysis for signals
-- Compare predictions to measurements from hardware.
+- Capture and visualize signals using SDRs (RTL-SDR, HackRF, or LimeSDR)  
+- Use oscilloscopes or multimeters to measure voltage, current, and waveform  
+- Compare observed behavior with theoretical predictions
 
-## **3. Python Layer**
+## **3. Transceivers in Practice**
 
-- Data acquisition and analysis:
-  - Read Arduino sensors via `pyserial`
-  - Capture SDR signals for spectrum analysis
-  - Plot waveforms, FFTs, and filter responses (`matplotlib`, `numpy`, `scipy`)
-- Simulation and experiment planning:
-  - Model filters, antennas, or propagation effects
-  - Generate test waveforms for Arduino/DDS
-- Automate experiments and log results for iteration.
+- **AT‑878UVII Plus:**  
+  - Monitor and receive VHF/UHF signals  
+  - Experiment with low-power transmissions and digital modes  
+- **IC‑7300 (HF rig, later stage):**  
+  - Observe real-world HF propagation  
+  - Validate experimental setups and compare lab vs. real-world signals
 
-## **4. Hardware Layer**
+## **4. Learning and Iteration**
 
-### **A. Control**
-- **Arduino Uno/Nano**
-  - Drives DDS modules (Si5351, AD9833)
-  - Controls switches, sensors, and circuits
-  - Handles timing-critical operations
-- **Raspberry Pi**
-  - SDR interface, signal analysis, and logging
-  - Optional GUI for experiment control
-  - Interfaces with Arduino for automated testing
-
-### **B. Signal Generation**
-- **Si5351 Module** → HF/VHF square waves
-- **AD9833 Module** → precise sine/triangle signals
-- Optional analog signal generator for lab measurements
-
-### **C. RF Front-End**
-- **AT‑878UVII Plus**
-  - VHF/UHF transceiver for monitoring, low-power experiments, and digital mode testing
-  - Receives Arduino/DDS signals for comparison
-  - Optional PC control for logging, scanning, or experiment automation
-- Experimental transceivers or QRP modules
-- Filters, amplifiers, matching networks
-- Antennas (dipoles, loops, verticals)
-- Dummy loads for safe testing
-
-### **D. Measurement**
-- SDR (RTL-SDR, HackRF/LimeSDR)
-- Oscilloscope / multimeter
-- Frequency counter (optional)
-- Compare signals received on AT‑878 with SDR readings
-
-### **E. Optional Benchmark / Real-World Layer**
-- **IC‑7300 HF Transceiver**
-  - Observe real HF propagation
-  - Compare DIY signals to a professional rig
-  - Optional CAT/USB control for logging and experiment integration
+1. Build a circuit or generate a test signal  
+2. Observe the results with SDR, AT‑878, or scope  
+3. Analyze and visualize with Python  
+4. Adjust components, waveforms, or antennas  
+5. Repeat the cycle and gradually scale to HF experiments
 
 ---
 
-## **5. Workflow: Experiment Cycle**
+### Key Notes
 
-1. **Theory → Prediction**  
-   - Use Maxwell’s equations and math to calculate expected behavior.
-2. **Design → Build**  
-   - Assemble circuits on breadboard; program DDS/Arduino to generate signals.
-3. **Measure → Observe**  
-   - Use SDR, AT‑878, or oscilloscope to capture signals.
-4. **Analyze → Compare**  
-   - Python processes measurements; compare to theoretical predictions.
-5. **Iterate → Refine**  
-   - Adjust components, waveforms, or antennas and repeat cycle.
-6. **Optional Benchmark**  
-   - IC‑7300 verifies real-world propagation and signal quality
-
----
-
-### 💡 Notes
-
-- **AT‑878 role:** VHF/UHF monitoring, low-power experiments, and digital mode testing. Complements Arduino/DDS + SDR.  
-- **Arduino + DDS** = hardware signal generation & control  
-- **Pi + SDR** = digital capture, analysis, visualization  
-- **IC‑7300** = HF benchmark and safe real-world interface  
-- **Workflow is modular**: start small (Arduino + DDS), expand with SDR + Pi, integrate AT‑878, and optionally IC‑7300 for HF verification.
-
+- **Arduino + DDS:** signal generation and hands-on experimentation  
+- **Pi + SDR:** observation, logging, and analysis  
+- **AT‑878:** VHF/UHF experimentation, monitoring, and digital modes  
+- **IC‑7300:** HF verification and real-world propagation testing  
+- **Underlying theory and math:** resonance, impedance, wave propagation, and Maxwell’s equations inform every experiment  
+- Modular, expandable setup allows gradual progression from simple experiments to more advanced RF exploration
