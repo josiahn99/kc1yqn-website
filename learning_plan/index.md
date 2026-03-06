@@ -24,43 +24,43 @@ Amateur radio also fuels other interests: building and hosting this site, tinker
 
 
 
-# Experimental RF Learning Workflow
+# Experimental RF Learning Workflow (With AT‑878)
 
-This workflow shows how theory, math, Python, and hardware interact in a modular experimental base station setup. The focus is on exploration, measurement, and iteration rather than casual chatting.
+A complete roadmap for building a modular experimental RF base station. Includes microcontrollers, SDR, DDS modules, and transceivers like the AT‑878 and IC‑7300. Focus is on **experimentation, measurement, and learning**, not casual QSOs.
 
 ---
 
 ## **1. Theory Layer (Maxwell & Circuit Concepts)**
 
-- Study fundamental electromagnetic principles:
+- Fundamental electromagnetic principles:
   - Gauss’s Law → capacitor/voltage experiments
   - Faraday’s Law → coil/induction tests
   - Ampère’s Law → current/magnetic field exploration
   - Wave Equations → RF propagation & antenna behavior
-- Design experiments and predict expected outcomes before building.
+- Predict outcomes before building circuits.
 
 ---
 
 ## **2. Math Layer**
 
-- Use formulas and calculations to design circuits:
+- Calculate expected circuit behavior:
   - Resonant frequency: \( f = \frac{1}{2\pi\sqrt{LC}} \)
   - Impedance, voltage dividers, filter responses
   - Gain and SNR calculations
-  - Fourier analysis for signal decomposition
-- Compare predicted values with experimental measurements.
+  - Fourier analysis for signals
+- Compare predictions to measurements from hardware.
 
 ---
 
 ## **3. Python Layer**
 
 - Data acquisition and analysis:
-  - Read Arduino sensor outputs via `pyserial`
+  - Read Arduino sensors via `pyserial`
   - Capture SDR signals for spectrum analysis
   - Plot waveforms, FFTs, and filter responses (`matplotlib`, `numpy`, `scipy`)
 - Simulation and experiment planning:
-  - Model filters, antenna responses, and signal propagation
-  - Generate test waveforms to feed into Arduino/DDS modules
+  - Model filters, antennas, or propagation effects
+  - Generate test waveforms for Arduino/DDS
 - Automate experiments and log results for iteration.
 
 ---
@@ -73,9 +73,9 @@ This workflow shows how theory, math, Python, and hardware interact in a modular
   - Controls switches, sensors, and circuits
   - Handles timing-critical operations
 - **Raspberry Pi**
-  - Interfaces with SDRs
-  - Runs analysis, visualization, and logging scripts
+  - SDR interface, signal analysis, and logging
   - Optional GUI for experiment control
+  - Interfaces with Arduino for automated testing
 
 ### **B. Signal Generation**
 - **Si5351 Module** → HF/VHF square waves
@@ -83,7 +83,11 @@ This workflow shows how theory, math, Python, and hardware interact in a modular
 - Optional analog signal generator for lab measurements
 
 ### **C. RF Front-End**
-- Experimental transceivers (QRP rigs, modules like NRF24L01 or HC‑12)
+- **AT‑878UVII Plus**
+  - VHF/UHF transceiver for monitoring, low-power experiments, and digital mode testing
+  - Receives Arduino/DDS signals for comparison
+  - Optional PC control for logging, scanning, or experiment automation
+- Experimental transceivers or QRP modules
 - Filters, amplifiers, matching networks
 - Antennas (dipoles, loops, verticals)
 - Dummy loads for safe testing
@@ -92,12 +96,13 @@ This workflow shows how theory, math, Python, and hardware interact in a modular
 - SDR (RTL-SDR, HackRF/LimeSDR)
 - Oscilloscope / multimeter
 - Frequency counter (optional)
+- Compare signals received on AT‑878 with SDR readings
 
-### **E. Optional Benchmark / Real-World Reference**
-- IC‑7300 HF Transceiver
-  - Compare DIY signals with real-world HF
-  - Safe low-power testing and propagation observation
-  - Control via CAT/USB for logging and experiment integration
+### **E. Optional Benchmark / Real-World Layer**
+- **IC‑7300 HF Transceiver**
+  - Observe real HF propagation
+  - Compare DIY signals to a professional rig
+  - Optional CAT/USB control for logging and experiment integration
 
 ---
 
@@ -108,18 +113,21 @@ This workflow shows how theory, math, Python, and hardware interact in a modular
 2. **Design → Build**  
    - Assemble circuits on breadboard; program DDS/Arduino to generate signals.
 3. **Measure → Observe**  
-   - Capture signals with SDR, Arduino ADC, or oscilloscope.
+   - Use SDR, AT‑878, or oscilloscope to capture signals.
 4. **Analyze → Compare**  
-   - Process measurements in Python; compare against theoretical predictions.
+   - Python processes measurements; compare to theoretical predictions.
 5. **Iterate → Refine**  
    - Adjust components, waveforms, or antennas and repeat cycle.
 6. **Optional Benchmark**  
-   - Use IC‑7300 or other HF rig to verify real-world propagation or signal quality.
+   - IC‑7300 verifies real-world propagation and signal quality
 
 ---
 
 ### 💡 Notes
 
-- Every layer is **interconnected**: Theory informs design, math predicts results, Python analyzes data, and hardware implements experiments.
-- This workflow supports **exploration across all frequencies, modulation schemes, and circuit types**.
-- Modular approach allows **incremental growth**: start small (Arduino + DDS), then expand (SDR + Pi), then integrate real HF rig for real-world verification.
+- **AT‑878 role:** VHF/UHF monitoring, low-power experiments, and digital mode testing. Complements Arduino/DDS + SDR.  
+- **Arduino + DDS** = hardware signal generation & control  
+- **Pi + SDR** = digital capture, analysis, visualization  
+- **IC‑7300** = HF benchmark and safe real-world interface  
+- **Workflow is modular**: start small (Arduino + DDS), expand with SDR + Pi, integrate AT‑878, and optionally IC‑7300 for HF verification.
+
