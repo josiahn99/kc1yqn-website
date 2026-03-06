@@ -4,7 +4,7 @@ title: links
 ---
 # Resources
 
-A short list of things that helped me learn radio, electronics, and how signals move through the world.
+A short list of things that are helping me learn radio, electronics, and how signals move through the world.
 
 This isn’t meant to be comprehensive — just the things that pushed me further down the rabbit hole.
 
