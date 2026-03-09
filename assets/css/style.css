@@ -68,6 +68,7 @@ min-height: calc(100vh - 60px);
 /* Sidebar */
 .sidebar {
 display: flex;
+padding: 40px;
 flex-direction: column;
 gap: 15px;
 height: calc(100vh - 60px);
@@ -88,7 +89,6 @@ Main Content
 ---------------------------- */
 .main {
 flex: 1;
-padding: 10px;
 max-width: 720px;   /* improves readability */
 }
 
