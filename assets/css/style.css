@@ -35,6 +35,11 @@ color: #e0e0e0;
 text-decoration: none;
 }
 
+.header_image {
+  filter: brightness(80%) contrast(90%); /* soften contrast */
+  border-radius: 8px; /* optional rounded corners */
+}
+
 /* Hide checkbox */
 .menu-toggle {
 position: absolute;
