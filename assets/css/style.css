@@ -67,7 +67,6 @@ min-height: calc(100vh - 60px);
 /* Sidebar */
 .sidebar {
 width: 180px;
-background: #121212;
 padding: 20px;
 display: flex;
 flex-direction: column;
