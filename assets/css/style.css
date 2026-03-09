@@ -145,6 +145,7 @@ padding: 14px 18px;
 margin: 20px 0 30px 0;
 border-radius: 4px;
 font-size: 0.95rem;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
 }
 
 .content_box strong {
