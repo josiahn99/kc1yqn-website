@@ -137,6 +137,23 @@ overflow-x: auto;
 }
 
 /* ----------------------------
+Content Box
+---------------------------- */
+.content_box {
+border: 1px solid #333;
+background: #1a1a1a;
+padding: 14px 18px;
+margin: 20px 0 30px 0;
+border-radius: 4px;
+font-size: 0.95rem;
+}
+
+.content_box strong {
+display: inline-block;
+width: 150px;
+}
+
+/* ----------------------------
 Project Summary Box
 ---------------------------- */
 .project-summary {
