@@ -15,24 +15,24 @@ width: auto;
 }
 
 /* ----------------------------
-Top Header
+Header 
 ---------------------------- */
 .top-header {
-display: flex;
-align-items: center;
-justify-content: space-between;
-padding: 0 16px;
-min-height: 70px;
-background: #111111;
-top: 0;
-z-index: 1000;
-border-bottom: 1px solid #333;
-box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  min-height: 70px;
+  background: #111111;                  /* slightly lighter than #010101 */
+  top: 0;
+  z-index: 1000;
+  border-bottom: 1px solid #333;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.6); /* stronger shadow for depth */
 }
 
 .top-header h1 a {
-color: #e0e0e0;
-text-decoration: none;
+  color: #e0e0e0;
+  text-decoration: none;
 }
 
 /* Hide checkbox */
@@ -88,9 +88,13 @@ text-decoration: underline;
 Main Content
 ---------------------------- */
 .main {
-flex: 1;
-max-width: 720px;   /* improves readability */
-}
+  flex: 1;
+  max-width: 960px;           /* wider for technical layout */
+  padding: 24px 40px;         /* slightly tighter vertical spacing */
+  margin: 0 auto;             /* center the content */
+  background: #1a1a1a;        /* subtle dark content background */
+  border-radius: 4px;          /* soft corners for polish */
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.5); /* subtle depth */
 
 /* ----------------------------
 Headings
@@ -123,31 +127,39 @@ margin-bottom: 16px;
 }
 
 /* ----------------------------
-Code blocks / diagrams
+Code Blocks
 ---------------------------- */
 pre, code {
-background: #1e1e1e;
-border-radius: 4px;
-}
-
-pre {
-padding: 12px;
-overflow-x: auto;
+  background: #1e1e1e;
+  border-radius: 4px;
+  padding: 12px;
+  overflow-x: auto;
+  font-family: 'Courier New', monospace;
+  font-size: 0.9rem;
 }
 
 /* ----------------------------
 Content Box
 ---------------------------- */
 .content_box {
-border: 1px solid #333;
-background: #1a1a1a;
-padding: 14px 18px;
-margin: 20px 0 30px 0;
-border-radius: 4px;
-font-size: 0.95rem;
-box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+  border: 1px solid #333;      
+  background: #1a1a1a;          /* same as main content */
+  padding: 14px 18px;
+  margin: 16px 0;               /* slightly tighter spacing */
+  border-radius: 4px;
+  font-size: 0.95rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4); /* lighter shadow */
 }
 
+  .content_box::before {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 40px;
+  background: #22d3ee;  /* accent line at top */
+  margin-bottom: 8px;
+}
+  
 .content_box strong {
 display: inline-block;
 width: 150px;
@@ -157,18 +169,23 @@ width: 150px;
 Project Summary Box
 ---------------------------- */
 .project-summary {
-border: 1px solid #333;
-border-left: 4px solid #22d3ee;
-background: #1a1a1a;
-padding: 14px 18px;
-margin: 20px 0 30px 0;
-border-radius: 4px;
-font-size: 0.95rem;
+  border: 1px solid #333;       /* keep subtle edge */
+  background: #1a1a1a;
+  padding: 14px 18px;
+  margin: 16px 0;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
 }
 
-.project-summary strong {
-display: inline-block;
-width: 150px;
+/* Accent line simplified, horizontal instead of left-heavy */
+.project-summary::before {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 40px;
+  background: #22d3ee;
+  margin-bottom: 8px;
 }
 
 /* ----------------------------
