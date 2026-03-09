@@ -65,13 +65,10 @@ min-height: calc(100vh - 60px);
 
 /* Sidebar */
 .sidebar {
-width: 180px;
-padding: 20px;
 display: flex;
 flex-direction: column;
 gap: 15px;
 height: calc(100vh - 60px);
-top: 60px;
 }
 
 .sidebar a {
