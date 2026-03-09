@@ -37,9 +37,6 @@ This isn’t meant to be comprehensive — just the things that pushed me furthe
 ## Signals to Explore
 
 - **[73QRZ.com](https://73qrz.com/)** — Fast, simple amateur radio callsign lookup.  
-- **WebSDR** — Browser-based receivers around the world for tuning live HF bands.  
-- **KiwiSDR network** — Hundreds of globally distributed software-defined receivers accessible remotely.
-
 ---
 
 ## Hands-On Experiments
@@ -47,3 +44,4 @@ This isn’t meant to be comprehensive — just the things that pushed me furthe
 - **[QRP Labs](http://www.qrp-labs.com)** — Kits and tools for experimenting with low-power RF.  
 - **[SARCNET Project List](https://www.sarcnet.org/projects.html)** — A list of projects ranging from simple circuits to full systems.  
 - **[ChipWired.com](https://chipwired.com/)** — Electronics kits and components for microcontrollers and circuits.
+- https://www.electronics-tutorials.ws/
