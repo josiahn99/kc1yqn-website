@@ -36,7 +36,7 @@ text-decoration: none;
 }
 
 .header_image {
-  filter: brightness(80%) contrast(90%); /* soften contrast */
+  filter: brightness(90%) contrast(80%); /* soften contrast */
   border-radius: 20px; /* optional rounded corners */
 }
 
