@@ -342,38 +342,3 @@ footer a:hover {
   color: #22d3ee; /* optional hover accent */
 }
 
-/* ----------------------------
-   Mobile Styles
----------------------------- */
-@media (max-width: 900px) {
-
-  /* Show hamburger */
-  .hamburger {
-    display: flex;
-  }
-
-  /* Stack container vertically */
-  .container {
-    flex-direction: column;
-  }
-
-  /* Hide sidebar by default */
-  .sidebar {
-    display: none;
-    width: 100%;
-    height: auto;
-    position: relative;
-    top: 0;
-  }
-
-  /* Show sidebar when checkbox is checked */
-  .menu-toggle:checked ~ .container .sidebar {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .header-logo {
-    height: 48px;
-    max-width: 60%;
-  }
-}
