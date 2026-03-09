@@ -27,6 +27,7 @@ background: #010101;
 top: 0;
 z-index: 1000;
 border-bottom: 1px solid #333;
+box-shadow: inset 0 -2px 0 #22d3ee;
 }
 
 .top-header h1 a {
