@@ -23,3 +23,4 @@ title: Hotspot Status
     {% endfor %}
   </tbody>
 </table>
+<img src="../_data/users_by_state.jpg" alt="text" style="width:400px;">
