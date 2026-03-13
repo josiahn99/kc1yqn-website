@@ -21,7 +21,7 @@ Each area reinforces the others and provides a balanced path toward deeper under
 
 ---
 
-# Initial Objective
+### Initial Objective
 
 The initial objective is to develop a strong understanding of the material covered on the **Amateur Radio General License** and **Amateur Extra License** exams.
 
@@ -37,15 +37,13 @@ After this milestone, the learning path will be reassessed with the goal of expa
 
 ---
 
-# Operating and Experimentation
+## Operating and Experimentation
 
 Operating activities will be used primarily as a **data collection and experimentation platform** rather than solely for casual communication.
 
-### Antenna Experiments
+**Antenna Experiments**
 
 Focus on simple wire antennas that allow controlled experimentation.
-
-**Experiments**
 
 Within the first year:
 
