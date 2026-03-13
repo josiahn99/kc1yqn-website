@@ -23,7 +23,7 @@ Each area reinforces the others and provides a balanced path toward deeper under
 
 ### Initial Objective
 
-The initial objective is to develop a strong understanding of the material covered on the **Amateur Radio General License** and **Amateur Extra License** exams.
+The initial objective is to develop a strong understanding of the material covered on the General and Amateur Extra exams.
 
 **Measurable outcomes**
 
@@ -31,15 +31,15 @@ Within 6 months:
 
 * Pass the General and Amateur Extra exams
 * Build and operate an HF station
-* Complete and document at least **5 RF experiments**
+* Complete and document at least 5 RF experiments
 
-After this milestone, the learning path will be reassessed with the goal of expanding into amateur science projects and deeper mathematical foundations of RF, including concepts derived from **James Clerk Maxwell**’s electromagnetic theory.
+After this milestone, the learning path will be reassessed with the goal of expanding into amateur science projects and deeper mathematical foundations of RF, including concepts derived from James Clerk Maxwell’s electromagnetic theory.
 
 ---
 
 ## Operating and Experimentation
 
-Operating activities will be used primarily as a **data collection and experimentation platform** rather than solely for casual communication.
+Operating activities will be used primarily as a data collection and experimentation platform rather than solely for casual communication.
 
 **Antenna Experiments**
 
@@ -47,26 +47,24 @@ Focus on simple wire antennas that allow controlled experimentation.
 
 Within the first year:
 
-1. Build a **20 m dipole antenna**
+1. Build a 20 m dipole antenna
 
-   * Measure resonance and impedance using a **NanoVNA-H4**
+   * Measure resonance and impedance using a NanoVNA-H4
    * Adjust length and record resonance shifts.
 
-2. Build an **end-fed half-wave antenna**
+2. Build an end-fed half-wave antenna
 
    * Compare feedpoint impedance and bandwidth with the dipole.
 
-3. Test **antenna height effects**
+3. Test antenna height effects
 
    * Record SWR and signal reports at 10 ft, 20 ft, and 30 ft heights.
 
-4. Compare antenna performance using signal reports collected through
-   **WSJT-X** and
-   **PSK Reporter**
+4. Compare antenna performance using signal reports collected through WSJT-X and PSK Reporter
 
 **Deliverables**
 
-* At least **3 documented antenna experiments**
+* At least **3 documented antenna experiments
 * Published measurement graphs and notes on the website
 
 ---
@@ -86,7 +84,7 @@ Topics include:
 
 Within 12 months:
 
-* Build **three working RF circuits**, such as:
+* Build three working RF circuits, such as:
 
   * LC band-pass filter
   * simple RF oscillator
@@ -99,7 +97,7 @@ Within 12 months:
   * filter bandwidth
 
 Reference materials will include tutorials from
-**Electronics Tutorials**.
+[Electronics Tutorials](https://www.electronics-tutorials.ws/).
 
 ---
 
@@ -115,13 +113,13 @@ Operating activities will focus on gathering measurable RF data.
 
 Primary operating modes will include:
 
-* **FT8**
+* FT8
 * VHF/UHF voice
 * DMR digital voice
 
 Current handheld radio:
 
-* **AnyTone AT-D878UVII Plus**
+* AnyTone AT-D878UVII Plus
 
 ---
 
@@ -139,7 +137,7 @@ Goals:
 
 Within 12 months:
 
-* Build a small HF experimental station based around an HF transceiver such as the **Icom IC-7300**.
+* Build a small HF experimental station based around an HF transceiver such as the Icom IC-7300.
 
 ---
 
@@ -173,7 +171,7 @@ Develop working familiarity with the mathematical tools underlying RF engineerin
 * Fourier analysis
 * electromagnetic field theory
 
-These topics ultimately lead to the equations describing electromagnetic fields formulated by **James Clerk Maxwell**.
+These topics ultimately lead to Maxwell's equations describing electromagnetic fields.
 
 ---
 
@@ -191,7 +189,7 @@ The existing personal website will serve as:
 
 **Outcome**
 
-Publish at least **10 documented experiments or technical notes** within the first year.
+Publish at least 10 documented experiments or technical notes within the first year.
 
 ---
 
@@ -215,9 +213,9 @@ Python will be used to:
 
 Target tools include:
 
-* **Python**
-* **Pandas**
-* **Matplotlib**
+* Python
+* Pandas
+* Matplotlib
 
 ---
 
@@ -227,13 +225,13 @@ Target tools include:
 
 * Breadboard and electronic components
 * Signal generator / oscillator
-* **Raspberry Pi**
+* Raspberry Pi
 * USB SDR receiver
-* **AnyTone AT-D878UVII Plus**
+* AnyTone AT-D878UVII Plus
 
 ### Planned Purchases
 
-* **NanoVNA-H4**
+* NanoVNA-H4
 * HF radio and accessories
   (currently considering the **Icom IC-7300**)
 
@@ -241,7 +239,7 @@ Target tools include:
 
 # Evaluation
 
-Progress will be reviewed every **6 months**.
+Progress will be reviewed every 6 months.
 
 Key indicators of progress:
 
@@ -250,4 +248,4 @@ Key indicators of progress:
 * concepts understood well enough to explain clearly
 * documentation published on the website
 
-The goal is not simply to accumulate equipment or contacts, but to gradually develop the ability to **observe, measure, and reason about RF systems scientifically**.
+The goal is not simply to accumulate equipment or contacts, but to gradually develop the ability to observe, measure, and reason about RF systems scientifically.
