@@ -1,103 +1,163 @@
 ---
 layout: default
-title: Anytone AT-D878UVII Plus
----
-# Anytone 878
-
-<div class="project-summary">
-  <h3>Summary</h3>
-  <ul>
-    <li>Project / Radio: Anytone AT-D878UVII Plus</li>
-    <li>Cost: ~$300 (radio only)</li>
-    <li>First Experiments: Listening in analog mode, scanning repeaters, manual keypad programming</li>
-    <li>Exploration Focus: Try different antennas, monitor DMR talkgroups, tweak zones and codeplug settings</li>
-    <li>Key Idea: Treat the radio like a mini lab — small changes in antennas, orientation, and settings are your experimental variables.</li>
-  </ul>
-</div>
-
+title: Learning Plan
 ---
 
-## Getting Started
+RF Learning Plan
 
-The 878 is packed with features, which makes it a lot of fun to experiment with. The goal is **to learn by observing and testing**, not to master everything at once.  
+### Motivation
 
-Resources like YouTube, BridgeCom University, and manuals cover programming, APRS, GPS, and DMR. Pick one area, test it, see what happens, and log your observations.
+My childhood curiosity about how the universe works has come back strong, sparked by reading *Remembrance of Earth’s Past* by Liu Cixin and listening to the *Daniel and Kelly's Extraordinary Universe* podcast. Amateur radio is the perfect playground to explore the electromagnetic spectrum while logging observations and testing ideas.  
+
+The goal is to build a solid foundation in RF and approach it like a lab — measuring, tweaking, and learning from each experiment.
+
+This roadmap is organized around three interrelated areas:
+
+* Operating & Experimentation  
+* Theory  
+* Connected Technical Interests  
+
+Each section supports the others and helps make progress measurable.
 
 ---
 
-## Listen Before You Transmit
+### Initial Objective
 
-Before sending anything, spend time just listening:
+The first milestone is to get a strong handle on the General and Amateur Extra exam material while also starting small experiments.
 
-- Put the radio in **analog mode** (“ANA”).  
-- Turn the squelch down to catch weaker signals.  
-- Make sure you’re in **VFO mode**; press the red button if no frequency shows.  
-- Scan the bands slowly with the up/down arrows.  
+Measurable outcomes (6 months):
 
-**Try this as an experiment:**
+* Pass the General and Amateur Extra exams  
+* Build and operate a basic HF station  
+* Complete and document at least 5 RF experiments with notes, graphs, or photos  
 
-1. Pick a location (desk, window, outside) and note antenna type and orientation.  
-2. Record signal strength and clarity for a few repeaters.  
-3. Move around (different floors, near windows, outdoors if possible) and see how the results change.  
-4. Track everything in a notebook or spreadsheet — even small changes matter.
-
-Next, check [RepeaterBook](https://www.repeaterbook.com/) to see which repeaters are active. No need to program them yet — just log their frequency and coverage.
+After this, the plan will evolve toward more advanced experiments and deeper math, including concepts from Maxwell’s electromagnetic theory.
 
 ---
 
-## Simple Transmission Experiments
+## Operating & Experimentation
 
-Once you’ve logged some observations:
+This is where the “hands-on lab” happens. Every transmission, antenna test, or codeplug tweak is a small experiment if treated that way.
 
-- Program a few analog repeaters from the keypad.  
-- Try small, controlled transmissions (just your callsign, KC1YQN) while monitoring reception.  
-- Note how TX/RX offsets and PL tones affect the repeater connection.  
+### Antenna Experiments
 
-Think like a scientist: **what changes when you adjust the antenna, the location, or the repeater settings?** Record it.
+Focus on antennas that can be adjusted and measured easily. Within the first year:
 
----
+1. 20 m dipole  
+   - Measure resonance and impedance with NanoVNA-H4  
+   - Adjust length and log resonance shifts  
+   - Record SWR bandwidth at different heights  
 
-## Playing With Codeplugs
+2. End-fed half-wave  
+   - Compare feedpoint impedance and bandwidth with dipole  
+   - Observe differences in received signal quality
+     
+3. 2 m Yagi
+  - Measure directional gain and front-to-back ratio
+  - Test reception and transmission on local VHF repeaters
+  - Log differences between horizontal and vertical polarization
+  - Evaluate effects of mounting height and orientation
+    
+3. Height and location tests  
+   - Compare performance at 10 ft, 20 ft, 30 ft  
+   - Try near windows, indoors vs. outdoors, different floors  
 
-The codeplug is essentially a spreadsheet for all your channels and settings. It’s a great place to experiment:
+4. Performance tracking  
+   - Collect signal reports using FT8 and PSK Reporter  
+   - Analyze how antenna type, height, and orientation influence reception  
 
-- Import channels from RepeaterBook to get started.  
-- Adjust zones, talkgroups, and digital monitoring.  
-- Test how different setups affect scan speed, monitoring, and usability.  
-
-Treat each change as an experiment: tweak one thing at a time and log the outcome.
-
----
-
-## Antenna Experiments
-
-Antennas are huge. Even a great radio can’t overcome a poor antenna setup. Try different types, positions, and orientations, and log everything.
-
-| Antenna | Typical Range (miles) | Notes |
-|---------|----------------------|-------|
-| Rubber Duck | 5–10 | Baseline; portable indoors |
-| Signal Stick | 15–25 | Near windows; better for weak signals |
-| Slim Jim (window-mounted) | ~40 | Reliable indoor RX/TX; smooth FM experience |
-
-Experiment ideas:
-
-- Track signal quality while moving the antenna around.  
-- Compare indoor vs. outdoor reception.  
-- Note changes at different heights or near reflective surfaces.  
-
-Small tweaks often make bigger differences than you’d expect.
+Deliverables: log at least 3 antenna experiments with graphs or notes comparing results.
 
 ---
 
-## Experimental Goals
+### Circuit Experiments
 
-- Collect baseline reception data in analog and digital modes.  
-- Measure how antenna type and placement affect reception.  
-- See how codeplug organization influences monitoring efficiency.  
-- Keep a record of every test, location, and setting — this is your lab notebook.
+Breadboard circuits are an opportunity to see RF in action. Within 12 months:
+
+* Build three circuits such as:  
+  - LC band-pass filter  
+  - Simple RF oscillator  
+  - Audio or RF amplifier  
+
+* Measure and record:  
+  - Frequency response  
+  - Signal amplitude  
+  - Filter bandwidth  
+
+Reference: [Electronics Tutorials](https://www.electronics-tutorials.ws/)  
+
+Every circuit should include a mini lab report: what was built, how I measured it, and what I observed.
 
 ---
 
-## Final Thoughts
+### Propagation & Operating Experiments
 
-Think of the AT-D878UVII Plus as a **hands-on RF lab**. Listen, log, adjust, and experiment. Over time, you’ll start to notice patterns in propagation, signal behavior, and antenna performance. Every small observation is data you can use to get smarter about how radios actually work.
+Operating isn’t just talking — it’s collecting RF data:
+
+* Log at least 100 contacts, but treat them as data points: signal strength, time, mode, and band.  
+* Run three structured propagation tests using FT8 to track path conditions.  
+* Record SNR, signal clarity, and how antennas and location affect results.  
+
+The goal is to learn patterns, not just accumulate contacts.
+
+---
+
+### Experimental Station Development
+
+The station is your lab bench. Within 12 months:
+
+* Modular antenna switching  
+* Measurement instrumentation for impedance, SWR, and signals  
+* Digital logging of QSOs, propagation, and experiment notes  
+
+Start with a small HF setup — likely an Icom IC-7300 — and expand from there. Every setup change is an experiment.
+
+---
+
+## Theory
+
+Theory is what lets you understand why experiments behave as they do. Resources:
+
+* Advanced Radio Theory Handbook by Ron Bertrand  
+* Later: ARRL Antenna Book  
+* Eventually: Introduction to Electrodynamics  
+
+First-year goals:
+
+* Understand Ohm’s law, impedance, resonance, SWR, transmission line basics  
+* See how simple circuits produce standing waves and resonance  
+* Start experimenting with Fourier decomposition of signals  
+
+Long-term (2–5 years):
+
+* Review calculus, complex numbers, and linear algebra  
+* Apply Fourier analysis to signals  
+* Study vector calculus and Maxwell's equations  
+* Connect math concepts to actual lab measurements  
+
+---
+
+## Connected Technical Interests
+
+This website will serve as a lab notebook, documenting experiments, results, and designs.
+Raspberry Pis will be used for controllers, SDR interface, and logging / analyzing data.  
+Python will analyze measurements, visualize propagation and circuit results with Pandas and Matplotlib  
+
+Goal: publish at least 5 experiments or notes within the first year, each with observations, graphs, and conclusions.
+
+---
+
+## Equipment
+
+Currently Available:
+
+* Breadboard & components  
+* Signal generator / oscillator  
+* Raspberry Pi  
+* USB SDR receiver  
+* AnyTone AT-D878UVII Plus  
+
+Planned Purchases:
+
+* NanoVNA-H4  
+* HF radio and accessories (likely Icom IC-7300)  
