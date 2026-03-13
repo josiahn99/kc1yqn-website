@@ -3,7 +3,7 @@ layout: default
 title: Learning Plan
 ---
 
-**RF Learning Plan**
+RF Learning Plan
 
 ### Motivation
 
@@ -11,9 +11,9 @@ Recently, my childhood fascination with understanding how the universe works has
 
 My goal is to build a solid foundation in RF that allows me to explore radio scientifically rather than casually. To support this, I have developed a learning roadmap organized around three complementary areas:
 
-* **Operating**
-* **Experimentation**
-* **Theory**
+* Operating
+* Experimentation
+* Theory
 
 Each area reinforces the others and provides a balanced path toward deeper understanding.
 
@@ -23,7 +23,7 @@ Each area reinforces the others and provides a balanced path toward deeper under
 
 The initial objective is to develop a strong understanding of the material covered on the General and Amateur Extra exams.
 
-**Measurable outcomes**
+Measurable outcomes
 
 Within 6 months:
 
@@ -36,7 +36,7 @@ After this milestone, the learning path will be reassessed with the goal of expa
 ---
 ## Operating and Experimentation
 
-Operating will primarily be used as a **data collection and experimentation platform** rather than solely for casual communication. On-air activity will support antenna testing, propagation observation, and RF measurement.
+Operating will primarily be used as a data collection and experimentation platform rather than solely for casual communication. On-air activity will support antenna testing, propagation observation, and RF measurement.
 
 ### Antenna Experiments
 
@@ -44,30 +44,30 @@ Initial experiments will focus on simple wire antennas that allow controlled adj
 
 Within the first year:
 
-1. **Build a 20 m dipole antenna**
+1. Build a 20 m dipole antenna
 
    - Measure resonance and impedance using a NanoVNA-H4  
    - Adjust antenna length and record resonance shifts  
    - Record SWR bandwidth
 
-2. **Build an end-fed half-wave antenna**
+2. Build an end-fed half-wave antenna
 
    - Compare feedpoint impedance and bandwidth with the dipole  
    - Evaluate matching network behavior
 
-3. **Test antenna height effects**
+3. Test antenna height effects
 
    - Record SWR and impedance at different heights (10 ft, 20 ft, 30 ft)  
    - Compare received signal reports
 
-4. **Compare antenna performance using digital propagation data**
+4. Compare antenna performance using digital propagation data
 
    - Use FT8 to collect signal reports  
    - Analyze results using PSK Reporter data
 
-**Deliverables**
+Deliverables
 
-- At least **3 documented antenna experiments**
+- At least 3 documented antenna experiments
 - Published measurement graphs and notes on the website
 - Comparison of predicted vs measured antenna behavior
 
@@ -84,7 +84,7 @@ Topics include:
 - amplifiers
 - mixers
 
-**Measurable outcomes (within 12 months)**
+Measurable outcomes (within 12 months)
 
 Build three working RF circuits, such as:
 
@@ -114,10 +114,10 @@ Experiments may include:
 - signal strength and SNR measurements
 - time-of-day and band condition observations
 
-**Goals (first year)**
+Goals (first year)
 
-- Collect signal reports from **at least 100 stations**
-- Conduct **three structured propagation experiments**
+- Collect signal reports from at least 100 stations
+- Conduct three structured propagation experiments
 - Record and analyze signal reports using Python
 
 ---
@@ -132,9 +132,9 @@ Design priorities:
 - measurement instrumentation
 - digital logging and data collection
 
-**Milestone**
+Milestone
 
-Within **12 months**:
+Within 12 months:
 
 Build a small HF experimental station centered around an HF transceiver such as the Icom IC-7300.
 
@@ -152,7 +152,7 @@ Future resources:
 * ARRL Antenna Book
 * Introduction to Electrodynamics
 
-**Learning milestones**
+Learning milestones
 
 Within 12 months:
 
@@ -203,7 +203,7 @@ Publish at least 5 documented experiments or technical notes within the first ye
 
 * NanoVNA-H4
 * HF radio and accessories
-  (currently considering the **Icom IC-7300**)
+  (currently considering the Icom IC-7300)
 
 ---
 
