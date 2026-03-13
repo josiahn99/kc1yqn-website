@@ -23,9 +23,7 @@ Each area reinforces the others and provides a balanced path toward deeper under
 
 The initial objective is to develop a strong understanding of the material covered on the General and Amateur Extra exams.
 
-Measurable outcomes
-
-Within 6 months:
+Measurable outcomes (within 12 months):
 
 * Pass the General and Amateur Extra exams
 * Build and operate an HF station
@@ -84,7 +82,7 @@ Topics include:
 - amplifiers
 - mixers
 
-Measurable outcomes (within 12 months)
+Measurable outcomes (within 6m months)
 
 Build three working RF circuits, such as:
 
@@ -116,7 +114,7 @@ Experiments may include:
 
 Goals (first year)
 
-- Collect signal reports from at least 100 stations
+- Collect signal reports from at least 20 VHF and 50 HF stations
 - Conduct three structured propagation experiments
 - Record and analyze signal reports using Python
 
@@ -132,9 +130,7 @@ Design priorities:
 - measurement instrumentation
 - digital logging and data collection
 
-Milestone
-
-Within 12 months:
+Milestone (within 12 months)
 
 Build a small HF experimental station centered around an HF transceiver such as the Icom IC-7300.
 
@@ -152,9 +148,7 @@ Future resources:
 * ARRL Antenna Book
 * Introduction to Electrodynamics
 
-Learning milestones
-
-Within 12 months:
+Learning milestones (within 12 months):
 
 Gain practical understanding of:
 
@@ -164,7 +158,7 @@ Gain practical understanding of:
 * basic transmission line theory
 * Fourier decomposition of signals
 
-Long-term goals (2-5 years):
+Long-term goals (within 2-3 years):
 
 Develop working familiarity with the mathematical tools underlying RF engineering:
 
@@ -204,18 +198,3 @@ Publish at least 5 documented experiments or technical notes within the first ye
 * NanoVNA-H4
 * HF radio and accessories
   (currently considering the Icom IC-7300)
-
----
-
-# Evaluation
-
-Progress will be reviewed every 6 months.
-
-Key indicators of progress:
-
-* number of experiments completed
-* data collected and analyzed
-* concepts understood well enough to explain clearly
-* documentation published on the website
-
-The goal is not simply to accumulate equipment or contacts, but to gradually develop the ability to observe, measure, and reason about RF systems scientifically.
