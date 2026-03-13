@@ -3,7 +3,7 @@ layout: default
 title: Learning Plan
 ---
 
-RF Learning Plan
+# RF Learning Plan
 
 ### Motivation
 
