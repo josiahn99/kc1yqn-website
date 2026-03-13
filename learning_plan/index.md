@@ -3,13 +3,13 @@ layout: default
 title: Learning Plan
 ---
 
-RF Learning Plan
+RF Roadmap
 
 ### Motivation
 
 My childhood curiosity about how the universe works has come back strong, sparked by reading *Remembrance of Earth’s Past* by Liu Cixin and listening to the *Daniel and Kelly's Extraordinary Universe* podcast. Amateur radio is the perfect playground to explore the electromagnetic spectrum while logging observations and testing ideas.  
 
-The goal is to build a solid foundation in RF and approach it like a lab — measuring, tweaking, and learning from each experiment.
+The goal is to build a solid foundation in RF and approach it like a lab — measuring, tweaking, and learning from each effort. 
 
 This roadmap is organized around three interrelated areas:
 
@@ -52,7 +52,7 @@ Focus on antennas that can be adjusted and measured easily. Within the first yea
    - Compare feedpoint impedance and bandwidth with dipole  
    - Observe differences in received signal quality
      
-3. 2 m Yagi
+3. 2m Yagi
    - Measure directional gain and front-to-back ratio
    - Test reception and transmission on local VHF repeaters
    - Log differences between horizontal and vertical polarization
@@ -72,7 +72,7 @@ Deliverables: log at least 3 antenna experiments with graphs or notes comparing 
 
 ### Circuit Experiments
 
-Breadboard circuits are an opportunity to see RF in action. Within 12 months:
+Breadboard circuits are an opportunity to see basic electrical theory and RF in action. Within 12 months:
 
 * Build three circuits such as:  
   - LC band-pass filter  
@@ -104,19 +104,17 @@ The goal is to learn patterns, not just accumulate contacts.
 
 ### Experimental Station Development
 
-The station is your lab bench. Within 12 months:
+The goal here is to set up a small HF station - likely an Icon IC-7300 - that will function as the center of experimentation. Within 12 months:
 
 * Modular antenna switching  
 * Measurement instrumentation for impedance, SWR, and signals  
 * Digital logging of QSOs, propagation, and experiment notes  
 
-Start with a small HF setup — likely an Icom IC-7300 — and expand from there. Every setup change is an experiment.
-
 ---
 
 ## Theory
 
-Theory is what lets you understand why experiments behave as they do. Resources:
+I want to understand the underlying framework behind why operation and experiments happen Resources:
 
 * Advanced Radio Theory Handbook by Ron Bertrand  
 * Later: ARRL Antenna Book  
