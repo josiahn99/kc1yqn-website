@@ -7,11 +7,11 @@ title: Anytone AT-D878UVII Plus
 <div class="project-summary">
   <h3>Summary</h3>
   <ul>
-    <li><strong>Project / Radio:</strong> Anytone AT-D878UVII Plus</li>
-    <li><strong>Cost:</strong> ~$300 (radio only)</li>
-    <li><strong>First Experiments:</strong> Listening in analog mode, scanning repeaters, manual keypad programming</li>
-    <li><strong>Exploration Focus:</strong> Try different antennas, monitor DMR talkgroups, tweak zones and codeplug</li>
-    <li><strong>Key Takeaway:</strong> Experiment! Try different positions, floors, and orientations — even small changes affect what you hear and can transmit.</li>
+    <li>Project / Radio: Anytone AT-D878UVII Plus</li>
+    <li>Cost: ~$300 (radio only)</li>
+    <li>First Experiments: Listening in analog mode, scanning repeaters, manual keypad programming</li>
+    <li>Exploration Focus: Try different antennas, monitor DMR talkgroups, tweak zones and codeplug settings</li>
+    <li>Key Idea: Treat the radio like a mini lab — small changes in antennas, orientation, and settings are your experimental variables.</li>
   </ul>
 </div>
 
@@ -19,82 +19,85 @@ title: Anytone AT-D878UVII Plus
 
 ## Getting Started
 
-The AT-D878 is a really fun first radio. It’s packed with features, which means you can try a bunch of different things and see what sticks. Perfect for experimenting and figuring out what part of the hobby you enjoy most.  
+The 878 is packed with features, which makes it a lot of fun to experiment with. The goal is **to learn by observing and testing**, not to master everything at once.  
 
-There’s a ton of content out there — YouTube videos, BridgeCom University tutorials — covering programming, APRS, GPS, DMR, and more. **Take it slow.**  
-
-Even people who start with a simple analog radio end up learning faster. The 878 is no different — you can explore all the fancy features, but you don’t need to dive into everything at once.
+Resources like YouTube, BridgeCom University, and manuals cover programming, APRS, GPS, and DMR. Pick one area, test it, see what happens, and log your observations.
 
 ---
 
-## Just Listen First
+## Listen Before You Transmit
 
-Before you start programming, spend a little time just listening:  
+Before sending anything, spend time just listening:
 
-- Make sure the radio is in **analog mode** (“ANA”).  
-- Turn the squelch way down so you can catch really weak signals.  
-- Check that you’re in **VFO mode**. Press the red button if no frequency shows.  
-- Scan around the bands with the up/down arrows.  
+- Put the radio in **analog mode** (“ANA”).  
+- Turn the squelch down to catch weaker signals.  
+- Make sure you’re in **VFO mode**; press the red button if no frequency shows.  
+- Scan the bands slowly with the up/down arrows.  
 
-Tips for experimenting:  
+**Try this as an experiment:**
 
-- Don’t worry if it’s quiet at first. Try at night when more nets are active.  
-- Keep the antenna vertical. Swapping the stock rubber duck for a **Signal Stick** is a simple improvement.  
-- Try moving around — second floor, near a window, or outside if you can.  
-- **Write down what you hear.** It helps track progress and identify patterns.  
+1. Pick a location (desk, window, outside) and note antenna type and orientation.  
+2. Record signal strength and clarity for a few repeaters.  
+3. Move around (different floors, near windows, outdoors if possible) and see how the results change.  
+4. Track everything in a notebook or spreadsheet — even small changes matter.
 
-Next, sign up for a free account on [RepeaterBook](https://www.repeaterbook.com/) and check out nearby repeaters. Look for wide-area ones — no need to program them yet, just make a note of what’s active.
+Next, check [RepeaterBook](https://www.repeaterbook.com/) to see which repeaters are active. No need to program them yet — just log their frequency and coverage.
 
 ---
 
-## A Little Manual Programming
+## Simple Transmission Experiments
 
-Once you’ve listened for a bit, try adding a few analog repeaters from the keypad. It’s a little like using an old-school phone, but it teaches:  
+Once you’ve logged some observations:
 
-- TX/RX offsets  
-- PL tones  
-- How repeaters actually work  
+- Program a few analog repeaters from the keypad.  
+- Try small, controlled transmissions (just your callsign, KC1YQN) while monitoring reception.  
+- Note how TX/RX offsets and PL tones affect the repeater connection.  
 
-Once comfortable, you can transmit something simple like: KC1YQN, monitoring.
-
-
-> Avoid saying CQ unless you’re on 146.52 MHz simplex — don’t annoy people.
+Think like a scientist: **what changes when you adjust the antenna, the location, or the repeater settings?** Record it.
 
 ---
 
 ## Playing With Codeplugs
 
-The **codeplug** is basically a spreadsheet that stores all your channels and settings.  
+The codeplug is essentially a spreadsheet for all your channels and settings. It’s a great place to experiment:
 
-- Export repeater info from RepeaterBook in a format the CPS software likes.  
-- Import it and start tweaking channels instead of entering everything manually.  
+- Import channels from RepeaterBook to get started.  
+- Adjust zones, talkgroups, and digital monitoring.  
+- Test how different setups affect scan speed, monitoring, and usability.  
 
-### Zones
-
-Think of zones as **folders** for your channels. How you set them up makes scanning and operating feel either smooth or messy.  
-
-- **FM Repeaters** – wide-area repeaters in one zone, smaller ones nearby in another.  
-- **DMR Repeaters** – each talkgroup/time slot combo gets its own channel. Use **Digital Monitor** to monitor activity without transmitting.  
-- **Hotspot Zone** – for a personal DMR hotspot and BrandMeister network. Each talkgroup gets a channel. Switch quickly with PTT when idle.
+Treat each change as an experiment: tweak one thing at a time and log the outcome.
 
 ---
 
-## Antennas Matter
+## Antenna Experiments
 
-Even a great radio won’t do much if your antenna setup is weak. My experiments indoors taught me that antennas are just as important as the radio.  
+Antennas are huge. Even a great radio can’t overcome a poor antenna setup. Try different types, positions, and orientations, and log everything.
 
-Try different positions, floors, and orientations — small changes affect what you hear and can transmit. Experimentation is key.
+| Antenna | Typical Range (miles) | Notes |
+|---------|----------------------|-------|
+| Rubber Duck | 5–10 | Baseline; portable indoors |
+| Signal Stick | 15–25 | Near windows; better for weak signals |
+| Slim Jim (window-mounted) | ~40 | Reliable indoor RX/TX; smooth FM experience |
 
-| Antenna | Range (miles) | Notes |
-|---------|---------------|-------|
-| Rubber Duck | 5–10 | Quick and easy; fine for very local contacts |
-| Signal Stick | 15–25 | Portable, vertical near a window; good for satellite RX |
-| Slim Jim (window-mounted) | ~40 | Indoor terrestrial; reliable RX/TX; smooth FM experience |
+Experiment ideas:
 
-> These ranges assume **portable, indoor operation** — no permanent installs.
+- Track signal quality while moving the antenna around.  
+- Compare indoor vs. outdoor reception.  
+- Note changes at different heights or near reflective surfaces.  
+
+Small tweaks often make bigger differences than you’d expect.
+
+---
+
+## Experimental Goals
+
+- Collect baseline reception data in analog and digital modes.  
+- Measure how antenna type and placement affect reception.  
+- See how codeplug organization influences monitoring efficiency.  
+- Keep a record of every test, location, and setting — this is your lab notebook.
 
 ---
 
 ## Final Thoughts
 
-Take your time exploring. Play with antennas, zones, and talkgroups. Listen, log, and experiment. The AT-D878UVII Plus is a playground for hands-on learning — the more you tinker, the more you’ll understand how radios, repeaters, and digital modes work.
+Think of the AT-D878UVII Plus as a **hands-on RF lab**. Listen, log, adjust, and experiment. Over time, you’ll start to notice patterns in propagation, signal behavior, and antenna performance. Every small observation is data you can use to get smarter about how radios actually work.
