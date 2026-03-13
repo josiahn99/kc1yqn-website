@@ -5,23 +5,25 @@ title: Learning Plan
 
 # RF Roadmap
 
-### Motivation
+## Motivation
 
-My childhood curiosity about how the universe works has come back strong, sparked by reading *Remembrance of Earth’s Past* by Liu Cixin and listening to the *Daniel and Kelly's Extraordinary Universe* podcast. Amateur radio is the perfect playground to explore the electromagnetic spectrum while logging observations and testing ideas.  
+My childhood curiosity about how the universe works has returned strongly, sparked by reading Remembrance of Earth’s Past by Liu Cixin and listening to the Daniel and Kelly's Extraordinary Universe podcast.
 
-The goal is to build a solid foundation in RF and approach it like a lab — measuring, tweaking, and learning from each effort. 
+Amateur radio provides a unique way to interact directly with electromagnetic phenomena rather than only reading about them.
+
+The goal is to build a solid foundation in RF and approach amateur radio like a laboratory — measuring, tweaking, and learning from each experiment.
 
 This roadmap is organized around three interrelated areas:
 
-* Operating & Experimentation  
+* Operating & Experimenting  
 * Theory  
-* Connected Technical Interests  
+* Related Technical Interests  
 
-Each section supports the others and helps make progress measurable.
+Each section supports the others and makes progress measurable.
 
 ---
 
-### Initial Objective
+## Initial Objective
 
 The first milestone is to get a strong handle on the General and Amateur Extra exam material while also starting small experiments.
 
@@ -58,15 +60,15 @@ Focus on antennas that can be adjusted and measured easily. Within the first yea
    - Log differences between horizontal and vertical polarization
    - Evaluate effects of mounting height and orientation
     
-3. Height and location tests  
+4. Height and location tests  
    - Compare performance at 10 ft, 20 ft, 30 ft  
    - Try near windows, indoors vs. outdoors, different floors  
 
-4. Performance tracking  
+5. Performance tracking  
    - Collect signal reports using FT8 and PSK Reporter  
    - Analyze how antenna type, height, and orientation influence reception  
 
-Deliverables: log at least 3 antenna experiments with graphs or notes comparing results.
+Deliverables: log at least 5 antenna experiments with graphs or notes comparing results.
 
 ---
 
@@ -104,7 +106,7 @@ The goal is to learn patterns, not just accumulate contacts.
 
 ### Experimental Station Development
 
-The goal here is to set up a small HF station - likely an Icon IC-7300 - that will function as the center of experimentation. Within 12 months:
+The goal here is to set up a small HF station - likely an Icom IC-7300 - that will function as the center of experimentation. Within 12 months:
 
 * Modular antenna switching  
 * Measurement instrumentation for impedance, SWR, and signals  
@@ -114,32 +116,40 @@ The goal here is to set up a small HF station - likely an Icon IC-7300 - that wi
 
 ## Theory
 
-I want to understand the underlying framework behind why operation and experiments happen Resources:
+I want to understand the theoretical framework behind the experiments and operating activities described above.
+
+Resources:
 
 * Advanced Radio Theory Handbook by Ron Bertrand  
 * Later: ARRL Antenna Book  
 * Eventually: Introduction to Electrodynamics  
 
-First-year goals:
+### Year 1
+   - Ohm’s law
+   - Impedance
+   - Resonance
+   - Standing waves
+   - Transmission lines
+   - Basic antenna behavior
 
-* Understand Ohm’s law, impedance, resonance, SWR, transmission line basics  
-* See how simple circuits produce standing waves and resonance  
-* Start experimenting with Fourier decomposition of signals  
+### Year 2–3
+   - Complex impedance
+   - Fourier decomposition
+   - Filters and bandwidth
+   - Noise and signal-to-noise ratio
 
-Long-term (2–5 years):
-
-* Review calculus, complex numbers, and linear algebra  
-* Apply Fourier analysis to signals  
-* Study vector calculus and Maxwell's equations  
-* Connect math concepts to actual lab measurements  
+### Later
+   - Vector calculus
+   - Maxwell’s equations
+   - Wave propagation
 
 ---
 
-## Connected Technical Interests
+## Instrumentation & Analysis
 
-This website will serve as a lab notebook, documenting experiments, results, and designs.
-Raspberry Pis will be used for controllers, SDR interface, and logging / analyzing data.  
-Python will analyze measurements, visualize propagation and circuit results with Pandas and Matplotlib  
+This website will function as a lab notebook documenting experiments, measurements, and observations.
+
+Raspberry Pi systems will be used for station control, SDR interfaces, and data collection. Python will be used to analyze measurements and visualize results using libraries such as Pandas and Matplotlib. 
 
 Goal: publish at least 5 experiments or notes within the first year, each with observations, graphs, and conclusions.
 
@@ -147,15 +157,17 @@ Goal: publish at least 5 experiments or notes within the first year, each with o
 
 ## Equipment
 
-Currently Available:
+Measurement tools: 
 
 * Breadboard & components  
-* Signal generator / oscillator  
+* Signal generator / oscillator for circuit testing
 * Raspberry Pi  
-* USB SDR receiver  
-* AnyTone AT-D878UVII Plus  
+* USB SDR receiver for spectral observation  
+* AnyTone AT-D878UVII Plus
+* Python analysis of signal reports
 
 Planned Purchases:
 
-* NanoVNA-H4  
-* HF radio and accessories (likely Icom IC-7300)  
+* HF radio and accessories (likely the Icom IC-7300)  
+
+
