@@ -4,94 +4,55 @@ title: Learning Plan
 ---
 # Learning Plan
 
-# Returning to Science
+Recently, my childhood fascination with learning how the universe works has been reignited. This was largely a result of reading *Remembrance of Earth’s Past* by Liu Cixin and listening to [Daniel and Kelly’s Extraordinary Universe podcast](https://podcasts.apple.com/us/podcast/daniel-and-kellys-extraordinary-universe/id1436616330). 
 
-I stepped away from math and science as a kid—because, spoiler, it was hard. Now I’m back, driven by curiosity and the satisfaction of figuring things out. Amateur radio caught my attention after reading *Remembrance of Earth’s Past* by Liu Cixin and listening to [Daniel and Kelly’s Extraordinary Universe podcast](https://podcasts.apple.com/us/podcast/daniel-and-kellys-extraordinary-universe/id1436616330). Both reignited my fascination with how the universe works, and ham radio provides a way to explore that curiosity hands-on through the electromagnetic spectrum.
+Current trends have made it apparent to me that science communication is more critical than ever. Amateur radio presents itself as a way to both explore my own curiousity in the electromagnetic spectrum, and perhaps encourage learning in others at the same time.  
 
----
+I'm interested in building a solid foundation in RF that allows me to explore it thoughtfully and scientifically. Towards that end, I developed a learning plan road map for myself with key areas I want to focus on. I've broken it down into seperate components of operation, experimentation, and theory to provide a rounded approach to understanding. 
 
-# Operating and Experimenting
-
-My time is often limited—commutes or late nights—but even small experiments are valuable. I’m starting as a Technician and working toward General and Amateur Extra. My approach emphasizes **understanding, not just passing exams**.
-
-Key areas of focus:
-
-- **Antennas:** experimenting with designs like 2 m Yagi and 40 m dipole  
-- **Circuits:** building and testing Arduino/DDS setups, filters, and small RF front ends  
-- **Logging and operating:** recording QSOs on BrandMeister and eventually HF  
-- **Station building:** creating a modular, experimental setup rather than a conventional “shack”  
-
-Even in hands-on activities, I aim to connect with the underlying **math and physics**: resonance in LC circuits, impedance, signal propagation, and wave behavior.
+The goal initially is to develop a strong understanding of the material covered on the General and Amateur Extra exams. After this, the path will be re-evaluated a bit, but initially the goal would be to work on amateur science projects and develop an understanding of more advanced mathimatical concepts governing RF, such as Maxwell's equations. 
 
 ---
 
-# Theory and Math
+# Operating / Experimentation 
 
-To build a solid foundation, I’m working through Bertrand’s *Advanced Radio Theory Handbook*. The goal is to reconnect with the relevant mathematics—calculus, complex numbers, and Maxwell’s equations—so that the experiments and observations make sense.
+Through operatiEven including casual use of my HT, as well as any other experiments, I aim to connect with the underlying **data analysis, math, and physics**.
 
-Key theoretical topics:
+- **Antennas:** focusing on handmade designs that allow for twekas and experimentation
+- **Circuits:** building and testing breadboard circuits as described on [Electronics Tutorials](https://www.electronics-tutorials.ws/)
+- Arduino/DDS setups, filters, and small RF front ends  
+- **Logging and operating:** getting familiar with operating practices, and recording QSOs on DMR, VHF, and eventually HF  
+- **Station building:** focusing on creating a modular, experimental setup that prioritizes data collection and analysis and aligning with current science exploration being conducted in the ham community. 
 
-- Resonance and impedance in circuits and antennas  
-- Wave propagation and polarization  
-- Fourier analysis and signal decomposition  
-- Maxwell’s equations as a framework for understanding electromagnetic behavior  
+---
 
-Even simple experiments become more meaningful when the results can be linked back to these principles.
+# Theory
+
+Right now, I’m working through Bertrand’s *Advanced Radio Theory Handbook* and the content of [Electronics Tutorials](https://www.electronics-tutorials.ws/). After this, I will likely look at the ARRL Antenna Handbook.
+
+The goal here is to understand the math needed to actually understand RF experiments and observations. Such a knowledge takes a long time, so it will start more practically with an engineering approach and focus on basic equations, eventually stepping up to more long-term goal is to pick up the Calculus / linear algebra foundations for RF (Resonance and impedance in circuits and antennas, fourier analysis and signal decomposition, and Maxwell's equations). The ultimate goal is to at least have a working knowledge of these topics, as I believe it will be very fulfilling.
 
 ---
 
 # Connected Interests
 
-Amateur radio naturally connects to other technical hobbies:
+Operating, experimentation, and theory naturally connect to other technical areas I'm looking to gain better knoweldge about:
 
-- **Website as lab notebook:** documenting experiments, designs, and observations  
-- **Raspberry Pi projects:** using Pi as a controller, SDR interface, or data logging platform  
-- **Python experimentation:** analyzing data, generating plots, or controlling experiments  
-
-This site serves both as a record and as a way to link practical experiments with the theory behind them.
+- **Static website development:** using this website as a sandbox for exploring static pages, as well as a technical notebook for documenting experiments, designs, and observations  
+- **Raspberry Pi projects:** using Pi as a controller, SDR interface and data logging platform
+- **Python experimentation:** for RF experiments, predicting outcomes, collecting data, analyzing results
 
 ---
 
-# Experimental RF Workflow
+# Equipment
 
-The setup combines hardware, observation, and theory to create a learning loop that emphasizes experimentation.
+Currently purchased:
+- Breadboard and basic electrical components
+- Signal generator and oscillator
+- Raspberry Pi(s)
+- SDR USB 
+- Anytone 878
 
-## **1. Signal Generation (Arduino + DDS)**
-
-- Generate signals with Si5351 or AD9833 modules  
-- Explore circuit behavior: filters, LC tanks, and simple modulations  
-- Apply theory: resonance, impedance, and waveform shaping
-
-## **2. Observation and Measurement (SDR + Scope)**
-
-- Capture and visualize signals using SDRs (RTL-SDR, HackRF, or LimeSDR)  
-- Use oscilloscopes or multimeters to measure voltage, current, and waveform  
-- Compare observed behavior with theoretical predictions
-
-## **3. Transceivers in Practice**
-
-- **AT‑878UVII Plus:**  
-  - Monitor and receive VHF/UHF signals  
-  - Experiment with low-power transmissions and digital modes  
-- **IC‑7300 (HF rig, later stage):**  
-  - Observe real-world HF propagation  
-  - Validate experimental setups and compare lab vs. real-world signals
-
-## **4. Learning and Iteration**
-
-1. Build a circuit or generate a test signal  
-2. Observe the results with SDR, AT‑878, or scope  
-3. Analyze and visualize with Python  
-4. Adjust components, waveforms, or antennas  
-5. Repeat the cycle and gradually scale to HF experiments
-
----
-
-### Key Notes
-
-- **Arduino + DDS:** signal generation and hands-on experimentation  
-- **Pi + SDR:** observation, logging, and analysis  
-- **AT‑878:** VHF/UHF experimentation, monitoring, and digital modes  
-- **IC‑7300:** HF verification and real-world propagation testing  
-- **Underlying theory and math:** resonance, impedance, wave propagation, and Maxwell’s equations inform every experiment  
-- Modular, expandable setup allows gradual progression from simple experiments to more advanced RF exploration
+To be purchased later:
+- NanoVNA
+- HF Radio and peripherals (likely ICOM 7300, but not yet determined)
