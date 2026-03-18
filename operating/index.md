@@ -2,20 +2,15 @@
 
 Inspired by 52 weeks  and 30 days of Ham Radio, here is a long list of experiments and challenges. 
 
-## Completed Experiments
+## Work Currently in Progress
 
-Document finished experiments with notes and results.
-
-**Example**:
-
-- **Minimal Power Contact**  
-  **Goal:** Contact using <1 watt  
-  **Band:** 2m  
-  **Result:** Successful 14-mile contact  
-  **Notes:** Terrain significantly influenced signal reach
-
-
-  <div class="project-summary">
+**GIS / Python Propogation Analysis**:
+  Goal:** Model theortical Tx / Rx capabilties of current 2m/70cm set up and compare to real world data. This will help set a bench mark for further reception improvements, assist in operational reliability, and as a basis for comparison for unusual environmental events such as trophsperic propogation.
+  **Band:** 2m  / 70cm
+  **Result:** Maps will be produced incorporating different factors affecting VHF propagation - radio horizon, top 
+  **Tools**: QGIS, Python (pycraf package), SDR, AT-878, Slim Jim 2m/70m antenna
+  
+<div class="project-summary">
 
 Experiment: Two Transistor LED Flasher  
 Goal: Understand transistor switching  
