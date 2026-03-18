@@ -4,23 +4,17 @@ Inspired by 52 weeks  and 30 days of Ham Radio, here is a long list of experimen
 
 ## Work Currently in Progress
 
-<div class="project-summary">
-  
 ### GIS / Python Propogation Analysis ###
 **Goal:** Model theortical Tx / Rx capabilties of current 2m/70cm set up and compare to real world data. This will help set a bench mark for further reception improvements, assist in operational reliability, and as a basis for comparison for unusual environmental events such as trophsperic propogation.
   **Band:** 2m  / 70cm
   **Mode:** APRS / FM
   **Result:** Maps indicating station range, incorporating different factors affecting VHF propagation - free path loss, terrain, atmospheric effects, etc. 
   **Tools**: QGIS, Python (pycraf package), SDR, AT-878, Slim Jim 2m/70m antenna
-</div>
 
-<div class="project-summary">
 
 ***Two Transistor LED Flasher  
 Goal: Understand transistor switching  
 Key Concept: RC timing
-
-</div>
 
 ## In Progress
 
