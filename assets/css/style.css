@@ -21,7 +21,7 @@ Top Header
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 16px;
+  padding: 5px 16px;
   min-height: 70px;
   background: #f1f1f1;       /* lighter header */
   top: 0;
@@ -36,7 +36,6 @@ Top Header
 }
 
 .header_image {
-  filter: brightness(100%) contrast(90%);
   border-radius: 20px;
 }
 
