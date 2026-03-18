@@ -103,7 +103,7 @@ Layout: Sidebar Navigation
 }
 
 .sidebar a.nested::before {
-  content: "▸ ";   /* small arrow before nested link */
+  content: "- ";   /* small arrow before nested link */
   color: #58a6ff; /* optional highlight color */
 }
 
