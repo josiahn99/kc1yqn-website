@@ -102,6 +102,16 @@ Layout: Sidebar Navigation
   font-size: 0.94rem;    /* slightly smaller, optional */
 }
 
+.sidebar a.nested::before {
+  content: "▸ ";   /* small arrow before nested link */
+  color: #58a6ff; /* optional highlight color */
+}
+
+.sidebar a.nested:hover {
+  text-decoration: underline;
+  color: #79c0ff;
+}
+
 
 /* ----------------------------
 Main Content
