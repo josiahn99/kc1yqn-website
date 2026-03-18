@@ -1,22 +1,15 @@
 ---
 layout: default
-title: Lab
+title: Breadboard
 ---
 # Breadboard Experiments  
-Hands-on circuits and bench experiments that connect electronics with real-world RF behavior.
+Hands-on circuits and bench experiments that connect electronics theory with real-world RF behavior. 
+
+Based largely on going throught the tutorials on ["https://www.electronics-tutorials.ws/](Electronics-Tutorials.ws).
 
 ## Analog / Breadboard
 
-2026-03-04 — Astable Multivibrator
-
-## Antennas
-
-2m Yagi
-
-## Pi / Arduino 
-
-
-## Bench-to-RF Experiments
+** Astable Multivibrator ** 
 
 - **RC Oscillator Frequency Analysis**  
   Examine how resistor and capacitor values affect transistor oscillator frequency.
@@ -32,10 +25,6 @@ Hands-on circuits and bench experiments that connect electronics with real-world
 
 - **Transistor Gain Effects**  
   Assess how transistor gain variations influence circuit stability and timing.
-
----
-
-## Deep RF Lab Experiments
 
 - **DIY Low-Power RF Beacon**  
   Construct a beacon and monitor reception distances under varying conditions.
