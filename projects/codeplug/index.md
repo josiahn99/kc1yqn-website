@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Anytone AT-D878UVII Plus
+title: AT-878 Codeplug
 ---
-# Anytone 878
+# Anytone 878 Codeplug
 
 <div class="project-summary">
   <h3>Summary</h3>
