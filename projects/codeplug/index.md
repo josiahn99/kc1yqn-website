@@ -6,7 +6,7 @@ title: AT-878 Codeplug
 
 <div class="project-summary">
 ### Summary ###
-   **Goal:** Model theortical Tx / Rx capabilties of current 2m/70cm set up and compare to real world data. This will help set a bench mark for further reception improvements, assist in operational reliability, and as a basis for comparison for unusual environmental events such as trophsperic propogation.
+   **Goal:**
   **Result:** 
   **Tools**
   </ul>
