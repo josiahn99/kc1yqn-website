@@ -1,8 +1,8 @@
 /* --- Body & text --- */
 body {
   font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, sans-serif;
-  background: #16181d;
-  color: #e6edf3;
+  background: #f5f5f5;       /* light gray background */
+  color: #1e1e1e;            /* dark text for contrast */
   line-height: 1.7;
   margin: 0;
   padding: 0;
@@ -23,148 +23,110 @@ Top Header
   justify-content: space-between;
   padding: 0 16px;
   min-height: 70px;
-  background: #1b1f24;
+  background: #e2e4e8;       /* lighter header */
   top: 0;
   z-index: 1000;
-  border-bottom: 1px solid #2d333b;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+  border-bottom: 1px solid #c5c7cc;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
 
 .top-header h1 a {
-  color: #e6edf3;
+  color: #1e1e1e;
   text-decoration: none;
 }
 
 .header_image {
-  filter: brightness(90%) contrast(80%);
+  filter: brightness(100%) contrast(90%);
   border-radius: 20px;
 }
 
-/* Hide checkbox */
-.menu-toggle {
-  position: absolute;
-  opacity: 0;
-  pointer-events: none;
-}
-
-/* Hamburger */
-.hamburger {
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
-  gap: 5px;
-  z-index: 2000;
-}
-
-.hamburger span {
-  width: 25px;
-  height: 3px;
-  background: #c9d1d9;
-}
-
-/* ----------------------------
-Layout: Container
----------------------------- */
-.container {
-  display: flex;
-  min-height: calc(100vh - 60px);
-}
-
-
-/* ----------------------------
-Layout: Sidebar Navigation
----------------------------- */
-/* Sidebar */
-.sidebar {
-  display: flex;
-  padding: 32px 24px;
-  flex-direction: column;
-  gap: 12px;
-  height: calc(100vh - 60px);
-}
-
+/* Sidebar links */
 .sidebar a {
   display: block;
   text-decoration: none;
   font-weight: 600;
   font-size: 0.95rem;
-  color: #9fb3c8;
+  color: #3a3f48;   /* dark gray */
 }
 
 .sidebar a:hover {
-  color: #58a6ff;
+  color: #1d4ed8;   /* blue hover */
   text-decoration: underline;
 }
 
 .sidebar a.nested {
-  padding-left: 20px;    /* indent nested items */
-  font-weight: normal;   /* optional: make nested items lighter than parent */
-  font-size: 0.94rem;    /* slightly smaller, optional */
+  padding-left: 20px;
+  font-weight: normal;
+  font-size: 0.94rem;
 }
 
 .sidebar a.nested::before {
-  content: "- ";   /* small arrow before nested link */
-  color: #58a6ff; /* optional highlight color */
+  content: "- ";
+  color: #1d4ed8;
 }
 
 .sidebar a.nested:hover {
   text-decoration: underline;
-  color: #79c0ff;
+  color: #2563eb;
 }
 
-
-/* ----------------------------
-Main Content
----------------------------- */
-.main {
-  flex: 1;
-  max-width: 680px;
-  margin: 0 auto;
+/* Main content background */
+.content_box {
+  border: 1px solid #c5c7cc;
+  background: #ffffff;        /* white/light box */
+  padding: 18px 22px;
+  margin: 20px 0 30px 0;
+  border-radius: 8px;
+  font-size: 0.96rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
-/* ----------------------------
-Headings
----------------------------- */
+.content_box p {
+  max-width: 62ch;
+}
+
+.content_box strong {
+  display: inline-block;
+  width: 150px;
+  color: #111;
+}
+
+/* Project summary */
+.project-summary {
+  border: 1px solid #c5c7cc;
+  border-left: 4px solid #1d4ed8;
+  background: #f9fafb;
+  padding: 14px 18px;
+  margin: 20px 0 30px 0;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+/* Headings */
 h1, h2, h3 {
   margin-top: 36px;
   margin-bottom: 14px;
   line-height: 1.3;
+  color: #111;
 }
 
-h1 {
-  margin-top: 12px;
-}
-
-/* Links */
 a {
-  color: #58a6ff;
+  color: #1d4ed8;
 }
 
 a:hover {
-  color: #79c0ff;
+  color: #2563eb;
   text-decoration: underline;
 }
 
-/* ----------------------------
-Paragraphs & lists
----------------------------- */
-p {
-  margin-bottom: 16px;
-}
-
-ul {
-  margin-bottom: 18px;
-}
-
-/* ----------------------------
-Code blocks / diagrams
----------------------------- */
+/* Code blocks */
 pre, code {
-  background: #0d1117;
-  border: 1px solid #30363d;
+  background: #e5e7eb;        /* lighter gray */
+  border: 1px solid #c5c7cc;
   border-radius: 6px;
   font-family: Consolas, Monaco, "Courier New", monospace;
   font-size: 0.9rem;
+  color: #111;
 }
 
 code {
@@ -177,102 +139,18 @@ pre {
   line-height: 1.5;
 }
 
-/* ----------------------------
-Content Box
----------------------------- */
-.content_box {
-  border: 1px solid #2d333b;
-  background: #1c2128;
-  padding: 18px 22px;
-  margin: 20px 0 30px 0;
-  border-radius: 8px;
-  font-size: 0.96rem;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.4);
-}
-
-.content_box p {
-  max-width: 62ch;
-}
-
-.content_box strong {
-  display: inline-block;
-  width: 150px;
-}
-
-/* ----------------------------
-Project Summary Box
----------------------------- */
-.project-summary {
-  border: 1px solid #2d333b;
-  border-left: 4px solid #58a6ff;
-  background: #1c2128;
-  padding: 14px 18px;
-  margin: 20px 0 30px 0;
-  border-radius: 6px;
-  font-size: 0.95rem;
-}
-
-/* ----------------------------
-Text hierarchy
----------------------------- */
-strong {
-  color: #ffffff;
-}
-
-small {
-  color: #8b949e;
-}
-
-/* ----------------------------
-Footer
----------------------------- */
+/* Footer */
 footer {
   font-size: 0.8rem;
-  color: #8b949e;
+  color: #555;
   margin-top: 10px;
 }
 
 footer a {
-  color: #8b949e;
+  color: #555;
   text-decoration: underline;
 }
 
 footer a:hover {
-  color: #58a6ff;
-}
-
-/* ----------------------------
-Mobile Styles
----------------------------- */
-@media (max-width: 900px) {
-
-  .hamburger {
-    display: flex;
-  }
-
-  .container {
-    flex-direction: column;
-  }
-
-  .sidebar {
-    display: none;
-    width: 100%;
-    height: auto;
-    position: relative;
-    top: 0;
-  }
-
-  .menu-toggle:checked ~ .container .sidebar {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .header-logo {
-    height: 48px;
-    max-width: 60%;
-  }
-
-  .main {
-    padding: 24px;
-  }
+  color: #1d4ed8;
 }
