@@ -2,7 +2,7 @@
 layout: default
 title: Lab
 ---
-# Lab Experiments 
+# Breadboard Experiments  
 Hands-on circuits and bench experiments that connect electronics with real-world RF behavior.
 
 ## Analog / Breadboard
