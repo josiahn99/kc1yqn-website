@@ -5,13 +5,10 @@ title: AT-878 Codeplug
 # Anytone 878 Codeplug
 
 <div class="project-summary">
-  <h3>Summary</h3>
-  <ul>
-    <li>Project / Radio: Anytone AT-D878UVII Plus</li>
-    <li>Cost: ~$300 (radio only)</li>
-    <li>First Experiments: Listening in analog mode, scanning repeaters, manual keypad programming</li>
-    <li>Exploration Focus: Try different antennas, monitor DMR talkgroups, tweak zones and codeplug settings</li>
-    <li>Key Idea: Treat the radio like a mini lab — small changes in antennas, orientation, and settings are your experimental variables.</li>
+### Summary ###
+   **Goal:** Model theortical Tx / Rx capabilties of current 2m/70cm set up and compare to real world data. This will help set a bench mark for further reception improvements, assist in operational reliability, and as a basis for comparison for unusual environmental events such as trophsperic propogation.
+  **Result:** 
+  **Tools**
   </ul>
 </div>
 
