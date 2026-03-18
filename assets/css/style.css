@@ -70,6 +70,10 @@ Layout: Container
   min-height: calc(100vh - 60px);
 }
 
+
+/* ----------------------------
+Layout: Sidebar Navigation
+---------------------------- */
 /* Sidebar */
 .sidebar {
   display: flex;
@@ -90,6 +94,22 @@ Layout: Container
 .sidebar a:hover {
   color: #58a6ff;
   text-decoration: underline;
+}
+
+.collapsible-section {
+  display: none; /* hidden by default */
+  padding-left: 15px;
+}
+
+.page-toggle:checked ~ .sidebar .collapsible-section {
+  display: block; /* show when checked */
+}
+
+.collapsible-label {
+  cursor: pointer;
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
 }
 
 /* ----------------------------
