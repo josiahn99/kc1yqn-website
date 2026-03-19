@@ -23,10 +23,10 @@ Top Header
   justify-content: space-between;
   padding: 5px 16px;
   min-height: 70px;
-  background: #f1f1f1;       /* lighter header */
+  background: #fefefe;
   top: 0;
   z-index: 1000;
-  border-bottom: 1px solid #c5c7cc; /* lighter border */
+  border-bottom: 1px solid #c5c7cc;
   box-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
 
