@@ -260,10 +260,4 @@ Mobile Styles
   .main {
     padding: 24px;
   }
-
-  .sidebar {
-  display: flex;
-  padding: 32px 24px;
-  flex-direction: column;
-  }
 }
