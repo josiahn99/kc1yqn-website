@@ -20,13 +20,31 @@ d = 1.23( sqrt(h1) + sqrt(h2))
 
 Where d is in miles, h1 and h2 are in feet. 
 
-(I like this summary at [continuouswave.com] (https://continuouswave.com/radio/radioHorizon.html) for explaining how this is derived). 
+(I like this summary at (continuouswave.com) [https://continuouswave.com/radio/radioHorizon.html]for explaining how this is derived). 
 
 From a second floor window, I have about 23 feet of height from the top of my slim jim antenna. Plugging this into the formula, you get about a circle with radius 5.9 miles. Not bad, but also not great. Not enough to reach any wide area repeaters. I was certainly concerned I wouldn't be able to transmit or receive much of anything. This is a large reason I went into buying my first HT with meager expectations and hedged my bets by buying a DMR capable radio with a DMR hotspot. 
 
-### Observations
+### Data Collection
 
-As it turns out, 
+At this point, I am forming a baseline with stations I can receive, as this is easier to accomplish. 
+
+For transmission, there is the obvious question of whether a "monitoring" call out to a repeater is being heard clearly or if no one is listening or wanting to answer. Nets where viable are the way around this. 
+
+### Results
+
+As it turns out, I can hear much further than 6 miles away. As the map below shows, I can reach up to 40 miles away for the W1BIM repeater. Obviously this repeater being perched on top of a ___ mountain makes quite the difference! Using the line of site equation for this one, estimating a ground elevation of 1370 feet, plus a repeater height of 100 feet, we get:
+
+d = 1.23(sqrt(1370+100) + sqrt(157+23))
+
+= 63.6 miles. Well within range! 
+
+Similarly for the more modestly situated 460 foot elevation W1BRI repeater in Hopkinton, MA run by the (Minuteman Repeater Association) [https://mmra.org/], the calculation is 
+
+d = 1.23(sqrt(1370+100) + sqrt(157+23))
+
+The key is that being above the earth at all, even if only a few hundred feet, makes a very large difference. This speaks to the value of understanding how equations are derived rather than just plugging in numbers to a formula. In this case, expanding the triangle is a huge factor. 
+
+Initially I didn't consider topogrpahy at all. 
 
 ### Next Steps
 
