@@ -50,6 +50,8 @@ The key is that being above the earth at all, even if only a few hundred feet, m
 
 The key thing here is that even removing the aided ability from a repeater much higher up, my base elevation was not 23 feet - it was ground elevation of 157 + 23 feet. Making my line of sight radius: 16.5 miles! This seems like an obvious point now that I've thought it through, but shows the value of thinking things through.  
 
+if(1.23*("elevation1"*3.28084) ^ 0.5+13.41>HubDist,1,0)
+
 ### Next Steps
 
 Now that I have inputted repeaters and topographical data into QGIS, there is an opportunity for a lot more analysis to align observations with theory. The envelope on how far I can receive is much greater than initially expected, but there is still room to investigate exactly exactly how far I can reach. There isn't generally accurate data on repeater heights, but I can do rough estimates, and use topographical data to fill in the blanks. Eventually, I'd also like to incorporate freznel zones into the analysis and use the python package [pycraf] (https://github.com/bwinkel/pycraf), that incorporate the Longley-Rice / ITM propagation model. 
