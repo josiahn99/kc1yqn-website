@@ -5,124 +5,82 @@ title: Learning Plan
 
 # RF Roadmap
 
-## Motivation
+## Purpose
 
-My childhood curiosity about how the universe works has returned strongly, sparked by reading Remembrance of Earth’s Past by Liu Cixin and listening to the Daniel and Kelly's Extraordinary Universe podcast.
+My childhood curiosity about how the universe works returned strongly in 2025. Primarily, it was sparked by reading Remembrance of Earth’s Past by Liu Cixin and listening to the Daniel and Kelly's Extraordinary Universe podcast. Both include the theme of theoritcal and applied physics being critical to civilizational progress and understanding of reality. Now, as someone who has chosen a social science route since college, I'm not about to go make particle physics breakthroughs at CERN. Amateur radio provides a unique way to learn more about physics in a hands-on way.
 
-Amateur radio provides a unique way to interact directly with electromagnetic phenomena rather than only reading about them.
+The goal is to better understand physics by building a solid foundation in RF communication and theory.
 
-The goal is to build a solid foundation in RF and approach amateur radio like a laboratory — measuring, tweaking, and learning from each experiment.
+## Initial Strategy
 
-This roadmap is organized around three interrelated areas:
+I'm structuring my learning in 2026 around getting a strong handle on the General and Amateur Extra exam material. My goal is to be able to provide an explanation, at least on a high level, for any of the questions on the pool.  while also starting small experiments.
 
-* Operating & Experimenting  
-* Theory  
-* Related Technical Interests  
+I struggle with the learning curve around this and how aggressively to tackle different topics. I want to build on my high school calculus to eventually understand some deeper aspects like the Wave Equation or Maxwell's equations. But that's going to require some linear algebra, multivariable, and vector calculus - an ambitious goal for a part-time hobby, so I'm trying not to commit hard to that yet. 
 
-Each section supports the others and makes progress measurable.
+I also don't want to get so bogged down on theory that I ignore actual operating or real-world experimenting, and so I've identified cicruit and antenna experiments to ensure that I become proficient at operating and building. 
 
----
+### Measurable outcomes (2026)
 
-## Initial Objective
+* Pass the General and Amateur Extra exams, having a high-level explanation for any question
+* Build and operate a basic HF station, and use it as a lab for observation, experimentation, and analysis
+* Complete and document at least 5 RF circuit / antenna experiments
 
-The first milestone is to get a strong handle on the General and Amateur Extra exam material while also starting small experiments.
-
-Measurable outcomes (6 months):
-
-* Pass the General and Amateur Extra exams  
-* Build and operate a basic HF station  
-* Complete and document at least 5 RF experiments with notes, graphs, or photos  
-
-After this, the plan will evolve toward more advanced experiments and deeper math, including concepts from Maxwell’s electromagnetic theory.
+After this, the plan will evolve. If I still want to get deeper into the theory and weeds after the Extra exam, I'll go further into undergraduate electromagnetics coursework. It sounds like a good idea on paper, but... yeah, let's see how it turns out. 
 
 ---
 
-## Operating & Experimentation
+## Antenna Experiments
 
-This is where the “hands-on lab” happens. Every transmission, antenna test, or codeplug tweak is a small experiment if treated that way.
+Building on what I've learned about antenna theory and use so far of pre-made antennas (2m/70cm signal stick and slim jim), construct the following:
 
-### Antenna Experiments
-
-Focus on antennas that can be adjusted and measured easily. Within the first year:
-
-1. 20 m dipole  
-   - Measure resonance and impedance with NanoVNA-H4  
-   - Adjust length and log resonance shifts  
-   - Record SWR bandwidth at different heights  
-
-2. End-fed half-wave  
-   - Compare feedpoint impedance and bandwidth with dipole  
-   - Observe differences in received signal quality
-     
+1. 20m / 40m dipole  
+2. End-fed half-wave
 3. 2m Yagi
-   - Measure directional gain and front-to-back ratio
-   - Test reception and transmission on local VHF repeaters
-   - Log differences between horizontal and vertical polarization
-   - Evaluate effects of mounting height and orientation
-    
-4. Height and location tests  
-   - Compare performance at 10 ft, 20 ft, 30 ft  
-   - Try near windows, indoors vs. outdoors, different floors  
 
-5. Performance tracking  
-   - Collect signal reports using FT8 and PSK Reporter  
-   - Analyze how antenna type, height, and orientation influence reception  
+For each of these antennas, measure, record, and compare:
+Resonance, impedance, SWR
+Signal reception and propogation quality 
+Effects of height and orientation
 
-Deliverables: log at least 5 antenna experiments with graphs or notes comparing results.
+A combination of my RTL-SDR, Anytone-878, and a HF radio to be purchased will be utilized with these antennas. 
 
 ---
 
-### Circuit Experiments
+## Circuit Experiments
 
-Breadboard circuits are an opportunity to see basic electrical theory and RF in action. Within 12 months:
+Breadboard and PCB circuits are an opportunity to see basic electrical theory and RF in action. For now, I'm working on complementing the knowledge needed for the General and Amateur Extra exams through Advanced Radio Theory Handbook by Ron Bertrand, and [Electronics Tutorials](https://www.electronics-tutorials.ws/), with a focus on amplifier and oscillating circuits. 
 
-* Build three circuits such as:  
-  - LC band-pass filter  
-  - Simple RF oscillator  
-  - Audio or RF amplifier  
+Circuits I plan to build include: 
 
-* Measure and record:  
+   - Class A amplifier
+   - LC band-pass filter  
+   - Simple RF oscillator
+   - Audio or RF amplifier
+
+Data to be recorded, where appropriate, includes: 
   - Frequency response  
   - Signal amplitude  
   - Filter bandwidth  
 
-Reference: [Electronics Tutorials](https://www.electronics-tutorials.ws/)  
+I will also be reviewing QST Magazine and On the Air Magazine for ideas to improve my basic building abilities. 
 
-Every circuit should include a mini lab report: what was built, how I measured it, and what I observed.
+### HF Station Experiments
 
----
-
-### Propagation & Operating Experiments
-
-Operating isn’t just talking — it’s collecting RF data:
-
-* Log at least 100 contacts, but treat them as data points: signal strength, time, mode, and band.  
-* Run three structured propagation tests using FT8 to track path conditions.  
-* Record SNR, signal clarity, and how antennas and location affect results.  
-
-The goal is to learn patterns, not just accumulate contacts.
-
----
-
-### Experimental Station Development
-
-The goal here is to set up a small HF station - likely an Icom IC-7300 - that will function as the center of experimentation. Within 12 months:
+I plan to establish a small HF station - likely an Icom IC-7300 - that will function as the center of experimentation.
 
 * Modular antenna switching  
 * Measurement instrumentation for impedance, SWR, and signals  
-* Digital logging of QSOs, propagation, and experiment notes  
+* Digital logging of QSOs, propagation, and experiment notes
 
----
+This website will function as a lab notebook documenting experiments, measurements, and observations.
+
+I have a strong interest in the ability of modern radios to interact so efficiently with computers. My set up will emphasize this relationshipo, with Raspberry Pi (or similar) to be used for station control, SDR interfaces, data collection. I will build upon my existing knowledge of Python and SQL to analyze measurements and visualize results, using libraries such as Pandas and Matplotlib.  
+
+Another interest of mine is Geographic Information Systems, and would ultimately like to combine that into the fold through QGIS and PyQGIS.
 
 ## Theory
 
-I want to understand the theoretical framework behind the experiments and operating activities described above.
-
-Resources:
-
-* Advanced Radio Theory Handbook by Ron Bertrand  
-* Later: ARRL Antenna Book  
-* Eventually: Introduction to Electrodynamics  
+I want to understand the theoretical framework behind the experiments and operating activities described above. As indicated above, I'm starting this off with Advanced Radio Theory Handbook by Ron Bertrand. After this, I'm planning on reviewing the ARRL Antenna Book. If I ultimately do decide to puruse a more math intensive, deeper understanding approach, I would then focus on brushing off and extending my high school calculus, eventually diving into Introduction to Electrodynamics. WIth that in mind, the timeframe might look something like this:
 
 ### Year 1
    - Ohm’s law
@@ -145,29 +103,13 @@ Resources:
 
 ---
 
-## Instrumentation & Analysis
-
-This website will function as a lab notebook documenting experiments, measurements, and observations.
-
-Raspberry Pi systems will be used for station control, SDR interfaces, and data collection. Python will be used to analyze measurements and visualize results using libraries such as Pandas and Matplotlib. 
-
-Goal: publish at least 5 experiments or notes within the first year, each with observations, graphs, and conclusions.
-
----
-
 ## Equipment
 
 Measurement tools: 
 
 * Breadboard & components  
 * Signal generator / oscillator for circuit testing
-* Raspberry Pi  
-* USB SDR receiver for spectral observation  
+* Raspberry Pis (3/4)  
+* RTL-SDR receiver  
 * AnyTone AT-D878UVII Plus
-* Python analysis of signal reports
-
-Planned Purchases:
-
 * HF radio and accessories (likely the Icom IC-7300)  
-
-
