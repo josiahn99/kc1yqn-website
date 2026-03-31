@@ -24,7 +24,7 @@ This write-up documents how that gap between expectation and reality led me to r
 A common starting point for VHF/UHF propagation is the radio horizon formula:
 
 
-d = 1.23 (√h₁ + √h₂)
+`d = 1.23 (√h₁ + √h₂)`
 
 
 Where:  
@@ -34,13 +34,13 @@ Where:
 Initially, I simplified this too much and only considered my own antenna height:
 
 
-d ≈ 1.23 √h
+`d ≈ 1.23 √h`
 
 
 From a second-floor window (~23 ft), this gave:
 
 
-d ≈ 5.9 miles
+`d ≈ 5.9 miles`
 
 
 That suggested very limited range—likely not enough to reach wide-area repeaters.
