@@ -25,7 +25,7 @@ This write-up documents how that gap between expectation and reality led me to r
 
 ---
 
-## Initial Expectation and Model
+### Initial Model and Observations
 
 A common starting point for VHF/UHF propagation is the radio horizon formula:
 
@@ -47,16 +47,14 @@ From a second-floor window (~23 ft), this gave:
 
 That suggested very limited range—likely not enough to reach wide-area repeaters.
 
----
-
-## Initial Observations and Refining the Model 
-
+### Initial Observations
 I bought my radio and excitedly programmed it with ~100 of the closest repeaters. In practice, I was able to hear signals from Boston, Providence, and Worcester—far beyond the ~6 miles predicted. There were stations 20, 30, or even 40 miles carrying nets that far exceeded what I had hoped!
 
 Even using a modest upgraded handheld antenna (Signal Stick), this result didn’t make sense. Terrain, buildings, and trees should have reduced range further, not increased it.
 
 This was great news, but clearly something was missing. 
 
+### Refining the Model
 As it turns out, that quick initial google search was leaving out some critical variables:
 
 **1. Transmitter Height Matters**
@@ -79,9 +77,7 @@ My effective height became:
 
 This alone increased my radio horizon significantly.
 
----
-
-## Method
+### Spatial Analysis
 
 To better understand coverage and take into account everything involved in the line-of-sight calculations, I built a simple model using:
 
@@ -103,20 +99,18 @@ I then compared this predicted range against actual distance.
 
 This produced a simple classification of whether the station should be reachable or out of range.
 
-### Examples
+**Examples**
 
-**1. W1BIM (Paxton, MA)**
+1. W1BIM (Paxton, MA)
 
 - Distance: ~40 miles  
 - Elevation: ~1370 ft + ~100 ft tower  
 
-
 `d ≈ 1.23 (√1470 + √180) ≈ 63.6 miles`
-
 
 This explains why the repeater is consistently receivable.
 
-**W1BRI (Hopkinton, MA)**
+2. W1BRI (Hopkinton, MA)
 
 - Elevation: ~460 ft + ~100 ft tower  
 
@@ -126,7 +120,7 @@ Again, well within range.
 
 ---
 
-## Results
+### Results
 
 The map below compares line-of-sight predictions to actual observations.
 
@@ -135,7 +129,7 @@ The map below compares line-of-sight predictions to actual observations.
 **TODO:** ~X% of repeaters predicted to be within range were actually observed.
 ---
 
-## Limitations
+### Limitations
 
 This model is intentionally simplified and has several limitations:
 
@@ -155,7 +149,7 @@ Additional propagation effects include:
 
 ---
 
-## Next Steps
+### Next Steps
 
 With repeaters and terrain now in QGIS, the next step is refining the model:
 
