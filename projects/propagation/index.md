@@ -7,26 +7,34 @@ title:  Propagation Analysis
 ### Summary
 **Question:** What kind of propogation can I expect, under normal conditions and beyond, for VHF / UHF?  
 
-Even before I bought an HT, a major concern about getting into amateur radio was whether I would be able to hear anything on VHF from my current living situation. In the suburbs, simplex didn't seem like a likely route to making contacts, so it became a question of repeaters. There aren't many repeaters within my 6-mile line-of-sight circle, so my expectations were low. 
+**Goals:** Understand local repeater infrastructure and how VHF / UHF radio waves propogate. 
+Develop a baseline for comparing future antennas and troposcopic ducting.
 
-As it turns out, my initial guess didn't incorporate topopgraphy or repeater height, which play a major role in being able to reach much, much further than expected, which leads to opportunities to conduct further analysis that algin the observations with theory. 
-
-** Key Conclusion **: Ground elevation is part of your antenna height, too. Don't blindly trust the equations. Think about how they are derived.
+Before I bought my first radio, I was concerned I wouldn't hear anything. This was largely a result of a quick google search - even from the 2nd floor of my house, it appeared I would be physically limited to repeaters within a 6 mile radius. I realized later this didn't consider factors like ground elevation and repeater height, and ultimately I've been able to work wide coverage repeaters much further than expected.
 
 ### Initial Expectation - Line of Site Calculations
 
-The first and primary determinant for line of site VHF/UHF communication is based on the curvature of the earth. 
-Derived from the pythagorean theorem, the equation for distance is based on the heights of the transmitting and receiving stations, h1 and h2:
+The first and primary determinant for line-of-site VHF/UHF communication is based on the curvature of the earth. 
+Derived from the pythagorean theorem, the equation for distance is based on the heights of the transmitting station (there's actually a lot more than that, as you'll see further on in this article):
 
-d = 1.23( sqrt(h1) + sqrt(h2))
+d = 1.23 * sqrt(h)
 
-Where d is in miles, h1 and h2 are in feet. 
+Where d is in miles, h is in feet.
 
 (I like this summary at [continuouswave.com](https://continuouswave.com/radio/radioHorizon.html)for explaining how this is derived). 
 
-From a second floor window, I have about 23 feet of height from the top of my slim jim antenna. Plugging this into the formula, you get about a circle with radius 5.9 miles. Not bad, but also not great. Not enough to reach any wide area repeaters. I was certainly concerned I wouldn't be able to transmit or receive much of anything. This is a large reason I went into buying my first HT with meager expectations and hedged my bets by buying a DMR capable radio with a DMR hotspot. 
+From a second floor window, I have about 23 feet of height, and plugging that in, I got a circle with radius 5.9 miles. Not bad, but also not great. Not enough to reach any wide area repeaters. I was certainly concerned I wouldn't be able to transmit or receive much of anything. 
 
-### Data Collection
+### Reality 
+
+I did read early on how the rubber duck antenna that comes with the radio is very meager, so though I wasn't ready to go with a permanent or semi-permanent antenna, I upgraded to a signal stick. 
+
+
+
+
+d = 1.23( sqrt(h1) + sqrt(h2))
+
+### Further Data Collection
 
 At this point, I am forming a baseline with stations I can receive, as this is easier to accomplish. 
 
@@ -54,4 +62,17 @@ if(1.23*("elevation1"*3.28084) ^ 0.5+13.41>HubDist,1,0)
 
 ### Next Steps
 
-Now that I have inputted repeaters and topographical data into QGIS, there is an opportunity for a lot more analysis to align observations with theory. The envelope on how far I can receive is much greater than initially expected, but there is still room to investigate exactly exactly how far I can reach. There isn't generally accurate data on repeater heights, but I can do rough estimates, and use topographical data to fill in the blanks. Eventually, I'd also like to incorporate freznel zones into the analysis and use the python package [pycraf] (https://github.com/bwinkel/pycraf), that incorporate the Longley-Rice / ITM propagation model. 
+Now that I have inputted repeaters and topographical data into QGIS, there is an opportunity for a lot more analysis to align observations with theory. The envelope on how far I can receive is much greater than initially expected, but there is still room to investigate exactly exactly how far I can reach. There isn't generally accurate data on repeater heights, but I can do rough estimates, and use topographical data to fill in the blanks. Eventually, I'd also like to incorporate freznel zones into the analysis and use a Python package such as [pycraf] (https://github.com/bwinkel/pycraf), to incorporate the Longley-Rice / ITM propagation model. 
+
+### Tropo Inversions
+This post on Reddit from a few years ago https://www.reddit.com/r/amateurradio/comments/oumzn4/reverse_engineering_hepburn_propagation_forecast/
+Hepburn propogation forcast and the anomlous ARPS signals 
+
+## Lessons Learned
+The moral of the story here is, whenever possible, go beyond blindly following equations and think about what they mean. 
+However, it's also a perfect example of how many levels there are to amateur radio and why I'm so glad I fell into this hobby. 
+
+None of these is better than any other. It's like a giant puzzle with a bunch of smaller puzzles, you can stop at any time you feel comfortable and feel good about what you're doing. But the option is always there to go deeper. 
+
+from ITU-R P.834-4 
+Ducts exist whenever the vertical refractivity gradient at a given height and location is less than−157 N/km.The existence of ducts is important because they can give rise to anomalous radiowave propagation,particularly on terrestrial or very low angle Earth-space links. Ducts provide a mechanism forradiowave signals of sufficiently high frequencies to propagate far beyond their normal line-of-sightrange, giving rise to potential interference with other services (see Recommendation ITU-R P.452).They also play an important role in the occurrence of multipath interference (see RecommendationITU-R P.530) although they are neither necessary nor sufficient for multipath propagation to occuron any particular link
