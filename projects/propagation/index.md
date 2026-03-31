@@ -10,12 +10,13 @@ title:  Propagation Analysis
 **Goals:** Understand local repeater infrastructure and how VHF / UHF radio waves propogate. 
 Develop a baseline for comparing future antennas and troposcopic ducting.
 
-Before I bought my first radio, I was concerned I wouldn't hear anything. This was largely a result of a quick google search - even from the 2nd floor of my house, it appeared I would be physically limited to repeaters within a 6 mile radius. I realized later this didn't consider factors like ground elevation and repeater height, and ultimately I've been able to work wide coverage repeaters much further than expected.
+Before I bought my first radio, I was concerned I wouldn't hear anything. Initial Google searches seeemed to confirm this. I realized as soon as I started listening that I significantly underestimated my reception and have been able to work wide coverage repeaters much further than expected. 
+
+Below is a summary of my initial thinking, how I've revised my thinking based on observations.  
 
 ### Initial Expectation - Line of Site Calculations
 
-The first and primary determinant for line-of-site VHF/UHF communication is based on the curvature of the earth. 
-Derived from the pythagorean theorem, the equation for distance is based on the heights of the transmitting station (there's actually a lot more than that, as you'll see further on in this article):
+The primary determinant for line-of-site VHF/UHF communication is the earth's curvature. Derived from the pythagorean theorem, the equation for distance is based on the heights of the transmitting station (as I learned, there's more to it):
 
 d = 1.23 * sqrt(h)
 
@@ -29,36 +30,44 @@ From a second floor window, I have about 23 feet of height, and plugging that in
 
 I did read early on how the rubber duck antenna that comes with the radio is very meager, so though I wasn't ready to go with a permanent or semi-permanent antenna, I upgraded to a signal stick. 
 
+Why such better results than expected? If anything, wouldn't trees, houses, and hills get in the way and make my line-of-sight even worse?
 
-
+Diving a bit deeper into the line-of-sight formula and how it's derived (such as [continuouswave.com](https://continuouswave.com/radio/radioHorizon.html)), it turns out there's more to it: 
 
 d = 1.23( sqrt(h1) + sqrt(h2))
 
+With h1 being the receiver height and h2 being the transmitter height. Obviously, if the transmitter happens to be on top of a mountain, it's going to be a lot better. Not only that, h1 and h2 are based on mean elevation above sea level. So, even being relatively near the coast, there can be quite a bump to my h1 (23 feet to ___ feet). 
+
 ### Further Data Collection
+To answer the question of why my signals were carrying much further than expected, I needed data on repeater distance and repeater heights. For this, I used the free, open-source [QGIS] (https://qgis.org/). There were two key datasets: 
 
-At this point, I am forming a baseline with stations I can receive, as this is easier to accomplish. 
+**Ground elevation data** can be accessed through the United States Geological Survey.
 
-For transmission, there is the obvious question of whether a "monitoring" call out to a repeater is being heard clearly or if no one is listening or wanting to answer. Nets where viable are the way around this. 
+**Repeater locations** can be downloaded from [repeaterbook.com](www.repeaterbook.com) as a .csv file with lat/long data. Unfortunately, actual antenna heights are not well tracked, so this provides nothing about the elevation. To supplement this data gap, I used USGS elevation data and added a modest __ feet to account for an average tower height. 
 
 ### Results
 
-As it turns out, I can hear much further than 6 miles away. As the map below shows, I can reach up to 40 miles away for the W1BIM repeater. Obviously this repeater being perched on top of a ___ mountain makes quite the difference! Using the line of site equation for this one, estimating a ground elevation of 1370 feet, plus a repeater height of 100 feet, we get:
+As the map below shows, I can reach up to 40 miles away for the W1BIM repeater. Obviously this repeater being perched on top of a ___ mountain makes quite the difference. Using the line of site equation for this one, estimating a ground elevation of 1370 feet, plus a repeater height of 100 feet, we get:
 
-d = 1.23(sqrt(1370+100) + sqrt(157+23))
+d = 1.23(sqrt(1370+100) + sqrt(157+23)) 
+= 63.6 miles
 
-= 63.6 miles. Well within range! 
+Well within range! 
 
-Similarly for the more modestly situated 460 foot elevation W1BRI repeater in Hopkinton, MA run by the [Minuteman Repeater Association](https://mmra.org/), the calculation is:
+Similarly for the more modestly situated 460 foot elevation, 100 foot tower W1BRI repeater in Hopkinton, MA run by the [Minuteman Repeater Association](https://mmra.org/), the calculation is:
 
 d = 1.23(sqrt(460+100) + sqrt(157+23))
 
-= 45 miles! 
+= 45 miles
 
-The key is that being above the earth at all, even if only a few hundred feet, makes a very large difference. This speaks to the value of understanding how equations are derived rather than just plugging in numbers to a formula. In this case, expanding the triangle is a huge factor. 
-
-The key thing here is that even removing the aided ability from a repeater much higher up, my base elevation was not 23 feet - it was ground elevation of 157 + 23 feet. Making my line of sight radius: 16.5 miles! This seems like an obvious point now that I've thought it through, but shows the value of thinking things through.  
+The key thing here is that even removing the aided ability from a repeater much higher up, my base elevation was not 23 feet - it was ground elevation of 157 + 23 feet. Making my line of sight radius: 16.5 miles! This seems like an obvious point now that I've thought it through, but simply didn't occur to me before looking at the ground elevation data. shows the value of thinking things through.  
 
 if(1.23*("elevation1"*3.28084) ^ 0.5+13.41>HubDist,1,0)
+
+### Limitations 
+At this point, I am forming a baseline with stations I can receive, as this is easier to accomplish. 
+
+For transmission, there is the obvious question of whether a "monitoring" call out to a repeater is being heard clearly or if no one is listening or wanting to answer. Nets where viable are the way around this.
 
 ### Next Steps
 
@@ -69,6 +78,8 @@ This post on Reddit from a few years ago https://www.reddit.com/r/amateurradio/c
 Hepburn propogation forcast and the anomlous ARPS signals 
 
 ## Lessons Learned
+
+The key is that being above the earth at all, even if only a few hundred feet, makes a very large difference. This speaks to the value of understanding how equations are derived rather than just plugging in numbers to a formula. In this case, expanding the triangle is a huge factor. 
 The moral of the story here is, whenever possible, go beyond blindly following equations and think about what they mean. 
 However, it's also a perfect example of how many levels there are to amateur radio and why I'm so glad I fell into this hobby. 
 
