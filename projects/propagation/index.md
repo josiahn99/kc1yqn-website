@@ -63,9 +63,7 @@ Clearly, something was missing.
 
 The full equation includes both antennas:
 
-
-d = 1.23 (√h₁ + √h₂)
-
+`d = 1.23 (√h₁ + √h₂)`
 
 Repeaters are often mounted on tall towers or elevated terrain, which dramatically increases range.
 
@@ -113,7 +111,7 @@ Since repeater antenna heights are not consistently available, I estimated a tow
 For each repeater, I calculated whether it should be within line-of-sight range using:
 
 
-d = 1.23 (√h₁ + √h₂)
+`d = 1.23 (√h₁ + √h₂)`
 
 
 Where:  
@@ -136,7 +134,7 @@ This produced a simple classification:
 - Elevation: ~1370 ft + ~100 ft tower  
 
 
-d ≈ 1.23 (√1470 + √180) ≈ 63.6 miles
+`d ≈ 1.23 (√1470 + √180) ≈ 63.6 miles`
 
 
 This explains why the repeater is consistently receivable.
@@ -148,7 +146,7 @@ This explains why the repeater is consistently receivable.
 - Elevation: ~460 ft + ~100 ft tower  
 
 
-d ≈ 1.23 (√560 + √180) ≈ 45 miles
+`d ≈ 1.23 (√560 + √180) ≈ 45 miles`
 
 
 Again, well within range.
