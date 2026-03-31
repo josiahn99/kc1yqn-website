@@ -49,9 +49,9 @@ That suggested very limited range—likely not enough to reach wide-area repeate
 
 ## Reality: Much Greater Range
 
-In practice, I was able to receive signals from Boston, Providence, and Worcester—far beyond the ~6 miles predicted.
+I created a codeplug with ~100 of the closest repeaters to see how far I could receive. In practice, I was able to hear signals from Boston, Providence, and Worcester—far beyond the ~6 miles predicted.
 
-Even using a modest upgraded handheld antenna (Signal Stick), this result didn’t make sense if the model were complete. Terrain, buildings, and trees should have reduced range further, not increased it.
+Even using a modest upgraded handheld antenna (Signal Stick), this result didn’t make sense. Terrain, buildings, and trees should have reduced range further, not increased it.
 
 Clearly, something was missing.
 
@@ -67,7 +67,7 @@ The full equation includes both antennas:
 d = 1.23 (√h₁ + √h₂)
 
 
-Repeaters are often mounted on tall towers or elevated terrain. That dramatically increases range.
+Repeaters are often mounted on tall towers or elevated terrain, which dramatically increases range.
 
 ### 2. Elevation Above Sea Level
 
@@ -85,15 +85,14 @@ This alone increased my radio horizon significantly.
 
 ## Why Reality Still Exceeds the Model
 
-Even after correcting for elevation, observed reception still exceeded predictions. This indicates additional propagation effects:
+Even after correcting for elevation, observed reception still exceeds line-of-sight predictions. This indicates additional propagation effects:
 
-- **Atmospheric refraction** extends the radio horizon beyond geometric line-of-sight  
-- **Diffraction** allows signals to bend over terrain  
-- **Fresnel zone clearance** enables signals even without perfect visibility  
-- **High repeater placement and power** improve coverage  
-- **Receiver sensitivity** allows detection of weak signals  
+- Atmospheric refraction extends the radio horizon  
+- Diffraction allows signals to bend over terrain  
+- Partial Fresnel zone clearance can still support usable signals  
+- Repeater placement and power improve coverage  
 
-The line-of-sight equation should be treated as a **baseline**, not a hard limit.
+The line-of-sight equation should be treated as a baseline, not a hard limit.
 
 ---
 
@@ -102,10 +101,10 @@ The line-of-sight equation should be treated as a **baseline**, not a hard limit
 To better understand coverage, I built a simple model using:
 
 - **USGS elevation data** for terrain  
-- Repeater data from RepeaterBook (latitude/longitude)  
+- **Repeater data** from RepeaterBook (latitude/longitude)  
 - **QGIS** for spatial analysis  
 
-Since repeater antenna heights are not consistently available, I estimated tower height (~100 ft) and combined it with ground elevation.
+Since repeater antenna heights are not consistently available, I estimated a tower height (~100 ft) and combined it with ground elevation.
 
 ---
 
@@ -140,7 +139,7 @@ This produced a simple classification:
 d ≈ 1.23 (√1470 + √180) ≈ 63.6 miles
 
 
-This comfortably explains why the repeater is consistently receivable.
+This explains why the repeater is consistently receivable.
 
 ---
 
@@ -156,14 +155,6 @@ Again, well within range.
 
 ---
 
-## Key Insight
-
-The most important realization was that my “23 ft antenna height” was misleading. My true effective height was closer to ~180 ft when accounting for elevation.
-
-That alone expanded my expected range from ~6 miles to over 15 miles—and much further when combined with repeater height.
-
----
-
 ## Limitations
 
 This model is intentionally simplified and has several limitations:
@@ -171,4 +162,27 @@ This model is intentionally simplified and has several limitations:
 - Repeater antenna heights are estimated  
 - Terrain resolution is limited by dataset granularity  
 - Buildings and vegetation are not included  
-- Differences between 2m and 70cm are ignored 
+- Differences between 2m and 70cm are ignored  
+
+---
+
+## Next Steps
+
+With repeaters and terrain now in QGIS, the next step is refining the model:
+
+- Incorporate **Fresnel zone analysis**
+- Use **Longley-Rice (ITM)** via tools like [pycraf](https://github.com/bwinkel/pycraf)  
+- Compare predicted vs observed reception  
+- Analyze **tropospheric ducting** events  
+
+While repeater height data is limited, rough estimates combined with terrain data should allow for increasingly accurate modeling.
+
+---
+
+## Lessons Learned
+
+This process reinforced the value of understanding how equations are derived rather than simply applying them. Expanding the model to include both antenna heights and elevation dramatically changed the expected results.
+
+More importantly, it showed that formulas are only a starting point. Real-world propagation is shaped by multiple interacting effects, and observation is essential to refining theory.
+
+Amateur radio offers the ability to explore this at any level—from basic operation to detailed modeling—and the depth is always there for those who want to go further.
