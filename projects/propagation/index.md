@@ -25,7 +25,7 @@ This write-up documents how that gap between expectation and reality led me to r
 
 ---
 
-### Initial Model and Observations
+### Initial Model
 
 A common starting point for VHF/UHF propagation is the radio horizon formula:
 
