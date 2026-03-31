@@ -110,6 +110,7 @@ This produced a simple classification of whether the station should be reachable
 
 This explains why the repeater is consistently receivable.
 
+
 2. W1BRI (Hopkinton, MA)
 
 - Elevation: ~460 ft + ~100 ft tower  
@@ -127,6 +128,7 @@ The map below compares line-of-sight predictions to actual observations.
 **TODO:** Insert map image
 
 **TODO:** ~X% of repeaters predicted to be within range were actually observed.
+
 ---
 
 ### Limitations
