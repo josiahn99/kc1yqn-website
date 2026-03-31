@@ -124,11 +124,9 @@ This produced a simple classification:
 - **1** = predicted reachable  
 - **0** = predicted out of range  
 
----
+### Examples
 
-## Examples
-
-### W1BIM (Paxton, MA)
+**1. W1BIM (Paxton, MA)**
 
 - Distance: ~40 miles  
 - Elevation: ~1370 ft + ~100 ft tower  
@@ -139,9 +137,7 @@ This produced a simple classification:
 
 This explains why the repeater is consistently receivable.
 
----
-
-### W1BRI (Hopkinton, MA)
+**W1BRI (Hopkinton, MA)**
 
 - Elevation: ~460 ft + ~100 ft tower  
 
