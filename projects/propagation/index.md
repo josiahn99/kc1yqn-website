@@ -4,92 +4,171 @@ title:  Propagation Analysis
 ---
 # VHF / UHF Propagation Analysis
 
-### Summary
-**Question:** What kind of propogation can I expect, under normal conditions and beyond, for VHF / UHF?  
+## Summary
 
-**Goals:** Understand local repeater infrastructure and how VHF / UHF radio waves propogate. 
-Develop a baseline for comparing future antennas and troposcopic ducting.
+**Question:** What kind of propagation can I expect for VHF/UHF under normal conditions and beyond?
 
-Before I bought my first radio, I was concerned I wouldn't hear anything. Initial Google searches seeemed to confirm this. I realized as soon as I started listening that I significantly underestimated my reception and have been able to work wide coverage repeaters much further than expected. 
+**Goals:**  
+- Understand local repeater infrastructure  
+- Build a realistic baseline for VHF/UHF range  
+- Create a framework for comparing antennas and tropospheric propagation  
 
-Below is a summary of my initial thinking, how I've revised my thinking based on observations.  
+Before I bought my first radio, I expected I wouldn’t hear much of anything. Initial research seemed to confirm that assumption. In practice, I found the opposite—I was able to receive and work repeaters far beyond what I thought was possible.
 
-### Initial Expectation - Line of Site Calculations
+This write-up documents how that gap between expectation and reality led me to refine my understanding of propagation.
 
-The primary determinant for line-of-site VHF/UHF communication is the earth's curvature. Derived from the pythagorean theorem, the equation for distance is based on the heights of the transmitting station (as I learned, there's more to it):
+---
 
-d = 1.23 * sqrt(h)
+## Initial Expectation: Line-of-Sight
 
-Where d is in miles, h is in feet.
+A common starting point for VHF/UHF propagation is the radio horizon formula:
 
-From a second floor window, I have about 23 feet of height, and plugging that in, I got a circle with radius 5.9 miles. Not bad, but also not great. Not enough to reach any wide area repeaters. I was certainly concerned I wouldn't be able to transmit or receive much of anything. 
 
-### Reality 
+d = 1.23 (√h₁ + √h₂)
 
-I did read early on how the rubber duck antenna that comes with the radio is very meager, so though I wasn't ready to go with a permanent or semi-permanent antenna, I upgraded to a [signal stick] (https://signalstuff.com). However, even with this, I shouldn't be able to magically see over the edge of the earth. 
 
-I created a codeplug that had 100 or so of the closest repeaters to me, just to see exactly how far I could receive. Surprisingly, doing a scan through this list of stations I was able to hear quite a bit! Signals from Boston, Providence, and Worcester! Much beyond the 6 miles I had expected. While mostly ?I just heard wide coverage repeaters, I heard a few more local nets and Skywarn nets during a large snowstorm it wasn't just a fluke that I was able to hear quite a bit further in every direction. 
+Where:  
+- *d* = distance in miles  
+- *h₁, h₂* = antenna heights in feet  
 
-Why such better results than expected? If anything, wouldn't trees, houses, and hills get in the way and make my line-of-sight even worse?
+Initially, I simplified this too much and only considered my own antenna height:
 
-Diving a bit deeper into the line-of-sight formula and how it's derived (such as [continuouswave.com](https://continuouswave.com/radio/radioHorizon.html)), it turned out I was missing a key item: 
 
-d = 1.23( sqrt(h1) + sqrt(h2))
+d ≈ 1.23 √h
 
-Where d is in miles, h1 is the receiver height in feet h2 is the transmitter height in feet. 
 
-Obviously, if the transmitter happens to be on top of a mountain, it's going to reach a lot further, or if my station is higher up than somewhere closer to the coast, that's going to help too. Not only that, h1 and h2 are based on mean elevation above sea level. This bumps my 23 feet to ___ or so.
+From a second-floor window (~23 ft), this gave:
 
-### Further Data Collection
-A more complete answer for why my signal was carrying much further than expected was going to need to be able to fill in all the variables of the line-of-sight equation. Specifically, I needed two datasets:
 
-**Ground elevation data** can be accessed through the United States Geological Survey.
+d ≈ 5.9 miles
 
-**Repeater locations** can be downloaded from [repeaterbook.com](www.repeaterbook.com) as a .csv file with lat/long data. Unfortunately, actual antenna heights are not well tracked, so this provides nothing about the elevation. To supplement this data gap, I used USGS elevation data and added a modest __ feet to account for an average tower height. 
 
-For this, I used the free, open-source [QGIS] (https://qgis.org/).
+That suggested very limited range—likely not enough to reach wide-area repeaters.
 
-### Results
+---
 
-I used these datasets to calculate a column in QGIS that will be 1 if the repeater should be within range, or 0 if too far away. The formula being: 
+## Reality: Much Greater Range
 
-if(1.23*("elevation1"*3.28) ^ 0.5 + 13.41 > distance, 1, 0)
+In practice, I was able to receive signals from Boston, Providence, and Worcester—far beyond the ~6 miles predicted.
 
-The map below shows a summary of my results, with distances and heights for key repeaters I've reached. 
+Even using a modest upgraded handheld antenna (Signal Stick), this result didn’t make sense if the model were complete. Terrain, buildings, and trees should have reduced range further, not increased it.
 
-A couple examples: 
+Clearly, something was missing.
 
-The W1BIM repeater in Paxton, MA is about 40 miles away, perched on top of ___ . Using the line of site equation for this one, estimating a ground elevation of 1370 feet, plus a repeater height of 100 feet, we get:
+---
 
-d = 1.23(sqrt(1370+100) + sqrt(157+23)) 
-= 63.6 miles
+## Refining the Model
 
-Well within range! 
+### 1. Transmitter Height Matters
 
-The [W1BRI repeater](https://mmra.org) in Hopkinton, MA is at about a 460 foot elevation, with a 100 foot tower, so the calculation is:
+The full equation includes both antennas:
 
-d = 1.23(sqrt(460+100) + sqrt(157+23))
-= 45 miles
 
-The key thing here is that even removing the aided ability from a repeater much higher up, my base elevation was not 23 feet - it was ground elevation of 157 + 23 feet. Making my line of sight radius: 16.5 miles! This seems like an obvious point now that I've thought it through, but simply didn't occur to me before looking at the ground elevation data. shows the value of thinking things through.  
+d = 1.23 (√h₁ + √h₂)
 
-### Limitations 
-At this point, I am forming a baseline with stations I can receive, as this is easier to accomplish. 
 
-For transmission, there is the obvious question of whether a "monitoring" call out to a repeater is being heard clearly or if no one is listening or wanting to answer. Nets where viable are the way around this.
+Repeaters are often mounted on tall towers or elevated terrain. That dramatically increases range.
 
-### Next Steps
+### 2. Elevation Above Sea Level
 
-Now that I have inputted repeaters and topographical data into QGIS, there is an opportunity for a lot more analysis to align observations with theory. The envelope on how far I can receive is much greater than initially expected, but there is still room to investigate exactly exactly how far I can reach. There isn't generally accurate data on repeater heights, but I can do rough estimates, and use topographical data to fill in the blanks. Eventually, I'd also like to incorporate freznel zones into the analysis and use a Python package such as [pycraf] (https://github.com/bwinkel/pycraf), to incorporate the Longley-Rice / ITM propagation model. 
+A key realization was that antenna height is measured relative to mean sea level, not just height above ground.
 
-I would also like to be able to use this baseline analysis to compare results from topospheric propogation. This [post on Reddit] (https://www.reddit.com/r/amateurradio/comments/oumzn4/reverse_engineering_hepburn_propagation_forecast/) from a few years ago speaks to two existing resources for studying tropo propogation that will be useful as well.  
+My effective height became:
 
-## Lessons Learned
+- Ground elevation: ~157 ft  
+- Antenna height: ~23 ft  
+- Total: ~180 ft  
 
-The key is that being above the earth at all, even if only a few hundred feet, makes a very large difference. This speaks to the value of understanding how equations are derived rather than just plugging in numbers to a formula. In this case, expanding the triangle is a huge factor.
+This alone increased my radio horizon significantly.
 
-The moral of the story here is, whenever possible, go beyond blindly following equations and think about what they mean. 
+---
 
-However, it's also a perfect example of how many levels there are to amateur radio and why I'm so glad I fell into this hobby. 
+## Why Reality Still Exceeds the Model
 
-None of these is better than any other. It's like a giant puzzle with a bunch of smaller puzzles, you can stop at any time you feel comfortable and feel good about what you're doing. But the option is always there to go deeper. 
+Even after correcting for elevation, observed reception still exceeded predictions. This indicates additional propagation effects:
+
+- **Atmospheric refraction** extends the radio horizon beyond geometric line-of-sight  
+- **Diffraction** allows signals to bend over terrain  
+- **Fresnel zone clearance** enables signals even without perfect visibility  
+- **High repeater placement and power** improve coverage  
+- **Receiver sensitivity** allows detection of weak signals  
+
+The line-of-sight equation should be treated as a **baseline**, not a hard limit.
+
+---
+
+## Data-Driven Approach
+
+To better understand coverage, I built a simple model using:
+
+- **USGS elevation data** for terrain  
+- Repeater data from RepeaterBook (latitude/longitude)  
+- **QGIS** for spatial analysis  
+
+Since repeater antenna heights are not consistently available, I estimated tower height (~100 ft) and combined it with ground elevation.
+
+---
+
+## Method
+
+For each repeater, I calculated whether it should be within line-of-sight range using:
+
+
+d = 1.23 (√h₁ + √h₂)
+
+
+Where:  
+- *h₁* = my elevation + antenna height  
+- *h₂* = repeater elevation + estimated tower height  
+
+I then compared this predicted range against actual distance.
+
+This produced a simple classification:
+- **1** = predicted reachable  
+- **0** = predicted out of range  
+
+---
+
+## Examples
+
+### W1BIM (Paxton, MA)
+
+- Distance: ~40 miles  
+- Elevation: ~1370 ft + ~100 ft tower  
+
+
+d ≈ 1.23 (√1470 + √180) ≈ 63.6 miles
+
+
+This comfortably explains why the repeater is consistently receivable.
+
+---
+
+### W1BRI (Hopkinton, MA)
+
+- Elevation: ~460 ft + ~100 ft tower  
+
+
+d ≈ 1.23 (√560 + √180) ≈ 45 miles
+
+
+Again, well within range.
+
+---
+
+## Key Insight
+
+The most important realization was that my “23 ft antenna height” was misleading. My true effective height was closer to ~180 ft when accounting for elevation.
+
+That alone expanded my expected range from ~6 miles to over 15 miles—and much further when combined with repeater height.
+
+---
+
+## Limitations
+
+This model is intentionally simplified and has several limitations:
+
+- Repeater antenna heights are estimated  
+- Terrain resolution is limited by dataset granularity  
+- Buildings and vegetation are not included  
+- Differences between 2m and 70cm are ignored 
