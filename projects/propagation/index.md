@@ -4,8 +4,6 @@ title:  Propagation Analysis
 ---
 # VHF / UHF Propagation Analysis
 
-## Summary
-
 **Question:** What kind of propagation can I expect for VHF/UHF under normal conditions and beyond?
 
 **Goals:**  
@@ -13,6 +11,7 @@ title:  Propagation Analysis
 - Build a realistic baseline for VHF/UHF range  
 - Create a framework for comparing antennas and tropospheric propagation  
 
+**Summary**
 Before I bought my first radio, I expected I wouldn’t hear much of anything. Initial research seemed to confirm that assumption. In practice, I found the opposite—I was able to receive and work repeaters far beyond what I thought was possible.
 
 This process reinforced the value of understanding how equations are derived rather than simply applying them. Expanding the model to include both antenna heights and elevation dramatically changed the expected results.
