@@ -12,20 +12,18 @@ What kind of propagation can I expect for VHF/UHF under normal conditions and be
 - Build a realistic baseline for VHF/UHF range  
 - Create a framework for comparing antennas and tropospheric propagation  
 
-### Summary
-Before I bought my first radio, I expected I wouldn’t hear much of anything. Initial research seemed to confirm that assumption. In practice, I found the opposite—I was able to receive and work repeaters far beyond what I thought was possible.
+### Background
+Before I bought my first radio, I wondered whether I would hear much of anything on VHF/UHF. Living in suburban Massachusetts, there are quite a few repeaters regionally, but no wide coverage ones are particularly close to me. Quick research on the internet using the Line of Sight (LOS) formula indicated I would have about a 6-mile radius to work with. Not much, so my expections were low. 
 
-This process reinforced the value of understanding how equations are derived rather than simply applying them. Expanding the model to include both antenna heights and elevation dramatically changed the expected results.
+Once I started operating though, I was pleasantly surprised! I was able to receive and work repeaters quite a bit further than I expected. Distances of 20, 30, or even 40 miles were apparently do-able. 
 
-More importantly, it showed that formulas are only a starting point. Real-world propagation is shaped by multiple interacting effects, and observation is essential to refining theory.
+How was this possible, and why was my inital estimate so off? 
 
-Amateur radio offers the ability to explore this at any level—from basic operation to detailed modeling—and the depth is always there for those who want to go further.
-
-This write-up documents how that gap between expectation and reality led me to refine my understanding of propagation.
+This page documents my process to learn the basic principles of VHF wave propogation. I start at a high-level, expanding my initial line of sight analysis, and over time hope to fill in the gaps with other factors. 
 
 ---
 
-### Initial Model
+### Initial Prediction
 
 A common starting point for VHF/UHF propagation is the radio horizon formula:
 
@@ -45,7 +43,16 @@ From a second-floor window (~23 ft), this gave:
 
 `d ≈ 5.9 miles`
 
-That suggested very limited range—likely not enough to reach wide-area repeaters.
+Not great. 
+
+Now, granted I was not taking into consideration the height of the repeater, as I wanted this to be a conservative estimate. Not considering anything else, what would I be able to hear? 
+
+However, if for example we assumed a repeater height of 100 feet and plug that into the equation: 
+
+`d = 1.23 (√23 + √100)
+d ≈ 18.2 miles`
+
+Okay, so a tower height of 100 feet would make a significant difference in my reach. The fact that the height is squared means you only get twice the distance for 4 times the height, but even with that, 100 feet is sngificnat. Still, I wasn't sure of repeater heights in my area. Repeaterbook.com unfortunately does not include height data, so it's a matter of trying to piece what you can together from local ham clubs that have a page about their repeater. 
 
 ### Initial Observations
 I bought my radio and excitedly programmed it with ~100 of the closest repeaters. In practice, I was able to hear signals from Boston, Providence, and Worcester—far beyond the ~6 miles predicted. There were stations 20, 30, or even 40 miles carrying nets that far exceeded what I had hoped!
