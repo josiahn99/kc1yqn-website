@@ -19,7 +19,7 @@ Once I started operating though, I was pleasantly surprised! I was able to recei
 
 How was this possible, and why was my inital estimate so off? 
 
-This page documents my process to learn the basic principles of VHF wave propogation. I start at a high-level, expanding my initial line of sight analysis, and over time hope to fill in the gaps with other factors. 
+This page documents my process to learn the basic principles of VHF wave propogation. I start at a high-level, expanding my initial line of sight analysis, and over time hope to fill in the gaps with other relavent factors. 
 
 ---
 
@@ -52,12 +52,16 @@ However, if for example we assumed a repeater height of 100 feet and plug that i
 `d = 1.23 (√23 + √100)
 d ≈ 18.2 miles`
 
-Okay, so a tower height of 100 feet would make a significant difference in my reach. The fact that the height is squared means you only get twice the distance for 4 times the height, but even with that, 100 feet is sngificnat. Still, I wasn't sure of repeater heights in my area. Repeaterbook.com unfortunately does not include height data, so it's a matter of trying to piece what you can together from local ham clubs that have a page about their repeater. 
+Okay, so a tower height of 100 feet would make a significant difference in my reach. The fact that the height is squared means you only get twice the distance for 4 times the height, but even with that, 100 feet is significant. 
+
+Still, I wasn't sure of repeater heights in my area. Repeaterbook.com unfortunately does not include height data, so it's a matter of trying to piece what you can together from local ham clubs that have a page about their repeater.
+
+I also took line-of-sight to heart. There are certainly trees and houses taller than my 2nd floor window all around me, and broadcasting intially from inside a window made me skeptical. With this mix of tempid expectations and excitement for the new hobby, I went into buying my first radio... 
 
 ### Initial Observations
-I bought my radio and excitedly programmed it with ~100 of the closest repeaters. In practice, I was able to hear signals from Boston, Providence, and Worcester—far beyond the ~6 miles predicted. There were stations 20, 30, or even 40 miles carrying nets that far exceeded what I had hoped!
+I initially programmed my radio with 100 or so of the closest VHF/UHF repeaters, and quickly realized my expectations were far too muted. Instead of 6-10 miles, I was able to hear signals from Boston, Providence, and Worcester - wide coverage repeaters from 20, 30, or even 40 miles away, far exceeding what I had hoped!
 
-Even using a modest upgraded handheld antenna (Signal Stick), this result didn’t make sense. Terrain, buildings, and trees should have reduced range further, not increased it.
+Even using a modest upgraded handheld antenna (Signal Stick), this result didn’t make intuitive sense to me. Terrain, buildings, and trees should have reduced range further, not increased it.
 
 This was great news, but clearly something was missing. 
 
