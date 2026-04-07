@@ -4,6 +4,8 @@ title:  Propagation Analysis
 ---
 # VHF / UHF Propagation Analysis
 
+### Page is a work in progress, as a I develop my ideas for what approach I'd like to take to this 
+
 ### Question
 What kind of propagation can I expect for VHF/UHF under normal conditions and beyond?
 
