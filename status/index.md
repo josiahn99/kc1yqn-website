@@ -31,9 +31,13 @@ Check [here]("..\projects\hotspot_analysis\") for an analysis of traffic.
 </table>
 
 ### System Status
-System Temp: {{ site.data.pi-star.system.temperature }}
-CPU Load: {{ site.data.pi-star.system.cpu_load }}
-    
+<ul>
+  <li>System Temp: {{ site.data.pi-star.system.temperature }}</li>
+  <li>CPU Load: {{ site.data.pi-star.system.cpu_load }}</li>
+  <li>Uptime: {{ site.data.pi-star.system.uptime }} </li>
+  <li>Memory: {{ site.data.pi-star.system.memory }} </li>
+  <li>Disk: {{ site.data.pi-star.system.disk }} </li>
+</ul>
 
 <img src="../assets/images/users_by_state.jpg" width="400">
 
