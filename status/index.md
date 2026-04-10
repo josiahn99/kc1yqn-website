@@ -5,6 +5,12 @@ title: Hotspot Status
 
 # Hotspot Status
 
+Current snapshot of my MMDVM Raspberry Pi 3B running Pi-Star.
+
+Check [here]("..\projects\hotspot_analysis\") for an analysis of traffic.
+
+### Recently Heard
+
 <table class="hotspot-table">
   <thead>
     <tr>
@@ -23,5 +29,12 @@ title: Hotspot Status
     {% endfor %}
   </tbody>
 </table>
+
+### System Status
+{% for entry in site.data.pi-star %}
+    System Temp: {{ temperature }}
+    CPU Load: {{ cpu_load }}
+    {% endfor %}
+
 <img src="../assets/images/users_by_state.jpg" width="400">
 
