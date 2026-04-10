@@ -26,11 +26,9 @@ Current snapshot of my MMDVM Raspberry Pi 3B running Pi-Star.
   <tbody>
     {% for entry in site.data.pi-star.entries %}
     <tr>
-      <center>
-        <td>{{ entry.time }}</td>
-      <td>{{ entry.callsign }}</td>
-      <td>{{ entry.tg_slot }}</td>
-      </center>
+      <td>{{ entry.time }}</td>
+      <td><center>{{ entry.callsign }}</center></td>
+      <td><center>{{ entry.tg_slot }}</center></td>
     </tr>
     {% endfor %}
   </tbody>
@@ -38,9 +36,9 @@ Current snapshot of my MMDVM Raspberry Pi 3B running Pi-Star.
 
 ### System Status
 <ul>
-  <li>System Temp: {{ site.data.pi-star.system.temperature }}</li>
-  <li>CPU Load: {{ site.data.pi-star.system.cpu_load }}</li>
-  <li>Uptime: {{ site.data.pi-star.system.uptime }} </li>
-  <li>Memory: {{ site.data.pi-star.system.memory }} </li>
-  <li>Disk: {{ site.data.pi-star.system.disk }} </li>
+  <li><b>System Temp:</b> {{ site.data.pi-star.system.temperature }}</li>
+  <li><b>CPU Load:</b> {{ site.data.pi-star.system.cpu_load }}</li>
+  <li><b>Uptime:</b> {{ site.data.pi-star.system.uptime }} </li>
+  <li><b>Memory:</b> {{ site.data.pi-star.system.memory }} </li>
+  <li><b>Disk:</b> {{ site.data.pi-star.system.disk }} </li>
 </ul>
