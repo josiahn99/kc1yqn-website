@@ -20,7 +20,7 @@ Check [here]("..\projects\hotspot_analysis\") for an analysis of traffic.
     </tr>
   </thead>
   <tbody>
-    {% for entry in site.data.pi-star %}
+    {% for entry in site.data.pi-star.entries %}
     <tr>
       <td>{{ entry.time }}</td>
       <td>{{ entry.callsign }}</td>
