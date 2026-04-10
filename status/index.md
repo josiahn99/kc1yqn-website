@@ -10,8 +10,8 @@ Current snapshot of my MMDVM Raspberry Pi 3B running Pi-Star.
 [Analysis of traffic]("..\projects\hotspot_analysis\")
 <p>
 [Hotspot assembly]("..\projects\pi_assembly\")
-<p></p>
-[New England Digital Radio]("https://newenglanddigitalradio.com/wordpress/)"
+<p>
+[New England Digital Radio]("https://newenglanddigitalradio.com/wordpress/")
 
 ### Recent Traffic
 
