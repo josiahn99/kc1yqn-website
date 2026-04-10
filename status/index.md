@@ -6,6 +6,7 @@ title: Hotspot Status
 # Hotspot Status
 
 Current snapshot of my MMDVM Raspberry Pi 3B running Pi-Star.
+<img src="../projects/pi_assembly/hotspot1.jpg" style="float: right; width: 200px;>
 
 [Analysis of traffic]("..\projects\hotspot_analysis\")
 <p>
@@ -42,6 +43,3 @@ Current snapshot of my MMDVM Raspberry Pi 3B running Pi-Star.
   <li>Memory: {{ site.data.pi-star.system.memory }} </li>
   <li>Disk: {{ site.data.pi-star.system.disk }} </li>
 </ul>
-
-<img src="../assets/images/users_by_state.jpg" width="400">
-
