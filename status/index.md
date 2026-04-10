@@ -28,7 +28,7 @@ Current snapshot of my MMDVM Raspberry Pi 3B running Pi-Star.
     <tr>
       <td>{{ entry.time }}</td>
       <td>{{ entry.callsign }}</td>
-      <td>{{ entry.tg_slot }}</td>
+      <td><center>{{ entry.tg_slot }}</center></td>
     </tr>
     {% endfor %}
   </tbody>
