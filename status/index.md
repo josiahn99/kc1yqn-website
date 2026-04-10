@@ -7,7 +7,8 @@ title: Hotspot Status
 
 Current snapshot of my MMDVM Raspberry Pi 3B running Pi-Star.
 
-Check [here]("..\projects\hotspot_analysis\") for an analysis of traffic.
+[Analysis of traffic]("..\projects\hotspot_analysis\")
+[Hotspot assembly]("..\projects\pi_assembly\")
 
 ### Recently Heard
 
