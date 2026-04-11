@@ -1,5 +1,5 @@
 ---
 layout: default
-title: Brandmeister Analysis
+title: DMR Hotspot Traffic Analysis
 ---
-# Brandmeister Analysis
+# DMR Hotspot Traffic Analysis
