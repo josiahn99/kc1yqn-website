@@ -9,9 +9,9 @@ Current snapshot of my MMDVM Raspberry Pi 3B running Pi-Star.
 
 <img src="/projects/pi_assembly/hotspot4.jpg" style="float: right; width: 200px;">
 
-[Analysis of traffic]("/projects/hotspot_analysis/")
+[Analysis of traffic]("./projects/hotspot_analysis/")
 
-[Hotspot assembly]("/projects/pi_assembly/")
+[Hotspot assembly]("./projects/pi_assembly/")
 
 ### Recent Traffic
 
