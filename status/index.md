@@ -7,7 +7,7 @@ title: Hotspot Status
 
 Current snapshot of my MMDVM Raspberry Pi 3B running Pi-Star.
 
-<img src="/projects/pi_assembly/hotspot3.jpg" style="float: right; width: 200px;">
+<img src="/projects/pi_assembly/hotspot4.jpg" style="float: right; width: 200px;">
 
 [Analysis of traffic]("/projects/hotspot_analysis/")
 
