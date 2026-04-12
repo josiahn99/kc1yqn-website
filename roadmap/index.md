@@ -7,31 +7,28 @@ title: RF Roadmap
 
 ## Purpose
 
-My childhood curiosity about how the universe works returned strongly in 2025. Primarily, it was sparked by reading *Remembrance of Earth’s Past* by Liu Cixin and listening to the Daniel and Kelly's Extraordinary Universe podcast. Both include the theme of theoretical and applied physics being critical to civilizational progress and understanding of reality. Now, as someone who has chosen a social science route since college, I'm not about to go make particle physics breakthroughs at CERN. Amateur radio provides a unique, hands-on way to interact with experimental physics.
+My childhood curiosity about how the universe works returned strongly in 2025. Primarily, it was sparked by reading *Remembrance of Earth’s Past* by Liu Cixin and listening to the Daniel and Kelly's Extraordinary Universe podcast. I don't have a deep math or science background, and I'm not about to go make particle physics breakthroughs at CERN. However, amateur radio provides a unique, hands-on way to interact with experimental physics. 
 
-The goal is to use RF experimentation and operation as a tool for understanding the underlying theory and math behind electromagnetics. 
+The goal, ultimately, is to use RF experimentation and operation as a tool for understanding the underlying theory and math behind electromagnetics. 
 
 ## Initial Strategy
 
-I'm structuring my learning in 2026 around getting a strong handle on the General and Amateur Extra exam material. So as not to just memorize answers, my goal is, for any concept, to ask myself:
+Currently, I'm structuring my learning around getting a strong handle on the General and Amateur Extra exam material. So as not to just memorize answers, I'm trying to apply the old addage of understanding something by being able to explain it. Thus for any concept covered on the exam, I'm considering the following two questions: 
 
-- Can I predict behavior before measuring it?
-- Can I explain why the formula has that form?
-- Can I predict the direction and rough magnitude of change?
-- Can I explain the cause in physical terms, not just equations?
-- Can I translate between equation, circuit, and real-world behavior?
+- Would I be able to explain it to a 10 year old? 
+- Project Hail Mary and Artemis II has seen a rise in the general public's interest in science-related ideas. Would I be able to demonstrate how the concept applies to those two things?
 
-I struggle with the learning curve around this and how aggressively to tackle different topics. As I read over this roadmap, I fear I'm trying to hold myself to a graduate-level standard in a part-time hobby. I want to build on my high school calculus to eventually understand some deeper aspects like the wave equation or Maxwell's equations. But that's going to require some linear algebra, multivariable, and vector calculus—an ambitious goal for a part-time hobby. While it will be necessary to meet my goals, I am accepting this is a long-term plan. The focus should be depth over speed.  
+As I read over this roadmap, I fear I'm trying to hold myself to a graduate-level standard in a part-time hobby. I want to build on my high school calculus to eventually understand some deeper aspects like the wave equation or Maxwell's equations. But that's going to require some linear algebra, multivariable, and vector calculus—an ambitious goal for a part-time hobby. While it will be necessary to meet my goals, I am accepting this is a long-term plan. The focus should be depth over speed.  
 
 I also don't want to get so bogged down in theory that I ignore actual operating or real-world experimentation, and so I've identified circuit and antenna experiments to ensure that I become proficient at operating and building. 
 
-### Measurable outcomes (2026)
+### Measurable outcomes (2026 - 2027)
 
 - Pass the General and Amateur Extra exams, being able to provide a deeper understanding of each topic  
 - Build and operate a basic HF station, and use it as a lab for observation, experimentation, and analysis  
 - Complete and document at least 5 RF circuit / antenna experiments  
 
-After this, the plan will evolve. If I still want to get deeper into the theory and weeds after the Extra exam, I'll go further into undergraduate electromagnetics coursework. It sounds like a good idea on paper, but… yeah, let's see how it turns out. 
+After this, the plan is a little more ambiguous. If I still want to get deeper into the theory and weeds after the Extra exam, I'll go further into undergraduate electromagnetics coursework (which sounds like a good idea on paper, but… yeah, let's see how it turns out).
 
 ---
 
