@@ -13,7 +13,15 @@ The goal, ultimately, is to use RF experimentation and operation as a tool for u
 
 ## Initial Strategy
 
-Currently, I'm structuring my learning around getting a strong handle on the General and Amateur Extra exam material. So as not to just memorize answers, I'm trying to apply the old addage of understanding something by being able to explain it. Thus for any concept covered on the exam, I'm considering the following two questions: 
+I am using what I've learned about radio, from having a tech license and operating for a few months, to try to go further. My next step is studying for the General exam, so that I can be on the HF airwaves this fall. Along with the ARRL General Study Guide, After that, I will move towards a more general physics / electrical engineering study curriculum.
+
+For now, I'm working on complementing the knowledge needed for the General and Amateur Extra exams through *Advanced Radio Theory Handbook* by Ron Bertrand, and [Electronics Tutorials](https://www.electronics-tutorials.ws/),
+
+
+# Learning Philosophy
+
+Concurrently with 
+I'm currently structuring my learning around getting a strong handle on the General and Amateur Extra exam material. So as not to just memorize answers, I'm trying to apply the old addage of understanding something by being able to explain it. Thus for any concept covered on the exam, I'm considering the following two questions: 
 
 - Would I be able to explain it to a 10 year old? 
 - Project Hail Mary and Artemis II has seen a rise in the general public's interest in science-related ideas. Would I be able to demonstrate how the concept applies to those two things?
@@ -59,7 +67,7 @@ In the spirit of the scientific method, I will control variables as much as poss
 
 ## Circuit Experiments
 
-Breadboard, Manhattan-style, and PCB circuits are an opportunity to see basic electrical theory and RF in action. For now, I'm working on complementing the knowledge needed for the General and Amateur Extra exams through *Advanced Radio Theory Handbook* by Ron Bertrand, and [Electronics Tutorials](https://www.electronics-tutorials.ws/), with a focus on amplifier and oscillating circuits. I will also be reviewing QST Magazine and *On the Air* Magazine for ideas to improve my basic building abilities. 
+Breadboard, Manhattan-style, and PCB circuits are an opportunity to see basic electrical theory and RF in action.  with a focus on amplifier and oscillating circuits. I will also be reviewing QST Magazine and *On the Air* Magazine for ideas to improve my basic building abilities. 
 
 Circuits I plan to build include:
 
