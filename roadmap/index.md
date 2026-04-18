@@ -13,9 +13,11 @@ The goal, ultimately, is to use RF experimentation and operation as a tool for u
 
 ## Initial Strategy
 
-I am using what I've learned about radio, from having a tech license and operating for a few months, to try to go further. My next step is studying for the General exam, so that I can be on the HF airwaves this fall. Along with the ARRL General Study Guide, After that, I will move towards a more general physics / electrical engineering study curriculum.
+My launching point is using what I've learned about radio over the last few months with a HT and a tech license. So as to be able to operate and experiment on the HF airwaves this fall, my first step is to studying for the General exam, so that I can be on the HF airwaves in fall 2026. Along with the ARRL General Study Guide, I am complementing the knowledge needed for the General and Amateur Extra exams through the *Advanced Radio Theory Handbook* by Ron Bertrand, and [Electronics Tutorials](https://www.electronics-tutorials.ws/). 
 
-For now, I'm working on complementing the knowledge needed for the General and Amateur Extra exams through *Advanced Radio Theory Handbook* by Ron Bertrand, and [Electronics Tutorials](https://www.electronics-tutorials.ws/),
+After that, I will move towards a more general physics / electrical engineering study curriculum.
+
+For now, I'm working on 
 
 
 # Learning Philosophy
