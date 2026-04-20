@@ -6,28 +6,33 @@
   <title>{{ page.title }} | KC1YQN</title>
   <link rel="stylesheet" href="{{ 'assets/css/style.css' | relative_url }}">
 </head>
+
 <body>
 
-  <!-- Top header -->
+  <!-- Header -->
   <header class="top-header">
+
     <div class="header_image">
-    <a href="/">
-      <img src="https://kc1yqn.com/assets/images/header2.png" alt="KC1YQN" class="header-logo">
-    </a>
+      <a href="/">
+        <img src="https://kc1yqn.com/assets/images/header2.png"
+             alt="KC1YQN"
+             class="header-logo">
+      </a>
     </div>
 
-    <!-- Hamburger label for mobile toggle -->
+    <!-- Mobile hamburger -->
     <label for="menu-toggle" class="hamburger">
       <span></span>
       <span></span>
       <span></span>
     </label>
+
   </header>
 
-  <!-- Hidden checkbox for mobile toggle -->
+  <!-- Mobile toggle -->
   <input type="checkbox" id="menu-toggle" class="menu-toggle">
 
-  <!-- Layout container -->
+  <!-- Page layout -->
   <div class="container">
 
     <!-- Sidebar -->
@@ -35,32 +40,46 @@
       <a href="{{ '/roadmap/' | relative_url }}">RF Roadmap</a>
       <a href="{{ '/status/' | relative_url }}">DMR Hotspot Status</a>
       <a href="{{ '/links/' | relative_url }}">Links</a>
-      Projects
-      <a href="{{ '/projects/codeplug/' | relative_url }}" class="nested">Codeplug Programming</a>
-      <a href="{{ '/projects/pi_assembly/' | relative_url }}" class="nested">Pi-Star DMR Hotspot Set Up</a>
-      <a href="{{ '/projects/hotspot_analysis/' | relative_url }}" class="nested">DMR Hotspot Traffic Analysis</a>
-      
-      </div>
+
+      <div class="sidebar-section">Projects</div>
+
+      <a class="nested" href="{{ '/projects/codeplug/' | relative_url }}">
+        Codeplug Programming
+      </a>
+
+      <a class="nested" href="{{ '/projects/pi_assembly/' | relative_url }}">
+        Pi-Star DMR Hotspot Set Up
+      </a>
+
+      <a class="nested" href="{{ '/projects/hotspot_analysis/' | relative_url }}">
+        DMR Hotspot Traffic Analysis
+      </a>
     </nav>
-    
+
     <!-- Main content -->
     <main class="main">
       <div class="content_box">
-      {{ content }}
+        {{ content }}
       </div>
-    
-  <!-- Footer -->
-  <footer>
-  <hr>
-  <p>
-    KC1YQN • FN42 • Contact @ 
-    <a href="https://www.qrz.com/db/KC1YQN" target="_blank" rel="noopener">QRZ.com</a> • 
-    Hosted on <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a>
-  </p>
-</footer>
-      
-</main>
+
+      <!-- Footer -->
+      <footer>
+        <hr>
+        <p>
+          KC1YQN • FN42 • Contact @
+          <a href="https://www.qrz.com/db/KC1YQN" target="_blank" rel="noopener">
+            QRZ.com
+          </a>
+          • Hosted on
+          <a href="https://pages.github.com/" target="_blank" rel="noopener">
+            GitHub Pages
+          </a>
+        </p>
+      </footer>
+
+    </main>
 
   </div>
+
 </body>
 </html>
