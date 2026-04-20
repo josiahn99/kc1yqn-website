@@ -1,7 +1,6 @@
 ---
-
 layout: default
-title: Programming a Codeplug
+title: "Programming a Codeplug"
 -----------------------------
 
 # Programming a Codeplug
