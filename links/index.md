@@ -45,8 +45,8 @@ This isn’t meant to be comprehensive — just the things that pushed me furthe
 - [CircuitBread.com](CircuitBread.com)
 - [SARCNET Project List](https://www.sarcnet.org/projects.html)
 - [ChipWired.com](https://chipwired.com/)
-- [https://www.electronics-tutorials.ws](Electronics Tutorials)
+- [Electronics Tutorials](https://www.electronics-tutorials.ws)
 
 ### AT-878 Resources
-- [https://www.youtube.com/@BridgeComSystemsInc](BridgeCom Systems)
+- [BridgeCom Systems YouTube Channel](https://www.youtube.com/@BridgeComSystemsInc)
 - [APRS.fi](www.aprs.fi)
