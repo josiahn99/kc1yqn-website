@@ -11,7 +11,7 @@ My curiosity about how the universe works returned strongly in 2025, sparked by 
 
 The goal is to use RF operation and experimentation to build a real understanding of electromagnetics and the math behind it.
 
-# Learning Approach
+## Learning Approach
 
 Rather than memorizing, I am focusing on explanation and first-principles understanding. For each concept, I aim to answer:
 
