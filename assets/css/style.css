@@ -24,7 +24,7 @@ body {
 }
 
 .header_image img {
-  height: 60px;
+  height: 40px;
   width: auto;
   display: block;
 }
@@ -40,7 +40,7 @@ body {
 .hamburger span {
   width: 25px;
   height: 3px;
-  background: white;
+  background:  black;
 }
 
 /* hide checkbox */
