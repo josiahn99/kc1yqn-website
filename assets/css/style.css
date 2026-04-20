@@ -1,239 +1,124 @@
-/* --- Body & text --- */
+/* =========================
+   GLOBAL RESET / BASE
+========================= */
+* {
+  box-sizing: border-box;
+}
+
 body {
-  font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, sans-serif;
-  background: #f3f4f6;
-  color: #1e1e1e; 
-  line-height: 1.7;
   margin: 0;
-  padding: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
 }
 
-/* Header logo */
-.header-logo {
-  height: 70px;
-  width: auto;
-}
-
-/* ----------------------------
-Top Header
----------------------------- */
+/* =========================
+   HEADER
+========================= */
 .top-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0px 16px;
-  min-height: 70px;
-  background: #fefefe;
-  top: 0;
-  z-index: 1000;
-  border-bottom: 1px solid #c5c7cc;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  padding: 10px 16px;
+  background: #111;
+  color: white;
 }
 
-.top-header h1 a {
-  color: #1e1e1e;
-  text-decoration: none;
+.header_image img {
+  height: 40px;
+  width: auto;
+  display: block;
 }
 
-.header_image {
-  border-radius: 20px;
-}
-
-/* Hide checkbox */
-.menu-toggle {
-  position: absolute;
-  opacity: 0;
-  pointer-events: none;
-}
-
-/* Hamburger */
+/* hamburger (hidden on desktop) */
 .hamburger {
   display: none;
   flex-direction: column;
+  gap: 4px;
   cursor: pointer;
-  gap: 5px;
-  z-index: 2000;
 }
 
 .hamburger span {
   width: 25px;
   height: 3px;
-  background: #3a3f48; /* lighter hamburger */
+  background: white;
 }
 
-/* ----------------------------
-Layout: Container
----------------------------- */
+/* hide checkbox */
+.menu-toggle {
+  display: none;
+}
+
+/* =========================
+   LAYOUT
+========================= */
 .container {
   display: flex;
-  min-height: calc(100vh - 70px);
+  min-height: calc(100vh - 60px);
 }
 
-/* ----------------------------
-Sidebar
----------------------------- */
+/* =========================
+   SIDEBAR
+========================= */
 .sidebar {
-  display: flex;
   width: 240px;
   flex-shrink: 0;
-  padding: 12px 24px;
+  background: #f5f5f5;
+  padding: 16px;
+  border-right: 1px solid #ddd;
+
+  display: flex;
   flex-direction: column;
-  gap: 10px;
-  height: calc(100vh - 70px);
-  border-right: 1px solid #e0e0e0;
-  background: #fafafa;
+  gap: 8px;
 }
 
 .sidebar a {
-  display: block;
   text-decoration: none;
-  font-weight: 600;
-  font-size: 0.95rem;
-  color: #3a3f48; /* lighter sidebar links */
+  color: #222;
+  padding: 6px 8px;
+  border-radius: 4px;
 }
 
 .sidebar a:hover {
-  color: #1d4ed8; /* blue hover */
-  text-decoration: underline;
+  background: #e6e6e6;
 }
 
-.sidebar a.nested {
-  padding-left: 20px;
-  font-weight: normal;
-  font-size: 0.94rem;
+.sidebar-section {
+  margin-top: 12px;
+  font-weight: bold;
+  color: #444;
 }
 
-.sidebar a.nested::before {
-  content: "- ";
-  color: #1d4ed8;
+.sidebar .nested {
+  padding-left: 18px;
+  font-size: 0.95em;
 }
 
-.sidebar a.nested:hover {
-  color: #2563eb;
-  text-decoration: underline;
-}
-
-/* ----------------------------
-Main Content
----------------------------- */
+/* =========================
+   MAIN CONTENT
+========================= */
 .main {
   flex: 1;
-  max-width: 720px;
-  padding: 24px;
+  padding: 20px;
+  min-width: 0; /* prevents overflow bugs */
 }
 
-/* ----------------------------
-Headings
----------------------------- */
-h1, h2, h3 {
-  margin-top: 36px;
-  margin-bottom: 14px;
-  line-height: 1.3;
-  color: #111111;
-}
-
-h1 {
-  margin-top: 12px;
-}
-
-/* Links */
-a {
-  color: #1d4ed8;
-  transition: color 0.15s ease;
-}
-
-a:hover {
-  color: #2563eb;
-  text-decoration: underline;
-}
-
-/* ----------------------------
-Paragraphs & lists
----------------------------- */
-p {
-  margin-bottom: 16px;
-}
-
-ul {
-  margin-bottom: 18px;
-}
-
-/* ----------------------------
-Code blocks / diagrams
----------------------------- */
-pre, code {
-  background: #e5e7eb; /* lighter code background */
-  border: 1px solid #c5c7cc;
-  border-radius: 6px;
-  font-family: Consolas, Monaco, "Courier New", monospace;
-  font-size: 0.9rem;
-  color: #111111;
-}
-
-code {
-  padding: 2px 5px;
-}
-
-pre {
-  padding: 14px;
-  overflow-x: auto;
-  line-height: 1.5;
-}
-
-/* ----------------------------
-Content Box
----------------------------- */
 .content_box {
-  border: 1px solid #e0e0e0;
-  background: #ffffff; /* lighter box background */
-  padding: 18px;
-  margin: 20px 0 10px 0;
-  border-radius: 8px;
-  font-size: 0.96rem; 
+  max-width: 900px;
 }
 
-.content_box p {
-  max-width: 70ch;
-}
-
-.content_box strong {
-  display: inline-block;
-  color: #111111;
-}
-
-/* ----------------------------
-Text hierarchy
----------------------------- */
-strong {
-  color: #111111;
-}
-
-small {
-  color: #555555;
-}
-
-/* ----------------------------
-Footer
----------------------------- */
+/* =========================
+   FOOTER
+========================= */
 footer {
-  font-size: 0.8rem;
-  color: #555555;
-  margin-top: 10px;
+  margin-top: 40px;
+  font-size: 0.9em;
+  color: #666;
 }
 
-footer a {
-  color: #555555;
-  text-decoration: underline;
-}
-
-footer a:hover {
-  color: #1d4ed8;
-}
-
-/* ----------------------------
-Mobile Styles
----------------------------- */
-@media (max-width: 900px) {
+/* =========================
+   MOBILE BEHAVIOR
+========================= */
+@media (max-width: 768px) {
 
   .hamburger {
     display: flex;
@@ -244,21 +129,15 @@ Mobile Styles
   }
 
   .sidebar {
-    display: none;
     width: 100%;
-    height: auto;
-    position: relative;
-    top: 0;
+    display: none;
+    border-right: none;
+    border-bottom: 1px solid #ddd;
   }
 
+  /* toggle sidebar */
   .menu-toggle:checked ~ .container .sidebar {
     display: flex;
-    flex-direction: column;
-  }
-
-  .header-logo {
-    height: 48px;
-    max-width: 60%;
   }
 
   .main {
