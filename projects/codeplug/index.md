@@ -1,24 +1,22 @@
 ---
 layout: default
-title: AT-878 Codeplug
+title: Programming a Codeplug
 ---
-# Anytone 878 Codeplug
+# Programming a Codeplug
 
-<div class="project-summary">
-### Summary ###
-   **Goal:**
-  **Result:** 
-  **Tools**
-  </ul>
-</div>
+Bottom line: The best resource I've found for determining whether you will be able to receive and transmit is the [Amateur Repeater Directory](https://amateurrepeaterdirectory.org/). Look at what you can hit and build your code plug around it! 
 
----
+## Background
+I chose the AT-878 as a first radio because of its digial and analog support, increasing the number of potential repeaters you can work. Additionally, digital allows access to digital networks you can access through a [DMR hotspot](/projects/pi_assembly/), which can be useful for finding someone to talk to, regardless of nearby repeaters.
 
-## Getting Started
+Aside from using a hotspot though, your experience with any HT is going to depend on your ability to hit nearby repeaters, and that's directly related to your topography and the density of repeaters around you. With some subtle exceptions, you need to have a clean line of site to a repeater to work it. 
 
-The 878 is packed with features, which makes it a lot of fun to experiment with. The goal is **to learn by observing and testing**, not to master everything at once.  
+Repeaterbook.com is an excellent resource for listing the repeaters in a given area, along with their frequencies. However, without information on the repeater's height, your height, or what's between you and the repeater that might block the signal, this doesn't tell you teh whole story. Why can you receive and transmit to a repeater 40miles away, but one that is only 10 miles away is barely receivable? 
 
-Resources like YouTube, BridgeCom University, and manuals cover programming, APRS, GPS, and DMR. Pick one area, test it, see what happens, and log your observations.
+Initially, I took this as a challenge that I was going to derive from scratch. I downloaded topographic data for my area, looked into python packages that allow for line-of-site analysis, and started testing which repeaters I could transmit and receive. Utimately, I might still do this as a learning experience, but for pure functionality, it's hard to compete with the Amateur Repeater Directory.  
+
+The best resource I've found for determining whether you will be able to receive and transmit is the [Amateur Repeater Directory](https://amateurrepeaterdirectory.org/), which allows you to calculate the liklihood of hitting repeaters in your given area based on elevation, topography, and fresnel diffraction.  However, some quick tips that I did find helpful: which makes it a lot of fun to experiment with. The goal is **to learn by observing and testing**, not to master everything at once.  
+
 
 ---
 
@@ -66,23 +64,6 @@ Treat each change as an experiment: tweak one thing at a time and log the outcom
 
 ---
 
-## Antenna Experiments
-
-Antennas are huge. Even a great radio can’t overcome a poor antenna setup. Try different types, positions, and orientations, and log everything.
-
-| Antenna | Typical Range (miles) | Notes |
-|---------|----------------------|-------|
-| Rubber Duck | 5–10 | Baseline; portable indoors |
-| Signal Stick | 15–25 | Near windows; better for weak signals |
-| Slim Jim (window-mounted) | ~40 | Reliable indoor RX/TX; smooth FM experience |
-
-Experiment ideas:
-
-- Track signal quality while moving the antenna around.  
-- Compare indoor vs. outdoor reception.  
-- Note changes at different heights or near reflective surfaces.  
-
-Small tweaks often make bigger differences than you’d expect.
 
 ---
 
