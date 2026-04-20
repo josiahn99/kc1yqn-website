@@ -15,19 +15,19 @@ A running list of resources that have actually moved me forward in learning radi
 - [ARRL Ham Radio License Manual](https://home.arrl.org/action/Store/Product-Details/productId/2003373064)
 - [ARRL General Class License Manual](https://home.arrl.org/action/Store/Product-Details/productId/2009476073)
 - [Amateur Repeater Directory](https://app.amateurrepeaterdirectory.org)
-- [Repeaterbook.com](www.repeaterbook.com)
+- [Repeaterbook.com](http://www.repeaterbook.com)
 - [Radio Theory Handbook, Beginner - Advanced](https://www.amazon.com/Radio-Theory-Handbook-Beginner-Advanced/dp/B0BNV2PC6F) by Ron Bertrand, VK2DQ
-- [QRZ.com](www.qrz.com)
+- [QRZ.com](http://www.qrz.com)
   
 ### 3. Operating 
 - [73QRZ.com](https://73qrz.com/)
 - [BridgeCom Systems YouTube Channel with tutorials on AT-878](https://www.youtube.com/@BridgeComSystemsInc)
-- [APRS.fi](www.aprs.fi)
+- [APRS.fi](http://www.aprs.fi)
 
 ### 4. Hands-On Experimenting
 
 - [QRP Labs](http://www.qrp-labs.com)
-- [CircuitBread.com](CircuitBread.com)
+- [CircuitBread.com](http://www.CircuitBread.com)
 - [SARCNET Project List](https://www.sarcnet.org/projects.html)
 - [ChipWired.com](https://chipwired.com/)
 - [Electronics Tutorials](https://www.electronics-tutorials.ws)
