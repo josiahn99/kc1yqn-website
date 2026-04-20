@@ -21,7 +21,7 @@ A running list of resources that have actually moved me forward in learning radi
   
 ### 3. Operating 
 - [73QRZ.com](https://73qrz.com/)
-- [BridgeCom Systems YouTube Channel](https://www.youtube.com/@BridgeComSystemsInc)
+- [BridgeCom Systems YouTube Channel with tutorials on AT-878](https://www.youtube.com/@BridgeComSystemsInc)
 - [APRS.fi](www.aprs.fi)
 
 ### 4. Hands-On Experimenting
