@@ -34,7 +34,7 @@ Current resources:
 - [*Radio Theory Handbook*](https://www.amazon.com/Radio-Theory-Handbook-Beginner-Advanced/dp/B0BNV2PC6F) — Ron Bertrand, VK2DQ
 - [Electronics Tutorials](https://www.electronics-tutorials.ws/)
 
-After the General exam, I plan to move into a more formal electrical engineering track. To build high-level intuition across physics, I will read [*The Feynman Lectures on Physics*](https://www.feynmanlectures.caltech.edu/).
+After the General exam, I plan to move into a more formal electrical engineering track. To build high-level intuition across physics, I will read [*The Feynman Lectures on Physics*](https://www.feynmanlectures.caltech.edu/) and MIT's OpenCourseWare class [Physics II: Electricity and Magnetism](https://ocw.mit.edu/courses/8-02-physics-ii-electricity-and-magnetism-spring-2007/).
 
 In parallel, I plan to work through [*Fundamentals of Electric Circuits*](https://www.amazon.com/Fundamentals-Electric-Circuits-Charles-Alexander/dp/0078028221) by Charles Alexander and Matthew Sadiku as a more rigorous, problem-based introduction aligned with undergraduate EE coursework. This will lead into [*Introduction to Electromagnetics*](https://www.amazon.com/Introduction-Electrodynamics-David-J-Griffiths/dp/1108420419) by David Griffiths. 
 
