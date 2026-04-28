@@ -22,7 +22,9 @@ Rather than memorizing, I am focusing on explanation and first-principles unders
 
 I am loosely following an undergraduate electrical engineering progression, recognizing this is a long-term effort.
 
-Ultimately, I want to build on my high school calculus to understand deeper topics like the wave equation and Maxwell’s equations. This will require linear algebra, multivariable calculus, and vector calculus. This is a pretty extensive  as a part-time pursuit, progress will be limited, so the emphasis is on depth over speed.
+Ultimately, I want to build on my high school calculus to understand deeper topics like the wave equation and Maxwell’s equations. I will start with a general, non-technical education in these and eventually learn how to drive them. This will require linear algebra, multivariable calculus, and vector calculus. Ahead of this I will brush up on my basic Calculus and trig. 
+
+This is pretty extensive as a part-time pursuit - progress will  take time, and the emphasis is on depth over speed.
 
 ## Study Materials
 
