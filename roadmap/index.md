@@ -18,6 +18,7 @@ Rather than memorizing, I am focusing on explanation and first-principles unders
 - Can I explain this clearly to a 10-year-old?
 - Can I connect this concept to real-world systems (e.g., cell phones or space communication)?
 - Can I derive or at least meaningfully understand the equation behind it?
+- Do I understand enough to be able to predict RF behavior in a real world situation? 
 
 I am loosely following an undergraduate electrical engineering progression, recognizing this is a long-term effort.
 
@@ -39,12 +40,7 @@ In parallel, I plan to work through [*Fundamentals of Electric Circuits*](https:
 
 ## Operating
 
-I don’t want to get so focused on theory that I lose sight of becoming a competent operator.
-
-I plan to build a home station centered around a Yaesu FT-DX10 as the primary platform for experimentation.
-
-To start, I will build a relatively compromised 40 meter end-fed half wave (EFHW) antenna, installed about 5–7 feet off the ground. While I eventually plan to improve performance with a properly installed antenna, this initial setup will help me understand how height, noise, and installation affect real-world operation.
-
+I plan to build a home station centered around an Icom 7300 as the primary platform for experimentation. With this, I  will build a 40-meter vertical ground plane antenna. 
 I am also interested in how modern amateur radio integrates with computers. I plan to focus on SDR-based analysis and digital modes.
 
 Another area of interest is Geographic Information Systems, and I would like to eventually incorporate this using QGIS and PyQGIS to explore spatial aspects of propagation.
