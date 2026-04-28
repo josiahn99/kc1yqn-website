@@ -7,9 +7,7 @@ title: RF Roadmap
 
 ## Purpose
 
-My curiosity about how the universe works returned strongly in 2025, sparked by reading *[Remembrance of Earth’s Past](https://www.amazon.com/Three-Body-Problem-Boxed-Set-Remembrance/dp/1250254493)* by Cixin Liu and listening to the *[Daniel and Kelly’s Extraordinary Universe](https://podcasts.apple.com/us/podcast/daniel-and-kellys-extraordinary-universe/id1436616330)* podcast. I don’t have a formal science background, and I’m not aiming for academic research, but amateur radio offers a hands-on way to engage directly with physics.
-
-The goal is to treat amateur radio as a laboratory for applied electromagnetics, in order to gain a better understanding of physics.
+My curiosity about how the universe works returned strongly in 2025, sparked by reading *[Remembrance of Earth’s Past](https://www.amazon.com/Three-Body-Problem-Boxed-Set-Remembrance/dp/1250254493)* by Cixin Liu and listening to the *[Daniel and Kelly’s Extraordinary Universe](https://podcasts.apple.com/us/podcast/daniel-and-kellys-extraordinary-universe/id1436616330)* podcast. I don’t have a formal science background, and I’m not aiming for academic research. The goal is to treat amateur radio as a laboratory for applied electromagnetics, in order to gain a better personal understanding of physics.
 
 ## Learning Approach
 
