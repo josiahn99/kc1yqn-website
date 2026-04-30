@@ -7,7 +7,7 @@ title: RF Roadmap
 
 ## Purpose
 
-My curiosity about how the universe works returned strongly in 2025, sparked by reading *[Remembrance of Earth’s Past](https://www.amazon.com/Three-Body-Problem-Boxed-Set-Remembrance/dp/1250254493)* by Cixin Liu and listening to the *[Daniel and Kelly’s Extraordinary Universe](https://podcasts.apple.com/us/podcast/daniel-and-kellys-extraordinary-universe/id1436616330)* podcast. I don’t have a formal science background, and I’m not aiming for academic research. The goal is to treat amateur radio as a laboratory for applied electromagnetics, in order to gain a better personal understanding of physics.
+My childhood curiosity about how the universe works returned strongly in 2025, sparked by reading *[Remembrance of Earth’s Past](https://www.amazon.com/Three-Body-Problem-Boxed-Set-Remembrance/dp/1250254493)* by Cixin Liu and listening to the *[Daniel and Kelly’s Extraordinary Universe](https://podcasts.apple.com/us/podcast/daniel-and-kellys-extraordinary-universe/id1436616330)* podcast. I don’t have a math or science background beyond high school level. However, the goal is to use amateur radio as a starting point for a better understanding of physics - both through hands-on experimentation and theory.
 
 ## Learning Approach
 
@@ -36,7 +36,9 @@ Current resources:
 
 After the General exam, I plan to move into a more formal electrical engineering track. To build high-level intuition across physics, I will read [*The Feynman Lectures on Physics*](https://www.feynmanlectures.caltech.edu/) and MIT's OpenCourseWare class [Physics II: Electricity and Magnetism](https://ocw.mit.edu/courses/8-02-physics-ii-electricity-and-magnetism-spring-2007/).
 
-In parallel, I plan to work through [*Fundamentals of Electric Circuits*](https://www.amazon.com/Fundamentals-Electric-Circuits-Charles-Alexander/dp/0078028221) by Charles Alexander and Matthew Sadiku as a more rigorous, problem-based introduction aligned with undergraduate EE coursework. This will lead into [*Introduction to Electromagnetics*](https://www.amazon.com/Introduction-Electrodynamics-David-J-Griffiths/dp/1108420419) by David Griffiths.
+In parallel, I plan to work through [*Fundamentals of Electric Circuits*](https://www.amazon.com/Fundamentals-Electric-Circuits-Charles-Alexander/dp/0078028221) by Charles Alexander and Matthew Sadiku as a more rigorous, problem-based introduction aligned with undergraduate EE coursework. 
+
+Next will be [Engineering Electromagnetics](https://a.co/d/048OZqlS) by William Hayt and John Buck. Finally, after studying vector calculus concurrently, this will lead into [*Introduction to Electromagnetics*](https://www.amazon.com/Introduction-Electrodynamics-David-J-Griffiths/dp/1108420419) by David Griffiths.
 
 To develop understanding, I will complete the problem sets that go with these resources, particularly *Fundamentals of Electric Circuits* first. Just reading is not enough to really learn. 
 
