@@ -34,11 +34,15 @@ Current resources:
 - [*Radio Theory Handbook*](https://www.amazon.com/Radio-Theory-Handbook-Beginner-Advanced/dp/B0BNV2PC6F) — Ron Bertrand, VK2DQ
 - [Electronics Tutorials](https://www.electronics-tutorials.ws/)
 
-After the General exam, I plan to move into a more formal electrical engineering track. To build high-level intuition across physics, I will read [*The Feynman Lectures on Physics*](https://www.feynmanlectures.caltech.edu/) and MIT's OpenCourseWare class [Physics II: Electricity and Magnetism](https://ocw.mit.edu/courses/8-02-physics-ii-electricity-and-magnetism-spring-2007/).
+After the General exam, I plan to move into a more formal electrical engineering track. 
 
-In parallel, I plan to work through [*Fundamentals of Electric Circuits*](https://www.amazon.com/Fundamentals-Electric-Circuits-Charles-Alexander/dp/0078028221) by Charles Alexander and Matthew Sadiku as a more rigorous, problem-based introduction aligned with undergraduate EE coursework. 
+To brush up on math, I will brush up on trig identities before taking MIT's OpenCourseWare [18.01 Single Variable Calculus](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/) and [18.02 Multi Variable Calculus](https://ocw.mit.edu/courses/18-02-multivariable-calculus-fall-2007/).
 
-Next will be [Engineering Electromagnetics](https://a.co/d/048OZqlS) by William Hayt and John Buck. Finally, after studying vector calculus concurrently, this will lead into [*Introduction to Electromagnetics*](https://www.amazon.com/Introduction-Electrodynamics-David-J-Griffiths/dp/1108420419) by David Griffiths.
+In parallel, I plan to work through [*Fundamentals of Electric Circuits*](https://www.amazon.com/Fundamentals-Electric-Circuits-Charles-Alexander/dp/0078028221) by Charles Alexander and Matthew Sadiku as a problem-based introduction aligned with undergraduate EE coursework. 
+
+For a general physics background, I will take MIT OpenCourseWare's [8.02 Physics II: Electricity and Magnetism](https://ocw.mit.edu/courses/8-02-physics-ii-electricity-and-magnetism-spring-2007/).
+
+A more long term goal will be [Engineering Electromagnetics](https://a.co/d/048OZqlS) by William Hayt and John Buck. Ultimately, after also studying vector calculus, this will lead into [*Introduction to Electromagnetics*](https://www.amazon.com/Introduction-Electrodynamics-David-J-Griffiths/dp/1108420419) by David Griffiths.
 
 To develop understanding, I will complete the problem sets that go with these resources, particularly *Fundamentals of Electric Circuits* first. Just reading is not enough to really learn. 
 
