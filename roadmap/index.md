@@ -7,14 +7,12 @@ title: RF Roadmap
 
 ## Purpose
 
-My interest in how the physical world works came back in 2025 after reading *Remembrance of Earth’s Past* by Cixin Liu and listening to the Daniel and Kelly’s *Extraordinary Universe* podcast.
+My interest in how the physical world works came back in 2025 after reading [*Remembrance of Earth’s Past*](https://www.amazon.com/Three-Body-Problem-Boxed-Set-) by Cixin Liu and listening to the *Daniel and Kelly’s Extraordinary Universe* podcast.
 
 I don’t have a formal science or engineering background beyond high school. This roadmap is my way of building understanding from the ground up, using amateur radio as the hands-on entry point into physics and RF systems.
 
 The goal isn’t to rush toward expertise, but to build a solid, intuitive understanding over time—through both practice and theory.
 
-- *Remembrance of Earth’s Past* (Three-Body Problem series):  
-  https://www.amazon.com/Three-Body-Problem-Boxed-Set-
 
 ---
 
@@ -46,10 +44,12 @@ After the General exam, I’ll shift more into structured EE-style study.
 
 ---
 
-### Math (refresher → rebuild)
-- Trigonometry identities (review phase)
+### Math
+- Trigonometry identities
 - MIT OpenCourseWare 18.01 – Single Variable Calculus  
-- MIT OpenCourseWare 18.02 – Multivariable Calculus  
+- MIT OpenCourseWare 18.02 – Multivariable Calculus
+- MIT OpenCourseWare 18.03 – Differential Equations
+
 
 ---
 
@@ -61,13 +61,13 @@ This is the first major problem-solving focus. I’m prioritizing working throug
 ---
 
 ### Physics / E&M
-- MIT OCW 8.02 – Electricity and Magnetism  
+- MIT OpenCourseWork 8.02 – Electricity and Magnetism  
 - *Engineering Electromagnetics* — Hayt & Buck  
 - *Introduction to Electromagnetics* — Griffiths (after vector calculus)
 
 ---
 
-## Operating Plan
+## Operating
 
 I’m building a home station centered around an Icom IC-7300 and a 40-meter vertical ground plane antenna.
 
@@ -82,7 +82,7 @@ I’ll also focus on SDR tools and digital modes, especially for weak-signal wor
 
 ---
 
-## Software / Mapping Interest
+## Software / Mapping
 
 I’m also interested in connecting RF behavior to geography.
 
