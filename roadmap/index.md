@@ -7,49 +7,83 @@ title: RF Roadmap
 
 ## Purpose
 
-My childhood curiosity about how the universe works returned strongly in 2025, sparked by reading *[Remembrance of Earth’s Past](https://www.amazon.com/Three-Body-Problem-Boxed-Set-Remembrance/dp/1250254493)* by Cixin Liu and listening to the *[Daniel and Kelly’s Extraordinary Universe](https://podcasts.apple.com/us/podcast/daniel-and-kellys-extraordinary-universe/id1436616330)* podcast. I don’t have a math or science background beyond high school level. However, the goal is to use amateur radio as a starting point for a better understanding of physics - both through hands-on experimentation and theory.
+My interest in how the physical world works came back in 2025 after reading *Remembrance of Earth’s Past* by Cixin Liu and listening to the Daniel and Kelly’s *Extraordinary Universe* podcast.
+
+I don’t have a formal science or engineering background beyond high school. This roadmap is my way of building understanding from the ground up, using amateur radio as the hands-on entry point into physics and RF systems.
+
+The goal isn’t to rush toward expertise, but to build a solid, intuitive understanding over time—through both practice and theory.
+
+- *Remembrance of Earth’s Past* (Three-Body Problem series):  
+  https://www.amazon.com/Three-Body-Problem-Boxed-Set-
+
+---
 
 ## Learning Approach
 
-Rather than memorization, I am focused on explanation and first-principles understanding. For each concept, I aim to answer:
+I’m trying to understand ideas, not just memorize them. For each topic, I aim to be able to:
 
-- Can I explain this clearly to a 10-year-old?
-- Can I connect this concept to real-world systems (e.g., cell phones or space communication)?
-- Can I derive or at least meaningfully understand the equation behind it?
-- Do I understand enough to be able to predict RF behavior in a real world situation? 
+- Explain it in simple terms (as if to a non-technical person)
+- Connect it to real systems like radios, phones, or satellites
+- Understand where the equations come from, even if I can’t fully derive them yet
+- Make reasonable predictions about what should happen in real RF situations
 
-I am loosely following an undergraduate electrical engineering progression, recognizing this is a long-term effort.
+I’m loosely following an undergraduate electrical engineering path, but at a slower pace and focused on understanding over coverage.
 
-To begin, I will build on my high school calculus to eventually develop the mathematical tools needed to understand and work with Maxwell’s equations and the wave equation. I will start with a conceptual understanding and begin filling that understanding with more and more math. This will require linear algebra, multivariable calculus, and vector calculus. So that I'm ready for those later, I will start to brush up on my rusty Calculus and Trig now. 
+To get there, I’ll rebuild my math foundation starting from trigonometry and calculus, and eventually work up to vector calculus and electromagnetics. The end goal is to be comfortable with the ideas behind Maxwell’s equations and wave behavior—not just the formulas.
 
-As a part-time pursuit, this process will take time, and the emphasis is on depth over speed.
+---
 
 ## Study Materials
 
-My starting point is what I’ve learned over the last few months operating with an HT and a Technician license. The next step is studying for the General exam and getting on HF in fall 2026.
+I’m starting with what I’ve already been doing in amateur radio (HT operations and Technician license work), and building from there toward the General exam and HF operation in late 2026.
 
-Current resources:
+### Radio / RF
+- ARRL General Class License Manual  
+- *Radio Theory Handbook* — Ron Bertrand (VK2DQ)  
+- Electronics tutorials and reference material  
 
-- [*ARRL General Class License Manual*](https://home.arrl.org/action/Store/Product-Details/productId/2009476073)
-- [*Radio Theory Handbook*](https://www.amazon.com/Radio-Theory-Handbook-Beginner-Advanced/dp/B0BNV2PC6F) — Ron Bertrand, VK2DQ
-- [Electronics Tutorials](https://www.electronics-tutorials.ws/)
+After the General exam, I’ll shift more into structured EE-style study.
 
-After the General exam, I plan to move into a more formal electrical engineering track. 
+---
 
-To brush up on math, I will brush up on trig identities before taking MIT's OpenCourseWare [18.01 Single Variable Calculus](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/) and [18.02 Multi Variable Calculus](https://ocw.mit.edu/courses/18-02-multivariable-calculus-fall-2007/).
+### Math (refresher → rebuild)
+- Trigonometry identities (review phase)
+- MIT OpenCourseWare 18.01 – Single Variable Calculus  
+- MIT OpenCourseWare 18.02 – Multivariable Calculus  
 
-In parallel, I plan to work through [*Fundamentals of Electric Circuits*](https://www.amazon.com/Fundamentals-Electric-Circuits-Charles-Alexander/dp/0078028221) by Charles Alexander and Matthew Sadiku as a problem-based introduction aligned with undergraduate EE coursework. 
+---
 
-For a general physics background, I will take MIT OpenCourseWare's [8.02 Physics II: Electricity and Magnetism](https://ocw.mit.edu/courses/8-02-physics-ii-electricity-and-magnetism-spring-2007/).
+### Circuits
+- *Fundamentals of Electric Circuits* — Alexander & Sadiku  
 
-A more long term goal will be [Engineering Electromagnetics](https://a.co/d/048OZqlS) by William Hayt and John Buck. Ultimately, after also studying vector calculus, this will lead into [*Introduction to Electromagnetics*](https://www.amazon.com/Introduction-Electrodynamics-David-J-Griffiths/dp/1108420419) by David Griffiths.
+This is the first major problem-solving focus. I’m prioritizing working through problems, not just reading.
 
-To develop understanding, I will complete the problem sets that go with these resources, particularly *Fundamentals of Electric Circuits* first. Just reading is not enough to really learn. 
+---
 
-## Operating
+### Physics / E&M
+- MIT OCW 8.02 – Electricity and Magnetism  
+- *Engineering Electromagnetics* — Hayt & Buck  
+- *Introduction to Electromagnetics* — Griffiths (after vector calculus)
 
-I plan to build a home station centered around an Icom 7300 and 40-meter vertical ground plane antenna. Together, these will form the basis for experimentation in wave propagation. I will run operational experiments that relate to the theory I am learning. For instance, I will explore the  effect of varying the number and length of radials by measuring changes in signal reports and noise floor. As part of experimenting, I will log predicted outcomes (e.g., expected signal strength or coverage), compare them to observed results, and analyze any trends I see in discrepancies between the two over time.
+---
 
-I am also interested in exploring the relationship between modern amateur radio and computers. I plan to focus on SDR-based analysis and digital modes by applying them to weak signal operating.
+## Operating Plan
 
-Another area of interest is Geographic Information Systems, and I would like to eventually incorporate this using QGIS and PyQGIS to explore spatial aspects of propagation.
+I’m building a home station centered around an Icom IC-7300 and a 40-meter vertical ground plane antenna.
+
+The goal is to use the station as a lab, not just for communication. I want to connect theory to real behavior in the field.
+
+Examples of experiments:
+- Changing radial configurations and observing effects on signal reports and noise floor
+- Comparing predicted vs observed signal strength and propagation
+- Logging differences and trying to understand what models miss
+
+I’ll also focus on SDR tools and digital modes, especially for weak-signal work and signal analysis.
+
+---
+
+## Software / Mapping Interest
+
+I’m also interested in connecting RF behavior to geography.
+
+Over time, I want to use tools like QGIS and possibly PyQGIS to explore how terrain, distance, and environment affect propagation.
