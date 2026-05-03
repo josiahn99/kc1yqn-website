@@ -49,8 +49,8 @@ After the General exam, I’ll shift more into structured EE-style study.
 - MIT OpenCourseWare 18.01 – Single Variable Calculus  
 - MIT OpenCourseWare 18.02 – Multivariable Calculus
 - MIT OpenCourseWare 18.03 – Differential Equations
-
-
+- MIT OpenCourseWare 6.003 - Signals & Systems 
+- MIT OpenCourseWare 6.013 or 6.630 
 ---
 
 ### Circuits
