@@ -7,83 +7,114 @@ title: RF Roadmap
 
 ## Purpose
 
-My interest in how the physical world works came back in 2025 after reading [*Remembrance of Earth’s Past*](https://www.amazon.com/Three-Body-Problem-Boxed-Set-) by Cixin Liu and listening to the *Daniel and Kelly’s Extraordinary Universe* podcast.
+This roadmap outlines my long-term plan for learning radio, electronics, signal processing, and software-defined radio.
 
-I don’t have a formal science or engineering background beyond high school. This roadmap is my way of building understanding from the ground up, using amateur radio as the hands-on entry point into physics and RF systems.
+My background isn't in electrical engineering, so I'm working through the fundamentals while using amateur radio as a practical way to apply what I'm learning. The objective is to build a solid understanding of RF systems by combining study with hands-on experimentation.
 
-The goal isn’t to rush toward expertise, but to build a solid, intuitive understanding over time—through both practice and theory.
+The roadmap loosely follows an undergraduate electrical engineering curriculum, but only in the areas that support my interests in RF, SDRs, electronics, and signal analysis.
 
+## Current Focus
 
----
+Current priorities are:
 
-## Learning Approach
-
-I’m trying to understand ideas, not just memorize them. For each topic, I aim to be able to:
-
-- Explain it in simple terms (as if to a non-technical person)
-- Connect it to real systems like radios, phones, or satellites
-- Understand where the equations come from, even if I can’t fully derive them yet
-- Make reasonable predictions about what should happen in real RF situations
-
-I’m loosely following an undergraduate electrical engineering path, but at a slower pace and focused on understanding over coverage.
-
-To get there, I’ll rebuild my math foundation starting from trigonometry and calculus, and eventually work up to vector calculus and electromagnetics. The end goal is to be comfortable with the ideas behind Maxwell’s equations and wave behavior—not just the formulas.
-
----
+- Build a permanent HF station.
+- Learn Linux for radio and SDR applications.
+- Become proficient with software-defined radio.
+- Develop a stronger foundation in circuits and electronics.
+- Refresh the mathematics needed for engineering coursework.
 
 ## Study Materials
 
-I’m starting with what I’ve already been doing in amateur radio (HT operations and Technician license work), and building from there toward the General exam and HF operation in late 2026.
+### Amateur Radio & RF
 
-### Radio / RF
-- ARRL General Class License Manual  
-- *Radio Theory Handbook* — Ron Bertrand (VK2DQ)  
-- Electronics tutorials and reference material  
+- ARRL General Class License Manual
+- *Radio Theory Handbook* — Ron Bertrand (VK2DQ)
+- ARRL Antenna Book
+- ARRL Handbook (selected topics)
 
-After the General exam, I’ll shift more into structured EE-style study.
+### Mathematics
 
----
-
-### Math
-- Trigonometry identities
-- MIT OpenCourseWare 18.01 – Single Variable Calculus  
+- Trigonometry review
+- MIT OpenCourseWare 18.01 – Single Variable Calculus
 - MIT OpenCourseWare 18.02 – Multivariable Calculus
 - MIT OpenCourseWare 18.03 – Differential Equations
-- MIT OpenCourseWare 6.003 - Signals & Systems 
-- MIT OpenCourseWare 6.013 or 6.630 
----
+- Linear Algebra (supplementary)
 
-### Circuits
-- *Fundamentals of Electric Circuits* — Alexander & Sadiku  
+### Circuits & Electronics
 
-This is the first major problem-solving focus. I’m prioritizing working through problems, not just reading.
+**Primary text**
 
----
+- *Fundamentals of Electric Circuits* — Alexander & Sadiku
 
-### Physics / E&M
-- MIT OpenCourseWork 8.02 – Electricity and Magnetism  
-- *Engineering Electromagnetics* — Hayt & Buck  
-- *Introduction to Electromagnetics* — Griffiths (after vector calculus)
+Topics include:
 
----
+- DC and AC circuit analysis
+- Semiconductor devices
+- Amplifiers
+- Oscillators
+- Filters
+- Operational amplifiers
+- Measurement techniques
 
-## Operating
+Breadboard projects will accompany most topics.
 
-I’m building a home station centered around an Icom IC-7300 and a 40-meter vertical ground plane antenna.
+### Signals & Systems
 
-The goal is to use the station as a lab, not just for communication. I want to connect theory to real behavior in the field.
+**Primary course**
 
-Examples of experiments:
-- Changing radial configurations and observing effects on signal reports and noise floor
-- Comparing predicted vs observed signal strength and propagation
-- Logging differences and trying to understand what models miss
+- MIT OpenCourseWare 6.003 – Signals & Systems
 
-I’ll also focus on SDR tools and digital modes, especially for weak-signal work and signal analysis.
+Topics include:
 
----
+- Fourier analysis
+- Sampling
+- Filtering
+- Modulation
+- Noise
+- Digital signal processing
+- IQ signals
 
-## Software / Mapping
+### Electromagnetics
 
-I’m also interested in connecting RF behavior to geography.
+- MIT OpenCourseWare 6.013 (or equivalent)
+- *Engineering Electromagnetics* — Hayt & Buck
+- *Introduction to Electrodynamics* — David J. Griffiths
 
-Over time, I want to use tools like QGIS and possibly PyQGIS to explore how terrain, distance, and environment affect propagation.
+Long-term topics include:
+
+- Electric and magnetic fields
+- Maxwell's equations
+- Transmission lines
+- Wave propagation
+- Antennas
+- Impedance and matching
+
+## Amateur Radio Station
+
+The station is intended to be both an operating position and a learning platform.
+
+Planned equipment includes:
+
+- Yaesu FT-DX10
+- 40m sloping end-fed half-wave antenna
+- SDR integrated with the station
+- Linux-based shack computer
+- Logging and digital mode software
+
+Operating goals include SSB, CW, digital modes, POTA, and routine experimentation.
+
+## SDR & Computing
+
+Software-defined radio is a major focus of this roadmap.
+
+Areas of interest include:
+
+- Spectrum analysis
+- IQ recording
+- Signal visualization
+- Filtering and demodulation
+- Weak-signal reception
+- Python for automation and analysis
+- Linux-based SDR software
+
+Over time I'd like the station to function as an integrated system where the radio, SDR, logging, and analysis tools work together.
